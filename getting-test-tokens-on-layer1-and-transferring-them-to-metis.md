@@ -64,7 +64,7 @@ You need to confirm the process in the next step to add the Metis test token to 
 
 Now you would see the Metis token added to your account and you can see your Metis token balance. There is 0 Ether balance and 0 Metis balance, and you need to take a few steps to increase your account balance.
 
-<img src=".gitbook/assets/5 (12)" alt="" data-size="original">
+![](<.gitbook/assets/5 (12)>)
 
 #### Step 5 <a href="#_n8y4zrysqjsu" id="_n8y4zrysqjsu"></a>
 
