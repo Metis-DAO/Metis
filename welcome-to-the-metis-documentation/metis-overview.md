@@ -136,11 +136,11 @@ MetaMask is a useful tool that serves as an Ethereum wallet and gives you an add
 
 Going the Developer tools needed to start development on Metis
 
-\-- Link to Connection Details
+\-- [Link to Connection Details](../metis-connection-details.md)
 
-\-- Link to Metamask Setting
+\--[ Link to Metamask Setting](../metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 
-\-- Link to how to get Test Tokens
+\-- [Link to how to get Test Tokens](../getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
 
 #### What’s next? <a href="#_z2mynn3dg9l8" id="_z2mynn3dg9l8"></a>
 
