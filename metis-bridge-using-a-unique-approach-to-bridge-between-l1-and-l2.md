@@ -38,7 +38,7 @@ You can also set up the Metis testnet (Stardust) using the parameters given in t
 | L1 Metis Token Address       | 0x6e5791ad106fcadfba3115cdc21d1ad3471d2e13 |
 | L1 Chain ID                  | 4 (Rinkeby)                                |
 
-![](<.gitbook/assets/2 (12)>)
+![](<.gitbook/assets/2 (12) (1)>)
 
 ### Getting Test Tokens and Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
 
@@ -68,7 +68,7 @@ Now, you can use the Metis Bridge capability to transfer tokens between L1 (Ethe
 
 Etherscan Account Explorer allows you to see all the details about your transactions. You can simply use MetaMask and open Etherscan Explorer to see the latest transactions and their addresses.
 
-![](<.gitbook/assets/6 (5)>) ![](<.gitbook/assets/7 (6)>)
+![](<.gitbook/assets/6 (5)>) ![](<.gitbook/assets/7 (6) (1)>)
 
 ![](<.gitbook/assets/8 (12)>)
 
@@ -98,11 +98,11 @@ Go to [this link](https://bridge.metis.io/home) and click on “Connect account�
 
 ![](<.gitbook/assets/13 (3)>)
 
-![](<.gitbook/assets/14 (4)>)
+![](<.gitbook/assets/14 (4) (1)>)
 
 By clicking on “Connect by Polis”, you are able to enter your email address and password to sign in with your Polis account.
 
-![](<.gitbook/assets/15 (9)>)
+![](<.gitbook/assets/15 (9) (1)>)
 
 ![](<.gitbook/assets/16 (1)>)
 
@@ -114,4 +114,4 @@ Switch to Ethereum mainnet using your Polis dashboard, and you can refresh Metis
 
 ![](<.gitbook/assets/18 (1)>)
 
-![](<.gitbook/assets/19 (10)>)
+![](<.gitbook/assets/19 (10) (1)>)

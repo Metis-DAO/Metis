@@ -28,7 +28,7 @@ Choose the settings you want to be applied and use a name and symbol for your co
 
 You can even choose between ERC20 and ERC721 and check/uncheck several features to get your desired output. We set the test token to be mintable and burnable.
 
-![](<../.gitbook/assets/2 (7)>)
+![](<../.gitbook/assets/2 (7) (1)>)
 
 #### Step 2 <a href="#_5bbl0c7z5kmo" id="_5bbl0c7z5kmo"></a>
 
@@ -64,7 +64,7 @@ After doing all the settings, you can click on the “Deploy” button. Be caref
 
 Click on the “Deploy” button and you will see a MetaMask pop-up window. Confirm the deployment process to finish everything.
 
-![](<../.gitbook/assets/7 (8)>)
+![](<../.gitbook/assets/7 (8) (1)>)
 
 #### Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
 
@@ -84,7 +84,7 @@ Hardhat is a highly reliable deployment environment that provides a secure and s
 
 Head over to [https://hardhat.org/getting-started](https://hardhat.org/getting-started) and follow the instructions to install Hardhat on your system. You can easily install it on Windows, Linux, or Mac. Note that you need to install the latest version of Nodejs and Typescript on your system in order to run Hardhat commands without any error. More importantly, you need the npm package manager installed on your system.
 
-![](<../.gitbook/assets/11 (10)>)
+![](<../.gitbook/assets/11 (10) (1)>)
 
 Here are the required steps for configuring Hardhat, creating a project, and compiling it to be deployed on the Metis platform. We configure Hardhat for Linux (Debian-based distros) but the procedure is the same for Windows and Mac.
 
@@ -110,11 +110,11 @@ If it’s a new project and you have not run Hardhat in the project folder, runn
 
 _$ npx hardhat_
 
-![](<../.gitbook/assets/13 (6)>)
+![](<../.gitbook/assets/13 (6) (1)>)
 
 ![](<../.gitbook/assets/14 (1)>)
 
-![](<../.gitbook/assets/15 (5)>)
+![](<../.gitbook/assets/15 (5) (1)>)
 
 #### Step 3 <a href="#_nbstplwcrx9c" id="_nbstplwcrx9c"></a>
 
@@ -138,17 +138,17 @@ You need to add your account private key to the .env file in your project. Follo
 
 * Open your MetaMask and click on account details. You will be able to export your account private key and copy it to use for deploying your smart contract.
 
-![](<../.gitbook/assets/17 (10)>)
+![](<../.gitbook/assets/17 (10) (1)>)
 
 ![](<../.gitbook/assets/18 (10)>)
 
-![](<../.gitbook/assets/19 (6)>)
+![](<../.gitbook/assets/19 (6) (1)>)
 
 #### Step 5 <a href="#_lpcfgk9c9lld" id="_lpcfgk9c9lld"></a>
 
 We use a test code to deploy our first smart contract. So, let's leave it unchanged and compile it to start deploying the first smart contract.
 
-![](<../.gitbook/assets/20 (7)>)
+![](<../.gitbook/assets/20 (7) (1)>)
 
 #### Step 6 <a href="#_8algqnqj1fcz" id="_8algqnqj1fcz"></a>
 

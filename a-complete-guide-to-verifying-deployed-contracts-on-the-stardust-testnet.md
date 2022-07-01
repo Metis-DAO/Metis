@@ -106,7 +106,7 @@ Change the working directory to the main project directory (metis-demo), and use
 
 _yarn patch-package_
 
-![](<.gitbook/assets/9 (11)>)
+![](<.gitbook/assets/9 (11) (1)>)
 
 #### Step 4 <a href="#_z9vaiqicsmb5" id="_z9vaiqicsmb5"></a>
 
@@ -156,7 +156,7 @@ function mint(address to, uint256 amount) public onlyOwner {
 
 }
 
-![](<.gitbook/assets/13 (8)>)
+![](<.gitbook/assets/13 (8) (1)>)
 
 #### Step 2 <a href="#_mk5top3xdczv" id="_mk5top3xdczv"></a>
 
@@ -168,7 +168,7 @@ Click on the “Deploy” button to connect your MetaMask account and deploy the
 
 Open Stardust explorer in MetaMask to see if the smart contract is deployed or not. Click on the contract to see the details.
 
-![](<.gitbook/assets/15 (8)>)
+![](<.gitbook/assets/15 (8) (1)>)
 
 ![](<.gitbook/assets/16 (7)>)
 
@@ -184,13 +184,13 @@ We want to verify the contract with flattened source code!
 
 But, there are two more options if you want to try another method. Select the first option and click the next button.
 
-![](<.gitbook/assets/19 (4)>)
+![](<.gitbook/assets/19 (4) (1)>)
 
 #### Step 5 <a href="#_toipv3tql8or" id="_toipv3tql8or"></a>
 
 In this step, we need to complete some fields to verify the contract. But here, we must install the flattener plugin on the Remix IDE and get the flattened source code for the smart contract. Follow the screenshots below to install the flattener plugin.
 
-![](<.gitbook/assets/20 (9)>)
+![](<.gitbook/assets/20 (9) (1)>)
 
 Choose the flattener plugin and click on the “flatten” button and then save it to use for verifying the contract.
 
