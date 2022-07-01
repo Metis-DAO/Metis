@@ -22,7 +22,7 @@ You can use all of these testnets with your MetaMask wallet and get Ethereum tes
 
 There are some steps to configure MetaMask to be able to connect to an Ethereum testnet. First, download MetaMask and create a new wallet, and enter your MetaMask account.
 
-![](<.gitbook/assets/0 (2)>)
+![](<.gitbook/assets/0 (2)>){align="center"}
 
 If you don’t see testnets in your networks list, click on the “Show/Hide” button, and then select “Show test networks” to show available test networks. You can unselect this feature at any time you want in the future.
 
