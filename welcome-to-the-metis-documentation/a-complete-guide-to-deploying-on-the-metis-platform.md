@@ -2,9 +2,7 @@
 
 ### Using Solidity Language and Remix IDE to Write, Compile, and Deploy Smart Contracts <a href="#_jrhnn8um2jms" id="_jrhnn8um2jms"></a>
 
-Solidity is a free programming language you can use for deploying smart contracts. The Remix IDE helps us in a web-based programming environment to easily deploy our projects. Before using the Remix IDE, you need to take a few steps and configure your MetaMask account. The MetaMask wallet is used as a tool to provide an account address and see the results.
-
-* __[_\[Configuring MetaMask and getting started with your account\]_](../metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)__
+Solidity is a free programming language you can use for deploying smart contracts. The Remix IDE helps us in a web-based programming environment to easily deploy our projects. Before using the Remix IDE, you need to take a few steps and [configure your MetaMask account](../metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md). The MetaMask wallet is used as a tool to provide an account address and see the results.
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Stardust Testnet using the MetaMask networks section.
 
