@@ -4,8 +4,6 @@
 
 Welcome to the Metis overview section. This overview explains how you can get started with the Metis platform and gives you a basic concept of Metis technologies and solutions.
 
-\[Video Link]
-
 #### Table of Contents <a href="#_qzydoco7kjm9" id="_qzydoco7kjm9"></a>
 
 * What is a smart contract in blockchain?
@@ -136,11 +134,9 @@ MetaMask is a useful tool that serves as an Ethereum wallet and gives you an add
 
 Going the Developer tools needed to start development on Metis
 
-\-- [Link to Connection Details](../metis-connection-details.md)
-
-\--[ Link to Metamask Setting](../metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
-
-\-- [Link to how to get Test Tokens](../getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
+* &#x20;[Link to Connection Details](../metis-connection-details.md)
+* [ Link to Metamask Setting](../metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
+* &#x20;[Link to how to get Test Tokens](../getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
 
 #### What’s next? <a href="#_z2mynn3dg9l8" id="_z2mynn3dg9l8"></a>
 
