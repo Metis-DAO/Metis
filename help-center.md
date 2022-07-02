@@ -6,11 +6,11 @@ Step up to win a great opportunity and improve your Web 3.0 knowledge with our s
 
 ### Tutorials <a href="#_5hc3eg7t0q2g" id="_5hc3eg7t0q2g"></a>
 
-* Metis Overview
-* MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform
-* Getting Test Tokens and Transferring Them to L2 Blockchain
-* Deploying on the Metis Platform
-* Verifying Deployed Contracts On the Metis Platform
+* [Metis Overview](welcome-to-the-metis-documentation/metis-overview.md)
+* [MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform](metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
+* [Getting Test Tokens and Transferring Them to L2 Blockchain](getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
+* [Deploying on the Metis Platform](welcome-to-the-metis-documentation/a-complete-guide-to-deploying-on-the-metis-platform.md)
+* [Verifying Deployed Contracts On the Metis Platform](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
 * Implementing Metis Bridge
 * API 3 in Action
 * Metis Oracles
@@ -52,12 +52,8 @@ Follow us on social media networks and get ideal solutions by communicating with
 
 ### Contact Support <a href="#_oaaukeamjwap" id="_oaaukeamjwap"></a>
 
-You can get a bunch of ready-to-use solutions by exploring the Metis customer support center. Search for any services, from deploying smart contracts to implementing Metis tools. You can also submit your questions and get help without delay.
+You can get a bunch of ready-to-use solutions by exploring the Metis customer support center. Search for any services, from deploying smart contracts to implementing Metis tools. You can also submit your Technical questions and get help without delay.
 
 * [Welcome to the Metis Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals)
 
-### Still Have Questions? <a href="#_9d7u1k75xv7n" id="_9d7u1k75xv7n"></a>
-
-If you have questions about using the Metis platform and our Web 3.0 tools, feel free to contact our support team. Ask us your questions to provide you with unique solutions to become a future-ready person.
-
-* Contact us
+We have a [Telegram group dedicated to developers](https://t.me/metis\_dev), so if you are interested in developing on our platform, you are welcome to join it.
