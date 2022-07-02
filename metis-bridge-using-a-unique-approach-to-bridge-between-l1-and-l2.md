@@ -42,11 +42,11 @@ You can also set up the Metis testnet (Stardust) using the parameters given in t
 
 ### Getting Test Tokens and Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
 
-After adding the Metis mainnet and testnet, you can get Metis test tokens. To start a project on L2 Ethereum, you will need to transfer your Metis test tokens using the Metis Bridge method. It doesn’t take much time and you can perform the process in a few minutes.
+After adding the Metis mainnet and testnet, you can [get Metis test tokens](getting-test-tokens-on-layer1-and-transferring-them-to-metis.md). To start a project on L2 Ethereum, you will need to transfer your Metis test tokens using the Metis Bridge method. It doesn’t take much time and you can perform the process in a few minutes.
 
 Once you have enough Metis tokens in your account, you can use Metis Bridge to transfer them from L1 to L2.
 
-Here is the Metis Bridge platform that allows you to do the process. Click on the “connect account” button to connect your MetaMask to Metis Bridge. Then you can see that Metis Bridge allows you to transfer from a testnet like Rinkeby to Stardust.
+Here is the [Metis Bridge platform](https://bridge.metis.io/) that allows you to do the process. Click on the “connect account” button to connect your MetaMask to Metis Bridge. Then you can see that Metis Bridge allows you to transfer from a testnet like Rinkeby to Stardust.
 
 Note that you need enough Metis test tokens in your account to be able to transfer them from Rinkeby (Layer 1) to Metis Stardust (Layer 2). If you don’t have any Metis test tokens, head over to this link and get some by following a few steps.
 
