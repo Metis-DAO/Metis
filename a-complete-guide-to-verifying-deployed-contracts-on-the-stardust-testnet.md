@@ -44,33 +44,33 @@ _};_
 
 It should look like this and you need to save the changes to compile, deploy, and verify your smart contract on the Stardust testnet. Make sure that you have updated your private key in the .env file.
 
-![](<../.gitbook/assets/0 (7)>)
+![](<.gitbook/assets/0 (7)>)
 
 In order to verify your contract, first, check that your smart contract is ready to verify. Follow the steps below to see that your smart contract is ready and it needs a verification process.
 
 Compile and deploy your smart contract on the Metis platform.
 
-![](../.gitbook/assets/1)
+![](.gitbook/assets/1)
 
 Use your MetaMask account to explore the latest account transactions.
 
-![](<../.gitbook/assets/2 (5)>)
+![](<.gitbook/assets/2 (5)>)
 
 You can see the history of your transactions and smart contract deployment at the bottom of the page.
 
-![](<../.gitbook/assets/3 (12)>)
+![](<.gitbook/assets/3 (12)>)
 
 Click on the last contract to see the details.
 
-![](<../.gitbook/assets/4 (1)>)
+![](<.gitbook/assets/4 (1)>)
 
 In the new window, click on the contract address to explore the code and its verification status.
 
-![](<../.gitbook/assets/5 (11)>)
+![](<.gitbook/assets/5 (11)>)
 
 You can click on the “Code” button and see that the last smart contract is not verified. So, we are going to take some steps to verify it and change the status to verified.
 
-![](<../.gitbook/assets/6 (1)>)
+![](<.gitbook/assets/6 (1)>)
 
 Here you have 2 options for completing the process. You can use the Stardust explorer website to easily verify the smart contract that we are going to explain in the next sections. The second option is to use the hardhat-etherscan plugin.
 
@@ -92,13 +92,13 @@ First, make sure that the hardhat-etherscan plugin is version 3.0.3. If not, use
 
 _npm i @nomiclabs/hardhat-etherscan@3.0.3_
 
-![](<../.gitbook/assets/7 (3)>)
+![](<.gitbook/assets/7 (3)>)
 
 #### Step 2 <a href="#_2450fsslvqog" id="_2450fsslvqog"></a>
 
 Now, we need to download the patch. Use the following commands to make a new folder that we use to store the patch.
 
-![](../.gitbook/assets/8)
+![](.gitbook/assets/8)
 
 #### Step 3 <a href="#_7g47wm8a2bx7" id="_7g47wm8a2bx7"></a>
 
@@ -106,7 +106,7 @@ Change the working directory to the main project directory (metis-demo), and use
 
 _yarn patch-package_
 
-![](<../.gitbook/assets/9 (11) (1)>)
+![](<.gitbook/assets/9 (11) (1)>)
 
 #### Step 4 <a href="#_z9vaiqicsmb5" id="_z9vaiqicsmb5"></a>
 
@@ -114,15 +114,15 @@ Copy the contract address from the Stardust explorer and use it in the code belo
 
 _npx hardhat --network stardust verify --contract contracts/Greeter.sol:Greeter 0xf49e7dB67528Bb857BEb67d881274c39d418e0Bd 'Hello, Hardhat!'_
 
-![](<../.gitbook/assets/10 (1)>)
+![](<.gitbook/assets/10 (1)>)
 
-![](<../.gitbook/assets/11 (2)>)
+![](<.gitbook/assets/11 (2)>)
 
 #### Step 5 <a href="#_okzaevxntgge" id="_okzaevxntgge"></a>
 
 Here you can see the results after a successful verification process.
 
-![](<../.gitbook/assets/12 (1)>)
+![](<.gitbook/assets/12 (1)>)
 
 ### Method 2: Using the Stardust Explorer <a href="#_c9gw8b2b62bn" id="_c9gw8b2b62bn"></a>
 
@@ -156,41 +156,41 @@ function mint(address to, uint256 amount) public onlyOwner {
 
 }
 
-![](<../.gitbook/assets/13 (8) (1)>)
+![](<.gitbook/assets/13 (8) (1)>)
 
 #### Step 2 <a href="#_mk5top3xdczv" id="_mk5top3xdczv"></a>
 
 Click on the “Deploy” button to connect your MetaMask account and deploy the smart contract.
 
-![](<../.gitbook/assets/14 (2)>)
+![](<.gitbook/assets/14 (2)>)
 
 #### Step 3 <a href="#_eo39r9aykwe6" id="_eo39r9aykwe6"></a>
 
 Open Stardust explorer in MetaMask to see if the smart contract is deployed or not. Click on the contract to see the details.
 
-![](<../.gitbook/assets/15 (8) (1)>)
+![](<.gitbook/assets/15 (8) (1)>)
 
-![](<../.gitbook/assets/16 (7)>)
+![](<.gitbook/assets/16 (7)>)
 
-![](<../.gitbook/assets/17 (6)>)
+![](<.gitbook/assets/17 (6)>)
 
 #### Step 4 <a href="#_x7bj14n9bidh" id="_x7bj14n9bidh"></a>
 
 You can see that the smart contract is not verified and we need to take a few steps to verify it. Click on the “Verify & publish” button.
 
-![](<../.gitbook/assets/18 (9)>)
+![](<.gitbook/assets/18 (9)>)
 
 We want to verify the contract with flattened source code!
 
 But, there are two more options if you want to try another method. Select the first option and click the next button.
 
-![](<../.gitbook/assets/19 (4) (1)>)
+![](<.gitbook/assets/19 (4) (1)>)
 
 #### Step 5 <a href="#_toipv3tql8or" id="_toipv3tql8or"></a>
 
 In this step, we need to complete some fields to verify the contract. But here, we must install the flattener plugin on the Remix IDE and get the flattened source code for the smart contract. Follow the screenshots below to install the flattener plugin.
 
-![](<../.gitbook/assets/20 (9) (1)>)
+![](<.gitbook/assets/20 (9) (1)>)
 
 Choose the flattener plugin and click on the “flatten” button and then save it to use for verifying the contract.
 
@@ -204,8 +204,8 @@ After completing the fields, you can click on the “Verify & publish” button.
 
 Once completed, a new window appears and you can see that your smart contract is now verified.
 
-![](<../.gitbook/assets/image (60).png>)
+![](<.gitbook/assets/image (60).png>)
 
 You can scroll down and check the source code, contract ABI, etc.
 
-![](<../.gitbook/assets/image (20).png>)
+![](<.gitbook/assets/image (20).png>)
