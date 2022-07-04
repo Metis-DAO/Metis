@@ -40,4 +40,4 @@ If you’re a newbie hacker, there is a complete guide on [Medium](https://mediu
 
 By creating an account, you get something like this to start your report submission.
 
-![](<.gitbook/assets/0 (8)>)
+![](<../.gitbook/assets/0 (8)>)

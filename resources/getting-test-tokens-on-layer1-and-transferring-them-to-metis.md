@@ -26,7 +26,7 @@ There are some steps to configure MetaMask to be able to connect to an Ethereum 
 
 If you don’t see testnets in your networks list, click on the “Show/Hide” button, and then select “Show test networks” to show available test networks. You can unselect this feature at any time you want in the future.
 
-![](<.gitbook/assets/1 (3)>)
+![](<../.gitbook/assets/1 (3)>)
 
 ### Steps to Getting Metis Test Tokens <a href="#_orlwnkcv4bo3" id="_orlwnkcv4bo3"></a>
 
@@ -41,7 +41,7 @@ You can get Metis test tokens using different options. First, it would be better
 
 In order to get Metis tokens, you need to create a new MetaMask wallet and configure your wallet. Switch to the Rinkeby testnet and then, you can see your account balance.
 
-![](<.gitbook/assets/2 (9)>)
+![](<../.gitbook/assets/2 (9)>)
 
 #### Step 2 <a href="#_si7tusoexsl8" id="_si7tusoexsl8"></a>
 
@@ -52,19 +52,19 @@ MetaMask will move to the next page and you need to enter “Token Contract Addr
 * Token Contract Address: \[0xe552fb52a4f19e44ef5a967632dbc320b0820639]
 * Token Symbol: Metis
 
-![](<.gitbook/assets/3 (3)>)
+![](<../.gitbook/assets/3 (3)>)
 
 #### Step 3 <a href="#_9k7vjabzsqh6" id="_9k7vjabzsqh6"></a>
 
 You need to confirm the process in the next step to add the Metis test token to your account. Click on the “Import Tokens” button to proceed.
 
-![](<.gitbook/assets/4 (3) (1)>)
+![](<../.gitbook/assets/4 (3) (1)>)
 
 #### Step 4 <a href="#_ox8edldeawjt" id="_ox8edldeawjt"></a>
 
 Now you would see the Metis token added to your account and you can see your Metis token balance. There is 0 Ether balance and 0 Metis balance, and you need to take a few steps to increase your account balance.
 
-![](<.gitbook/assets/5 (12)>)
+![](<../.gitbook/assets/5 (12)>)
 
 #### Step 5 <a href="#_n8y4zrysqjsu" id="_n8y4zrysqjsu"></a>
 
@@ -76,19 +76,19 @@ There are many options to get Rinkeby Ether, including the following methods:
 
 1\. Chainlink offers a reliable method and gives you the opportunity to have Rinkeby Ether to increase your account balance. Open [https://faucets.chain.link/](https://faucets.chain.link/) and follow the next steps to receive Rinkeby Ether.
 
-![](<.gitbook/assets/6 (8)>)
+![](<../.gitbook/assets/6 (8)>)
 
 2\. Click on the “Connect wallet” button to link your wallet to Chainlink. Then choose the first option to connect your MetaMask wallet.
 
-![](<.gitbook/assets/7 (10) (1)>)
+![](<../.gitbook/assets/7 (10) (1)>)
 
 3\. A notification page on MetaMask will appear and you can select your account to be linked to Chainlink. Double check the wallet address on Chainlink to perform a good transaction. You can request 0.1 test ETH and it will allow you to pay gas fees and receive Metis tokens in the next step.
 
-![](<.gitbook/assets/8 (7)>)
+![](<../.gitbook/assets/8 (7)>)
 
 4\. After checking the wallet address and selecting the request type, you can click on the “Send request” button. Then the Chainlink platform will process your request and send 0.1 Rinkeby ETH.
 
-![](<.gitbook/assets/9 (11)>)
+![](<../.gitbook/assets/9 (11)>)
 
 5\. Now, you can move to the next step, confirm your transaction, and get Metis tokens. Then, you have access to transfer your Metis tokens from L1 to L2. If your account balance is 0 and you want to use an alternative for getting Rinkeby tokens, there is one more option by using the Rinkeby faucet.
 
@@ -96,7 +96,7 @@ There are many options to get Rinkeby Ether, including the following methods:
 
 6\. Open the link [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/) and follow the instructions to submit the request for funds. There are two options, and the platform requests to publish a public post with your Ethereum address on Twitter or Facebook. You can then copy-paste the post URL into the input box and submit a request for Rinkeby ETH.
 
-![](<.gitbook/assets/10 (13)>)
+![](<../.gitbook/assets/10 (13)>)
 
 7\. After getting Rinkeby ETH using the Rinkeby faucet, you can follow the next steps, confirm the transaction, and get your Metis tokens. Afterward, Metis tokens can be transferred from L1 to L2 by doing a simple process explained in the following steps.
 
@@ -104,7 +104,7 @@ There are many options to get Rinkeby Ether, including the following methods:
 
 After receiving Rinkeby ETH, you can confirm the transaction on [https://rinkeby.etherscan.io/](https://rinkeby.etherscan.io/). You need to copy the transaction hash to see more details about it.
 
-![](<.gitbook/assets/11 (11)>)
+![](<../.gitbook/assets/11 (11)>)
 
 #### Step 7: Getting Metis Tokens <a href="#_6qh0x2ryx1sp" id="_6qh0x2ryx1sp"></a>
 
@@ -112,21 +112,21 @@ Head over to [https://rinkeby-faucet.metis.io/](https://rinkeby-faucet.metis.io/
 
 When you click on the link, a MetaMask page pops up and you can connect your desired account to the Metis faucet.
 
-![](<.gitbook/assets/12 (12)>)
+![](<../.gitbook/assets/12 (12)>)
 
 After connecting your account to the Metis faucet, click on the “GET” button, and you need to confirm the transaction in this step.
 
-![](<.gitbook/assets/13 (9)>)
+![](<../.gitbook/assets/13 (9)>)
 
 By confirming the transaction, the process starts and you then receive a message indicating everything was successful.
 
-![](<.gitbook/assets/14 (6) (1)>)
+![](<../.gitbook/assets/14 (6) (1)>)
 
-![](<.gitbook/assets/15 (3) (1)>)
+![](<../.gitbook/assets/15 (3) (1)>)
 
 Check your MetaMask account to see the balance. You can now transfer your Metis tokens from Layer 1 to Layer 2 following the next step.
 
-![](<.gitbook/assets/16 (10)>)
+![](<../.gitbook/assets/16 (10)>)
 
 #### Step 8: Transferring Tokens From Layer 1 to Layer 2 <a href="#_fdz6ur7n5d5c" id="_fdz6ur7n5d5c"></a>
 
@@ -134,17 +134,17 @@ The Metis Bridge method helps you transfer your funds between Layer 1 and Layer 
 
 After opening the link, you have an option to connect your MetaMask account to the Metis Bridge. Click on the “Connect Account” button to continue.
 
-![](<.gitbook/assets/17 (11)>)
+![](<../.gitbook/assets/17 (11)>)
 
 A MetaMask notification page will open and you can select your MetaMask account to be connected to the Metis Bridge.
 
-![](<.gitbook/assets/18 (3) (1)>)
+![](<../.gitbook/assets/18 (3) (1)>)
 
-![](<.gitbook/assets/19 (3)>)
+![](<../.gitbook/assets/19 (3)>)
 
 Check the network list on MetaMask to see that Metis Stardust Testnet was added to the list.
 
-![](<.gitbook/assets/20 (3) (1)>)
+![](<../.gitbook/assets/20 (3) (1)>)
 
 Now, use [https://bridge.metis.io/home](https://bridge.metis.io/home) to transfer your Metis tokens from Layer 1 to Layer 2. Note that your MetaMask test network must be set to Rinkeby testnet to be able to transfer the tokens from L1 to L2.
 
