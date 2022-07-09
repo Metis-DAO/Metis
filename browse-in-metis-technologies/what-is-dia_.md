@@ -2,11 +2,11 @@
 
 ### What is DIA? <a href="#_8j8ip8a3ktpy" id="_8j8ip8a3ktpy"></a>
 
-Trusted data feeds are crucial for building Web 3.0 dapps and DIA’s mission is to provide these data feeds. DIA ensures dapp developers they can get trusted data from external data sources and use in their projects.
+Trusted data feeds are crucial for building Web 3.0 dapps, and DIA’s mission is to provide these data feeds. DIA ensures dapp developers can get trusted data from external data sources and use it in their projects.
 
 Decentralized Information Asset (DIA) allows you to develop applications and sources, and it can be called a bridge and verifier between off-chain data and on-chain smart contracts.
 
-There is a wide range of features when you use DIA, and you can get tailored data feeds with complete customizations. [DIA data feeds](https://www.diadata.org/) can be used by any network and infrastructure such as the Metis platform. You can read more about DIA and Metis integrations by exploring the [DIA’s Medium page](https://medium.com/dia-insights/partnership-with-metis-7c0fa3170343).
+There is a wide range of features when you use DIA, and you can get tailored data feeds with complete customizations. [DIA data feeds](https://www.diadata.org/) can be used by any network and infrastructure, such as the Metis platform. You can read more about DIA and Metis integrations by exploring the [DIA’s Medium page](https://medium.com/dia-insights/partnership-with-metis-7c0fa3170343).
 
 ### Metis DIA Oracle <a href="#_v2w0v1nn9ivu" id="_v2w0v1nn9ivu"></a>
 
@@ -77,7 +77,7 @@ _}_
 
 _}_
 
-The getValue() function allows you to get the value of a specific key according to the latest updated information. This key is a string and each update emits an event containing the key of the updated value. The response value is an integer in a fixed comma format and the timestamp associated with each value is a Unix timestamp for the UTC timezone.
+The getValue() function allows you to get the value of a specific key according to the latest updated information. This key is a string, and each update emits an event containing the key of the updated value. The response value is an integer in a fixed comma format, and the timestamp associated with each value is a Unix timestamp for the UTC timezone.
 
 Using the deployed source code, you can display the price of ETH in USD. So, let’s create a new directory and build our index.html and index.js files as follows:
 
@@ -95,7 +95,7 @@ Note that the ABI key in your index.js file must be set according to the contrac
 
 const currentPriceResponse = await contract.methods.getValue('ETH/USD').call()
 
-![](../.gitbook/assets/0)
+![](<../.gitbook/assets/0 (3)>)
 
 ![](<../.gitbook/assets/1 (1)>)
 
@@ -145,7 +145,7 @@ connect();
 
 }
 
-You can style your index.html page as you like, and put a div in order to get the information for ETH/USD exchange.
+You can style your index.html page as you like and put a div to get the ETH/USD exchange information.
 
 Index.html:
 
@@ -159,4 +159,4 @@ After setting up your index.html file and including index.js inside of it, you c
 
 Here is a [sample](https://elegant-heisenberg-02fd48.netlify.app/) of the price feed app deployed using Metis DIA oracle.
 
-![](<../.gitbook/assets/2 (11)>)
+![](<../.gitbook/assets/2 (8)>)

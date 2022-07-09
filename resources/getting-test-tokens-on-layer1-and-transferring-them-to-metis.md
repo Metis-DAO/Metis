@@ -41,7 +41,7 @@ You can get Metis test tokens using different options. First, it would be better
 
 In order to get Metis tokens, you need to create a new MetaMask wallet and configure your wallet. Switch to the Rinkeby testnet and then, you can see your account balance.
 
-![](<../.gitbook/assets/2 (9)>)
+![](<../.gitbook/assets/2 (9) (1)>)
 
 #### Step 2 <a href="#_si7tusoexsl8" id="_si7tusoexsl8"></a>
 

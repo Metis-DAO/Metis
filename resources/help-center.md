@@ -15,7 +15,7 @@ Step up to win a great opportunity and improve your Web 3.0 knowledge with our s
 * API 3 in Action
 * Metis Oracles
 * Metis Nodes
-* [Metis Graph](../browse-in-metis-technologies/what-is-the-metis-graph.md)
+* [Metis Graph](broken-reference)
 * Understanding the Metis Architecture
 
 ### Frequently Asked Questions <a href="#_qvgu41w5eky" id="_qvgu41w5eky"></a>

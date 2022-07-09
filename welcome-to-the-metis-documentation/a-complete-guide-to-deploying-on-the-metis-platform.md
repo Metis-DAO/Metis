@@ -10,7 +10,7 @@ Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply s
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the instructions to get Metis test tokens and bridge them from L1 to the Metis Stardust Testnet.
 
-![](<../.gitbook/assets/1 (5)>)
+![](<../.gitbook/assets/1 (5) (1)>)
 
 ### What is OpenZeppelin? <a href="#_imk2ztgyg14m" id="_imk2ztgyg14m"></a>
 
