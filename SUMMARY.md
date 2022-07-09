@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Welcome to the Metis Documentation](README.md)
-  * [Metis Overview](welcome-to-the-metis-documentation/metis-overview.md)
   * [A Complete Guide to Deploying on the Metis Platform](welcome-to-the-metis-documentation/a-complete-guide-to-deploying-on-the-metis-platform.md)
   * [A Complete Guide to Verifying Deployed Contracts On the Stardust Testnet](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
+  * [Metis Overview](readme/metis-overview.md)
 * [Browse In Metis Technologies](browse-in-metis-technologies/README.md)
   * [What is DIA\_](browse-in-metis-technologies/what-is-dia\_.md)
   * [What is Witnet\_](browse-in-metis-technologies/what-is-witnet\_.md)

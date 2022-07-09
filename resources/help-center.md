@@ -6,7 +6,7 @@ Step up to win a great opportunity and improve your Web 3.0 knowledge with our s
 
 ### Tutorials <a href="#_5hc3eg7t0q2g" id="_5hc3eg7t0q2g"></a>
 
-* [Metis Overview](../welcome-to-the-metis-documentation/metis-overview.md)
+* [Metis Overview](broken-reference)
 * [MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform](metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 * [Getting Test Tokens and Transferring Them to L2 Blockchain](getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
 * [Deploying on the Metis Platform](../welcome-to-the-metis-documentation/a-complete-guide-to-deploying-on-the-metis-platform.md)
