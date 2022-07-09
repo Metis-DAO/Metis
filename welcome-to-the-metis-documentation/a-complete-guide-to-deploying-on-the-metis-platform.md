@@ -26,7 +26,7 @@ Choose the settings you want to be applied and use a name and symbol for your co
 
 You can even choose between ERC20 and ERC721 and check/uncheck several features to get your desired output. We set the test token to be mintable and burnable.
 
-![](<../.gitbook/assets/2 (7) (1)>)
+![](<../.gitbook/assets/2 (7) (1) (1)>)
 
 #### Step 2 <a href="#_5bbl0c7z5kmo" id="_5bbl0c7z5kmo"></a>
 
