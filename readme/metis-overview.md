@@ -140,5 +140,5 @@ Going the Developer tools needed to start development on Metis
 
 &#x20; What’s next?
 
-* [Your First Deployment on Metis](../welcome-to-the-metis-documentation/a-complete-guide-to-deploying-on-the-metis-platform.md)
+* [Your First Deployment on Metis](broken-reference)
 * [Verify Contracts](../a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)

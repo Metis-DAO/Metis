@@ -2,15 +2,17 @@
 
 ### Using Solidity Language and Remix IDE to Write, Compile, and Deploy Smart Contracts <a href="#_jrhnn8um2jms" id="_jrhnn8um2jms"></a>
 
-Solidity is a free programming language you can use for deploying smart contracts. The Remix IDE helps us in a web-based programming environment to easily deploy our projects. Before using the Remix IDE, you need to take a few steps and [configure your MetaMask account](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md). The MetaMask wallet is used as a tool to provide an account address and see the results.
+Solidity is a free programming language you can use for deploying smart contracts. The Remix IDE helps us easily deploy our projects in a web-based programming environment. Before using the Remix IDE, you need to take a few steps and configure your MetaMask account. The MetaMask wallet is used as a tool to provide an account address and see the results.
+
+* __[_Configuring MetaMask and getting started with your account_](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)__
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Stardust Testnet using the MetaMask networks section.
 
-![](<../.gitbook/assets/0 (9)>)
+![](<../.gitbook/assets/0 (5)>)
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the instructions to get Metis test tokens and bridge them from L1 to the Metis Stardust Testnet.
 
-![](<../.gitbook/assets/1 (5) (1)>)
+![](<../.gitbook/assets/1 (8)>)
 
 ### What is OpenZeppelin? <a href="#_imk2ztgyg14m" id="_imk2ztgyg14m"></a>
 
@@ -26,65 +28,63 @@ Choose the settings you want to be applied and use a name and symbol for your co
 
 You can even choose between ERC20 and ERC721 and check/uncheck several features to get your desired output. We set the test token to be mintable and burnable.
 
-![](<../.gitbook/assets/2 (7) (1) (1)>)
+![](<../.gitbook/assets/2 (8)>)
 
 #### Step 2 <a href="#_5bbl0c7z5kmo" id="_5bbl0c7z5kmo"></a>
 
-After doing the settings and preparing your code, you have two options. You can copy the code to use on any deployment platform or you have the option to click on “Open in Remix” to proceed to the Remix development environment.
+After doing the settings and preparing your code, you have two options. You can copy the code to use on any deployment platform, or you have the option to click on “Open in Remix” to proceed to the Remix development environment.
 
-![](<../.gitbook/assets/3 (6)>)
+![](<../.gitbook/assets/3 (2)>)
 
 #### Step 3 <a href="#_le0z0pzal7wm" id="_le0z0pzal7wm"></a>
 
-You can select the Solidity compiler from the left to compile the smart contract. Use Auto compile to perform everything with peace of mind, and after doing your desired settings, you can click on the “Compile contract” button.
+You can select the Solidity compiler from the left to compile the smart contract. Use Auto-compile to perform everything with peace of mind, and after doing your desired settings, you can click on the “Compile contract” button.
 
-Once you click on the compile button, it works on your code and shows a message indicating that the compilation process was successful. Note that you can select the Solidity compiler version and EVM version. We check the optimization option to have cheaper transactions.
+Once you click the compile button, it works on your code and shows a message indicating that the compilation process was successful. Note that you can select the Solidity compiler version and EVM version. We check the optimization option to have cheaper transactions.
 
-![](<../.gitbook/assets/4 (6)>)
+![](<../.gitbook/assets/4 (14)>)
 
 #### Step 4 <a href="#_3gdz555hg8bb" id="_3gdz555hg8bb"></a>
 
-Working with the Remix IDE is really simple. You can do the compilation process in the blink of an eye and proceed to the next step. Select the “Deploy and run transactions” option from the left and you can start deploying your smart contract using a wide range of possibilities here.
+Working with the Remix IDE is really simple. You can do the compilation process in the blink of an eye and proceed to the next step. Select the “Deploy and run transactions” option from the left, and you can start deploying your smart contract using a wide range of possibilities here.
 
-We will deploy our smart contract on a testnet by making use of a MetaMask account. So, make sure your MetaMask account is configured and ready to use.
+We will deploy our smart contract on a testnet using a MetaMask account. So, make sure your MetaMask account is configured and ready to use.
 
-First, you need to select the environment you want to deploy your smart contract. Choose the “Injected Web3” option from the environment menu. A pop-up window will appear and you will be able to connect the Remix IDE to your desired MetaMask account.
+First, select the environment you want to deploy your smart contract. Choose the “Injected Web3” option from the environment menu. A pop-up window will appear, and you will be able to connect the Remix IDE to your desired MetaMask account.
 
-![](<../.gitbook/assets/5 (1)>)
+![](<../.gitbook/assets/5 (2)>)
 
 Once you have connected to Remix IDE, you can see that your account address has been successfully added to the Remix IDE.
 
-![](<../.gitbook/assets/6 (12)>)
+![](<../.gitbook/assets/6 (3)>)
 
 #### Step 5 <a href="#_3bpnlw326dw7" id="_3bpnlw326dw7"></a>
 
-After doing all the settings, you can click on the “Deploy” button. Be careful your MetaMask network must be switched to the Metis Stardust Testnet and you must have enough Metis tokens in your account.
+After doing all the settings, you can click on the “Deploy” button. Be careful your MetaMask network must be switched to the Metis Stardust Testnet, and you must have enough Metis tokens in your account.
 
-Click on the “Deploy” button and you will see a MetaMask pop-up window. Confirm the deployment process to finish everything.
+Click on the “Deploy” button, and you will see a MetaMask pop-up window. Confirm the deployment process to finish everything.
 
-![](<../.gitbook/assets/7 (8) (1)>)
-
-#### Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
+#### ![](<../.gitbook/assets/7 (12)>)Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
 
-![](<../.gitbook/assets/8 (9)>)
+![](<../.gitbook/assets/8 (2)>)
 
 Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.
 
-![](<../.gitbook/assets/9 (4)>)
+![](<../.gitbook/assets/9 (3)>)
 
-![](<../.gitbook/assets/10 (5)>)
+![](<../.gitbook/assets/10 (12)>)
 
 ### Method 2: Configuring Hardhat to Get a Comprehensive Environment for Deploying Contracts <a href="#_ytwknjghhuz" id="_ytwknjghhuz"></a>
 
-Hardhat is a highly reliable deployment environment that provides a secure and simple platform to deploy smart contracts. Hardhat allows developers to run Solidity code locally and you can get a bunch of features in an integrated platform. Hardhat needs the latest version of Nodejs and you can install it using different options. Use the instructions given on [the Node Js website](https://nodejs.org/en/) to install a supported version and then you can [install Hardhat](https://hardhat.org/getting-started) and configure the environment for smart contract deployment.
+Hardhat is a highly reliable deployment environment that provides a secure and simple platform to deploy smart contracts. Hardhat allows developers to run Solidity code locally, and you can get a bunch of features in an integrated platform. Hardhat needs the latest version of Nodejs, and you can install it using different options. Use the instructions given on [the Node Js website](https://nodejs.org/en/) to install a supported version and then you can [install Hardhat](https://hardhat.org/getting-started) and configure the environment for smart contract deployment.
 
-Head over to [https://hardhat.org/getting-started](https://hardhat.org/getting-started) and follow the instructions to install Hardhat on your system. You can easily install it on Windows, Linux, or Mac. Note that you need to install the latest version of Nodejs and Typescript on your system in order to run Hardhat commands without any error. More importantly, you need the npm package manager installed on your system.
+Head over to [https://hardhat.org/getting-started](https://hardhat.org/getting-started) and follow the instructions to install Hardhat on your system. You can easily install it on Windows, Linux, or Mac. Note that you need to install the latest version of Nodejs and Typescript on your system to run Hardhat commands without any error. More importantly, you need the npm package manager installed on your system.
 
-![](<../.gitbook/assets/11 (10) (1)>)
+![](<../.gitbook/assets/11 (3)>)
 
-Here are the required steps for configuring Hardhat, creating a project, and compiling it to be deployed on the Metis platform. We configure Hardhat for Linux (Debian-based distros) but the procedure is the same for Windows and Mac.
+Here are the required steps for configuring Hardhat, creating a project, and compiling it to be deployed on the Metis platform. We configure Hardhat for Linux (Debian-based distros), but the procedure is the same for Windows and Mac.
 
 #### Step 1 <a href="#_y8dckqmm9gpj" id="_y8dckqmm9gpj"></a>
 
@@ -100,7 +100,7 @@ _$ git init_
 
 _$ npm init -y_
 
-![](<../.gitbook/assets/12 (2)>)
+![](../.gitbook/assets/12)
 
 #### Step 2 <a href="#_rac3kq7w7pwo" id="_rac3kq7w7pwo"></a>
 
@@ -108,11 +108,11 @@ If it’s a new project and you have not run Hardhat in the project folder, runn
 
 _$ npx hardhat_
 
-![](<../.gitbook/assets/13 (6) (1)>)
+![](<../.gitbook/assets/13 (5)>)
 
-![](<../.gitbook/assets/14 (1)>)
+![](<../.gitbook/assets/14 (9)>)
 
-![](<../.gitbook/assets/15 (5) (1)>)
+![](<../.gitbook/assets/15 (10)>)
 
 #### Step 3 <a href="#_nbstplwcrx9c" id="_nbstplwcrx9c"></a>
 
@@ -128,7 +128,7 @@ _process.env.PRIVATE\_KEY !== undefined ? \[process.env.PRIVATE\_KEY] : \[],_
 
 _},_
 
-![](<../.gitbook/assets/16 (2)>)
+![](../.gitbook/assets/16)
 
 #### Step 4 <a href="#_6bnnsb85cieo" id="_6bnnsb85cieo"></a>
 
@@ -136,17 +136,17 @@ You need to add your account private key to the .env file in your project. Follo
 
 * Open your MetaMask and click on account details. You will be able to export your account private key and copy it to use for deploying your smart contract.
 
-![](<../.gitbook/assets/17 (10) (1)>)
+![](<../.gitbook/assets/17 (10)>)
 
-![](<../.gitbook/assets/18 (10)>)
+![](<../.gitbook/assets/18 (12)>)
 
-![](<../.gitbook/assets/19 (6) (1)>)
+![](../.gitbook/assets/19)
 
 #### Step 5 <a href="#_lpcfgk9c9lld" id="_lpcfgk9c9lld"></a>
 
 We use a test code to deploy our first smart contract. So, let's leave it unchanged and compile it to start deploying the first smart contract.
 
-![](<../.gitbook/assets/20 (7) (1)>)
+![](<../.gitbook/assets/20 (11)>)
 
 #### Step 6 <a href="#_8algqnqj1fcz" id="_8algqnqj1fcz"></a>
 
@@ -156,11 +156,9 @@ _$ npx hardhat compile_
 
 _$ npx hardhat test_
 
-![](<../.gitbook/assets/edit (2).jpg>)
+![](<../.gitbook/assets/image (48).png>)
 
-__
-
-![](../.gitbook/assets/edit.jpg)
+![](<../.gitbook/assets/image (31).png>)
 
 #### Step 7 <a href="#_isqlwn3wt0pd" id="_isqlwn3wt0pd"></a>
 
@@ -168,14 +166,16 @@ You can now deploy your smart contract using the following command.
 
 _$ npx hardhat run scripts/deploy.ts --network metis_
 
-![](<../.gitbook/assets/edit (3).jpg>)
+![](<../.gitbook/assets/image (7).png>)
 
 #### Step 8 <a href="#_662vdat5z0oc" id="_662vdat5z0oc"></a>
 
 Let’s check the results on the Metis platform. Click on the “View account explorer” option to open the Metis Stardust explorer website.
 
-![](<../.gitbook/assets/edit (1).jpg>)
+You can explore your last transactions here and check that your last smart contract deployment was successful.
 
-
+<img src="../.gitbook/assets/image (27).png" alt="" data-size="original">
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
+
+![](<../.gitbook/assets/image (22).png>)

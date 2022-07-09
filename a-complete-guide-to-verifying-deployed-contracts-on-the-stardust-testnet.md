@@ -122,7 +122,7 @@ _npx hardhat --network stardust verify --contract contracts/Greeter.sol:Greeter 
 
 Here you can see the results after a successful verification process.
 
-![](<.gitbook/assets/12 (1)>)
+![](<.gitbook/assets/12 (1) (1)>)
 
 ### Method 2: Using the Stardust Explorer <a href="#_c9gw8b2b62bn" id="_c9gw8b2b62bn"></a>
 

@@ -54,4 +54,4 @@ $ yarn global add @graphprotocol/graph-cli
 
 $ npm install -g @graphprotocol/graph-cli
 
-![](<../.gitbook/assets/0 (5)>)
+![](<../.gitbook/assets/0 (5) (1)>)
