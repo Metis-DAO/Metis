@@ -34,8 +34,6 @@ How does Metis plan to deal with technology and security concerns for cryptocurr
 
 * Metis focuses on both the speed and the security of the ecosystem. We employ multiple sequencers as well as L2 rangers, which act as incentivized auditors. These solutions ensure fast and secure transactions and withdrawals on and from the Metis layer 2 platform.
 
-General
-
 ### How About Social Networks? <a href="#_kliqizw61nos" id="_kliqizw61nos"></a>
 
 Follow us on social media networks and get ideal solutions by communicating with a group of Web 3.0 experts and Metis developers. We put out all stops and provide everything for you to have a great Web 3.0 and Ethereum blockchain experience.
