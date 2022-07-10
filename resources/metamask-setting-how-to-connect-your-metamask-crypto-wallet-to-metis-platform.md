@@ -38,13 +38,13 @@ By clicking on the MetaMask icon, the page will be forwarded to the configuratio
 
 Let’s click on the “Create a Wallet” button to start everything from scratch.
 
-![](../.gitbook/assets/3)
+![](<../.gitbook/assets/3 (2)>)
 
 #### Step 5 <a href="#_bjccwx9qaqic" id="_bjccwx9qaqic"></a>
 
 There is a privacy policy agreement after choosing “Create a Wallet”, and by passing this step you will need to enter a reliable password of a minimum of 8 characters, including uppercase, lowercase, numbers, and special characters to prove it is a safe password.
 
-![](<../.gitbook/assets/4 (5) (1)>)
+![](<../.gitbook/assets/4 (5) (1) (1)>)
 
 #### Step 6 <a href="#_iiqeespq5lty" id="_iiqeespq5lty"></a>
 
@@ -58,7 +58,7 @@ Let’s click on the “Next” button to see the secret recovery phrase. You ca
 
 Save your secret recovery phrase and move to the next step where you should confirm your secret recovery phrase. Every mistake when entering and confirming the security phrase may cause issues and you must be careful when saving the phrase and confirming it.
 
-![](../.gitbook/assets/6)
+![](<../.gitbook/assets/6 (3)>)
 
 #### Step 8 <a href="#_kj6wei4xt5jn" id="_kj6wei4xt5jn"></a>
 

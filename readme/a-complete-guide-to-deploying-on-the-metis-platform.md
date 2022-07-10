@@ -12,7 +12,7 @@ Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply s
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the instructions to get Metis test tokens and bridge them from L1 to the Metis Stardust Testnet.
 
-![](<../.gitbook/assets/1 (8)>)
+![](<../.gitbook/assets/1 (8) (1)>)
 
 ### What is OpenZeppelin? <a href="#_imk2ztgyg14m" id="_imk2ztgyg14m"></a>
 
@@ -34,7 +34,7 @@ You can even choose between ERC20 and ERC721 and check/uncheck several features 
 
 After doing the settings and preparing your code, you have two options. You can copy the code to use on any deployment platform, or you have the option to click on “Open in Remix” to proceed to the Remix development environment.
 
-![](<../.gitbook/assets/3 (2)>)
+![](<../.gitbook/assets/3 (2) (1)>)
 
 #### Step 3 <a href="#_le0z0pzal7wm" id="_le0z0pzal7wm"></a>
 
@@ -52,11 +52,11 @@ We will deploy our smart contract on a testnet using a MetaMask account. So, mak
 
 First, select the environment you want to deploy your smart contract. Choose the “Injected Web3” option from the environment menu. A pop-up window will appear, and you will be able to connect the Remix IDE to your desired MetaMask account.
 
-![](<../.gitbook/assets/5 (2)>)
+![](<../.gitbook/assets/5 (2) (1)>)
 
 Once you have connected to Remix IDE, you can see that your account address has been successfully added to the Remix IDE.
 
-![](<../.gitbook/assets/6 (3)>)
+![](<../.gitbook/assets/6 (3) (1)>)
 
 #### Step 5 <a href="#_3bpnlw326dw7" id="_3bpnlw326dw7"></a>
 
@@ -70,7 +70,7 @@ Click on the “Deploy” button, and you will see a MetaMask pop-up window. Con
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
 
-![](<../.gitbook/assets/8 (2)>)
+![](<../.gitbook/assets/8 (2) (1)>)
 
 Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.
 
@@ -114,7 +114,7 @@ _$ npx hardhat_
 
 ![](<../.gitbook/assets/14 (9)>)
 
-![](<../.gitbook/assets/15 (10)>)
+![](<../.gitbook/assets/15 (10) (1)>)
 
 #### Step 3 <a href="#_nbstplwcrx9c" id="_nbstplwcrx9c"></a>
 

@@ -136,7 +136,7 @@ Going the Developer tools needed to start development on Metis
 
 * [Link to Connection Details](../resources/metis-connection-details.md)
 * [Link to Metamask Setting](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
-* [Link to how to get Test Tokens](../resources/getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
+* [Link to how to get Test Tokens](broken-reference)
 
 &#x20; What’s next?
 

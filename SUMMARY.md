@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Welcome to the Metis Documentation](README.md)
-  * [A Complete Guide to Verifying Deployed Contracts on the Stardust Testnet](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
   * [Metis Overview](readme/metis-overview.md)
   * [A Complete Guide to Deploying on the Metis Platform](readme/a-complete-guide-to-deploying-on-the-metis-platform.md)
+  * [A Complete Guide to Verifying Deployed Contracts on the Stardust Testnet](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
 * [Browse In Metis Technologies](browse-in-metis-technologies/README.md)
   * [What is DIA\_](browse-in-metis-technologies/what-is-dia\_.md)
   * [What is Witnet\_](browse-in-metis-technologies/what-is-witnet\_.md)
@@ -12,7 +12,7 @@
 * [Resources](resources/README.md)
   * [Metis Connection Details](resources/metis-connection-details.md)
   * [MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform?](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
-  * [Getting Test Tokens On Layer1 and Transferring Them to Metis](resources/getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
+  * [Getting Test Tokens and Transferring Them to Metis](resources/getting-test-tokens-and-transferring-them-to-metis.md)
   * [Metis Bridge: Using A Unique Approach to Bridge Between L1 & L2](resources/metis-bridge-using-a-unique-approach-to-bridge-between-l1-and-l2.md)
   * [Help Center](resources/help-center.md)
   * [Bug Bounty Program](resources/bug-bounty-program.md)

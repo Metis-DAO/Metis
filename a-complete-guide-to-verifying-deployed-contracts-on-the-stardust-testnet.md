@@ -116,7 +116,7 @@ _npx hardhat --network stardust verify --contract contracts/Greeter.sol:Greeter 
 
 ![](<.gitbook/assets/10 (1)>)
 
-![](<.gitbook/assets/11 (2)>)
+![](<.gitbook/assets/11 (2) (1)>)
 
 #### Step 5 <a href="#_okzaevxntgge" id="_okzaevxntgge"></a>
 

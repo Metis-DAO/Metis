@@ -8,7 +8,7 @@ Step up to win a great opportunity and improve your Web 3.0 knowledge with our s
 
 * [Metis Overview](broken-reference)
 * [MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform](metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
-* [Getting Test Tokens and Transferring Them to L2 Blockchain](getting-test-tokens-on-layer1-and-transferring-them-to-metis.md)
+* [Getting Test Tokens and Transferring Them to L2 Blockchain](broken-reference)
 * [Deploying on the Metis Platform](broken-reference)
 * [Verifying Deployed Contracts On the Metis Platform](../a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
 * [Implementing Metis Bridge](metis-bridge-using-a-unique-approach-to-bridge-between-l1-and-l2.md)
