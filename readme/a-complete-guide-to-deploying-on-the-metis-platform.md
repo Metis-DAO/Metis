@@ -64,7 +64,9 @@ After doing all the settings, you can click on the “Deploy” button. Be caref
 
 Click on the “Deploy” button, and you will see a MetaMask pop-up window. Confirm the deployment process to finish everything.
 
-#### ![](<../.gitbook/assets/7 (12)>)Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
+#### Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
+
+![](<../.gitbook/assets/7 (12)>)
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
 
