@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome to the Metis Documentation](README.md)
-  * [A Complete Guide to Verifying Deployed Contracts On the Stardust Testnet](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
+  * [A Complete Guide to Verifying Deployed Contracts on the Stardust Testnet](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
   * [Metis Overview](readme/metis-overview.md)
   * [A Complete Guide to Deploying on the Metis Platform](readme/a-complete-guide-to-deploying-on-the-metis-platform.md)
 * [Browse In Metis Technologies](browse-in-metis-technologies/README.md)

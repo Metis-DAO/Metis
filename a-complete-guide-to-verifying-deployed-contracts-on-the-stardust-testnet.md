@@ -1,8 +1,8 @@
-# A Complete Guide to Verifying Deployed Contracts On the Stardust Testnet
+# A Complete Guide to Verifying Deployed Contracts on the Stardust Testnet
 
 ### Compile, Test, and Deploy Your Smart Contract <a href="#_vb5pw17j4e2y" id="_vb5pw17j4e2y"></a>
 
-Open your project folder in VSCode and click on the hardhat.config.ts file and add the following settings to your project config file.
+Open your project folder in VSCode, click on the hardhat.config.ts file and add the following settings to your project config file.
 
 _const config: HardhatUserConfig = {_
 
@@ -42,7 +42,7 @@ _},_
 
 _};_
 
-It should look like this and you need to save the changes to compile, deploy, and verify your smart contract on the Stardust testnet. Make sure that you have updated your private key in the .env file.
+It should look like this, and you need to save the changes to compile, deploy, and verify your smart contract on the Stardust testnet. Make sure that you have updated your private key in the .env file.
 
 ![](<.gitbook/assets/0 (7)>)
 
@@ -176,7 +176,7 @@ Open Stardust explorer in MetaMask to see if the smart contract is deployed or n
 
 #### Step 4 <a href="#_x7bj14n9bidh" id="_x7bj14n9bidh"></a>
 
-You can see that the smart contract is not verified and we need to take a few steps to verify it. Click on the “Verify & publish” button.
+You can see that the smart contract is not verified, and we need to take a few steps to verify it. Click on the “Verify & publish” button.
 
 ![](<.gitbook/assets/18 (9)>)
 
@@ -192,7 +192,7 @@ In this step, we need to complete some fields to verify the contract. But here, 
 
 ![](<.gitbook/assets/20 (9) (1)>)
 
-Choose the flattener plugin and click on the “flatten” button and then save it to use for verifying the contract.
+Choose the flattener plugin and click on the “flatten” button, and then save it to use for verifying the contract.
 
 #### Step 6 <a href="#_ps4rl8owqf69" id="_ps4rl8owqf69"></a>
 
@@ -202,7 +202,7 @@ Go to the Stardust verify page and complete the fields. Note that the contract n
 
 After completing the fields, you can click on the “Verify & publish” button. The process may take 1 minute or so to verify and publish your test smart contract. So, you need to be a bit patient.
 
-Once completed, a new window appears and you can see that your smart contract is now verified.
+Once completed, a new window appears, and you can see that your smart contract is now verified.
 
 ![](<.gitbook/assets/image (60).png>)
 
