@@ -7,7 +7,7 @@
 * [Browse In Metis Technologies](browse-in-metis-technologies/README.md)
   * [What is DIA\_](browse-in-metis-technologies/what-is-dia\_.md)
   * [What is Witnet](browse-in-metis-technologies/what-is-witnet.md)
-  * [What is API3\_](browse-in-metis-technologies/what-is-api3\_.md)
+  * [What is API3](browse-in-metis-technologies/what-is-api3.md)
   * [What is the Metis Graph?](browse-in-metis-technologies/what-is-the-metis-graph.md)
 * [Resources](resources/README.md)
   * [Metis Connection Details](resources/metis-connection-details.md)
