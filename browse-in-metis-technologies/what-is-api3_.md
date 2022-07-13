@@ -1,4 +1,4 @@
-# What is API3\_
+# What is API3
 
 ### What is API3? <a href="#_1dzp8gm4br0c" id="_1dzp8gm4br0c"></a>
 

@@ -14,8 +14,8 @@ Getting Started Guide
 
 Metis is an Ethereum Layer 2 rollup platform that combines a wide range of benefits to get things done on the Ethereum network with simplicity, speed, scalability, and security. With Metis, you can deploy your Ethereum projects on L2 and achieve a broad range of advantages.
 
-* Metis Overview
-* Your First Deployment on Metis
+* [Metis Overview](readme/metis-overview.md)
+* [Your First Deployment on Metis](readme/a-complete-guide-to-deploying-on-the-metis-platform.md)
 
 ### Technologies Metis Provide <a href="#_7dc02qqfr79w" id="_7dc02qqfr79w"></a>
 
@@ -45,13 +45,11 @@ Metis Nodes allow security and reliability to come to the forefront. Blockchain 
 
 The Metis Graph is an indexing protocol for collecting, processing, and storing data to be used in the blockchain network. It aims at facilitating information retrieval using a service called GraphQL.
 
-* Link
+* [What is the Metis Graph?](browse-in-metis-technologies/what-is-the-metis-graph.md)
 
 #### Need Expert Support? <a href="#_vl1m2qrsjggl" id="_vl1m2qrsjggl"></a>
 
-Talk to our support team
-
-[Link](mailto:contact@metis.io)
+Talk to our [support team](mailto:contact@metis.io)
 
 #### Follow Us on Social Media <a href="#_2jy0l7vosvdw" id="_2jy0l7vosvdw"></a>
 
