@@ -6,7 +6,7 @@
   * [A Complete Guide to Verifying Deployed Contracts on the Stardust Testnet](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
 * [Browse In Metis Technologies](browse-in-metis-technologies/README.md)
   * [What is DIA\_](browse-in-metis-technologies/what-is-dia\_.md)
-  * [What is Witnet\_](browse-in-metis-technologies/what-is-witnet\_.md)
+  * [What is Witnet](browse-in-metis-technologies/what-is-witnet.md)
   * [What is API3\_](browse-in-metis-technologies/what-is-api3\_.md)
   * [What is the Metis Graph?](browse-in-metis-technologies/what-is-the-metis-graph.md)
 * [Resources](resources/README.md)
