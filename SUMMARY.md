@@ -19,3 +19,7 @@
   * [Bug Bounty Program](resources/bug-bounty-program.md)
   * [Metis Hackathon](metis-hackathon.md)
   * [Metis Audits](resources/metis-audits.md)
+* [Metis Nodes Protocol in Detail](metis-nodes-protocol-in-detail/README.md)
+  * [An Introduction to Protocol in Detail](metis-nodes-protocol-in-detail/an-introduction-to-protocol-in-detail/README.md)
+    * [Deployed Contract Addresses](metis-nodes-protocol-in-detail/an-introduction-to-protocol-in-detail/deployed-contract-addresses.md)
+    * [Transaction Fees on the Metis Platform](metis-nodes-protocol-in-detail/an-introduction-to-protocol-in-detail/transaction-fees-on-the-metis-platform.md)
