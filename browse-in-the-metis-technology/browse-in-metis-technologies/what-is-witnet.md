@@ -56,10 +56,10 @@ Put the following information in your index.js file to receive your desired data
 
 Finally, your index.html and index.js files should look like this:
 
-![](<../.gitbook/assets/0 (11)>)
+![](<../../.gitbook/assets/0 (6)>)
 
-![](<../.gitbook/assets/1 (6)>)
+![](<../../.gitbook/assets/1 (8) (1) (1)>)
 
 You can run the HTML file after configuring the network and addresses.
 
-![](<../.gitbook/assets/2 (9)>)Here is a [Github repository](https://github.com/Metisdvlpr/Metis-Witnet) for the application that you can download and test it yourself.
+![](<../../.gitbook/assets/2 (7) (1)>)Here is a [Github repository](https://github.com/Metisdvlpr/Metis-Witnet) for the application that you can download and test it yourself.

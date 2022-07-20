@@ -54,11 +54,11 @@ Compile and deploy your smart contract on the Metis platform.
 
 Use your MetaMask account to explore the latest account transactions.
 
-![](<.gitbook/assets/2 (5)>)
+![](<.gitbook/assets/2 (5) (1)>)
 
 You can see the history of your transactions and smart contract deployment at the bottom of the page.
 
-![](<.gitbook/assets/3 (12)>)
+![](<.gitbook/assets/3 (12) (1)>)
 
 Click on the last contract to see the details.
 
@@ -178,7 +178,7 @@ Open Stardust explorer in MetaMask to see if the smart contract is deployed or n
 
 You can see that the smart contract is not verified, and we need to take a few steps to verify it. Click on the “Verify & publish” button.
 
-![](<.gitbook/assets/18 (9)>)
+![](<.gitbook/assets/18 (9) (1)>)
 
 We want to verify the contract with flattened source code!
 

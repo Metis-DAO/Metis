@@ -95,9 +95,9 @@ Note that the ABI key in your index.js file must be set according to the contrac
 
 const currentPriceResponse = await contract.methods.getValue('ETH/USD').call()
 
-![](<../.gitbook/assets/0 (3)>)
+![](../../.gitbook/assets/0)
 
-![](<../.gitbook/assets/1 (1)>)
+![](<../../.gitbook/assets/1 (5)>)
 
 Index.js file should look like this:
 
@@ -159,4 +159,4 @@ After setting up your index.html file and including index.js inside of it, you c
 
 Here is a [sample](https://elegant-heisenberg-02fd48.netlify.app/) of the price feed app deployed using Metis DIA oracle.
 
-![](<../.gitbook/assets/2 (8) (1)>)
+![](<../../.gitbook/assets/2 (11) (1)>)

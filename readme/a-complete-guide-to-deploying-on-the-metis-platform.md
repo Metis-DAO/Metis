@@ -8,11 +8,11 @@ Solidity is a free programming language you can use for deploying smart contract
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Stardust Testnet using the MetaMask networks section.
 
-![](<../.gitbook/assets/0 (5)>)
+![](<../.gitbook/assets/0 (9)>)
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the instructions to get Metis test tokens and bridge them from L1 to the Metis Stardust Testnet.
 
-![](<../.gitbook/assets/1 (8) (1)>)
+![](<../.gitbook/assets/1 (5) (1)>)
 
 ### What is OpenZeppelin? <a href="#_imk2ztgyg14m" id="_imk2ztgyg14m"></a>
 
@@ -28,13 +28,13 @@ Choose the settings you want to be applied and use a name and symbol for your co
 
 You can even choose between ERC20 and ERC721 and check/uncheck several features to get your desired output. We set the test token to be mintable and burnable.
 
-![](<../.gitbook/assets/2 (8)>)
+![](<../.gitbook/assets/2 (7) (1) (1)>)
 
 #### Step 2 <a href="#_5bbl0c7z5kmo" id="_5bbl0c7z5kmo"></a>
 
 After doing the settings and preparing your code, you have two options. You can copy the code to use on any deployment platform, or you have the option to click on “Open in Remix” to proceed to the Remix development environment.
 
-![](<../.gitbook/assets/3 (2) (1)>)
+![](<../.gitbook/assets/3 (6) (1)>)
 
 #### Step 3 <a href="#_le0z0pzal7wm" id="_le0z0pzal7wm"></a>
 
@@ -42,7 +42,7 @@ You can select the Solidity compiler from the left to compile the smart contract
 
 Once you click the compile button, it works on your code and shows a message indicating that the compilation process was successful. Note that you can select the Solidity compiler version and EVM version. We check the optimization option to have cheaper transactions.
 
-![](<../.gitbook/assets/4 (14)>)
+![](<../.gitbook/assets/4 (6) (1)>)
 
 #### Step 4 <a href="#_3gdz555hg8bb" id="_3gdz555hg8bb"></a>
 
@@ -52,11 +52,11 @@ We will deploy our smart contract on a testnet using a MetaMask account. So, mak
 
 First, select the environment you want to deploy your smart contract. Choose the “Injected Web3” option from the environment menu. A pop-up window will appear, and you will be able to connect the Remix IDE to your desired MetaMask account.
 
-![](<../.gitbook/assets/5 (2) (1)>)
+![](<../.gitbook/assets/5 (1) (1)>)
 
 Once you have connected to Remix IDE, you can see that your account address has been successfully added to the Remix IDE.
 
-![](<../.gitbook/assets/6 (3) (1)>)
+![](<../.gitbook/assets/6 (12) (1)>)
 
 #### Step 5 <a href="#_3bpnlw326dw7" id="_3bpnlw326dw7"></a>
 
@@ -66,17 +66,17 @@ Click on the “Deploy” button, and you will see a MetaMask pop-up window. Con
 
 #### Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
 
-![](<../.gitbook/assets/7 (12)>)
+![](<../.gitbook/assets/7 (8) (1) (1)>)
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
 
-![](<../.gitbook/assets/8 (2) (1)>)
+![](<../.gitbook/assets/8 (9)>)
 
 Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.
 
-![](<../.gitbook/assets/9 (3)>)
+![](<../.gitbook/assets/9 (4)>)
 
-![](<../.gitbook/assets/10 (12)>)
+![](<../.gitbook/assets/10 (5) (1)>)
 
 ### Method 2: Configuring Hardhat to Get a Comprehensive Environment for Deploying Contracts <a href="#_ytwknjghhuz" id="_ytwknjghhuz"></a>
 
@@ -84,7 +84,7 @@ Hardhat is a highly reliable deployment environment that provides a secure and s
 
 Head over to [https://hardhat.org/getting-started](https://hardhat.org/getting-started) and follow the instructions to install Hardhat on your system. You can easily install it on Windows, Linux, or Mac. Note that you need to install the latest version of Nodejs and Typescript on your system to run Hardhat commands without any error. More importantly, you need the npm package manager installed on your system.
 
-![](<../.gitbook/assets/11 (3)>)
+![](<../.gitbook/assets/11 (10) (1)>)
 
 Here are the required steps for configuring Hardhat, creating a project, and compiling it to be deployed on the Metis platform. We configure Hardhat for Linux (Debian-based distros), but the procedure is the same for Windows and Mac.
 
@@ -102,7 +102,7 @@ _$ git init_
 
 _$ npm init -y_
 
-![](../.gitbook/assets/12)
+![](<../.gitbook/assets/12 (2)>)
 
 #### Step 2 <a href="#_rac3kq7w7pwo" id="_rac3kq7w7pwo"></a>
 
@@ -110,11 +110,11 @@ If it’s a new project and you have not run Hardhat in the project folder, runn
 
 _$ npx hardhat_
 
-![](<../.gitbook/assets/13 (5)>)
+![](<../.gitbook/assets/13 (6) (1)>)
 
-![](<../.gitbook/assets/14 (9)>)
+![](<../.gitbook/assets/14 (1) (1)>)
 
-![](<../.gitbook/assets/15 (10) (1)>)
+![](<../.gitbook/assets/15 (5) (1)>)
 
 #### Step 3 <a href="#_nbstplwcrx9c" id="_nbstplwcrx9c"></a>
 
@@ -130,7 +130,7 @@ _process.env.PRIVATE\_KEY !== undefined ? \[process.env.PRIVATE\_KEY] : \[],_
 
 _},_
 
-![](../.gitbook/assets/16)
+![](<../.gitbook/assets/16 (2) (1)>)
 
 #### Step 4 <a href="#_6bnnsb85cieo" id="_6bnnsb85cieo"></a>
 
@@ -138,17 +138,17 @@ You need to add your account private key to the .env file in your project. Follo
 
 * Open your MetaMask and click on account details. You will be able to export your account private key and copy it to use for deploying your smart contract.
 
-![](<../.gitbook/assets/17 (10)>)
+![](<../.gitbook/assets/17 (10) (1) (1)>)
 
-![](<../.gitbook/assets/18 (12)>)
+![](<../.gitbook/assets/18 (10) (1)>)
 
-![](../.gitbook/assets/19)
+![](<../.gitbook/assets/19 (6) (1)>)
 
 #### Step 5 <a href="#_lpcfgk9c9lld" id="_lpcfgk9c9lld"></a>
 
 We use a test code to deploy our first smart contract. So, let's leave it unchanged and compile it to start deploying the first smart contract.
 
-![](<../.gitbook/assets/20 (11)>)
+![](<../.gitbook/assets/20 (7) (1)>)
 
 #### Step 6 <a href="#_8algqnqj1fcz" id="_8algqnqj1fcz"></a>
 
@@ -176,7 +176,7 @@ Let’s check the results on the Metis platform. Click on the “View account ex
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
-<img src="../.gitbook/assets/image (27).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (55).png" alt="" data-size="original">
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
