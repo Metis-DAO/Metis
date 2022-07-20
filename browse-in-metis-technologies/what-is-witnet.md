@@ -1,4 +1,4 @@
-# What is Witnet\_
+# What is Witnet
 
 ### What is Witnet? <a href="#_3kwo0ui623c3" id="_3kwo0ui623c3"></a>
 
