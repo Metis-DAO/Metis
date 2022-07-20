@@ -9,6 +9,7 @@
   * [What is Witnet](browse-in-metis-technologies/what-is-witnet.md)
   * [What is API3](browse-in-metis-technologies/what-is-api3\_.md)
   * [What is the Metis Graph?](browse-in-metis-technologies/what-is-the-metis-graph.md)
+  * [API3 QRNG](browse-in-metis-technologies/api3-qrng.md)
 * [Resources](resources/README.md)
   * [Metis Connection Details](resources/metis-connection-details.md)
   * [MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform?](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
