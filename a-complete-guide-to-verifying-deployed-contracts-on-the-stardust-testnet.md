@@ -1,46 +1,27 @@
-# A Complete Guide to Verifying Deployed Contracts on the Stardust Testnet
+# Verifying Deployed Contracts on Metis
 
 ### Compile, Test, and Deploy Your Smart Contract <a href="#_vb5pw17j4e2y" id="_vb5pw17j4e2y"></a>
 
-Open your project folder in VSCode, click on the hardhat.config.ts file and add the following settings to your project config file.
+Open your project folder in VSCode, click on the `hardhat.config.ts` file and add the following settings to your project config file.
 
-_const config: HardhatUserConfig = {_
-
-_solidity: "0.8.4",_
-
-_networks: {_
-
-_stardust: {_
-
-_url: "https://stardust.metis.io/?owner=588",_
-
-_accounts:_
-
-_process.env.PRIVATE\_KEY !== undefined ? \[process.env.PRIVATE\_KEY] : \[],_
-
-_},_
-
-_andromeda: {_
-
-_url: "https://andromeda.metis.io/?owner=1088",_
-
-_accounts:_
-
-_process.env.PRIVATE\_KEY !== undefined ? \[process.env.PRIVATE\_KEY] : \[],_
-
-_},_
-
-_},_
-
-_etherscan: {_
-
-_// just use api-key_
-
-_apiKey: "api-key",_
-
-_},_
-
-_};_
+```javascript
+const config: HardhatUserConfig = {
+    solidity: "0.8.4",
+    networks: {
+        stardust: {
+            url: "https://stardust.metis.io/?owner=588",
+            accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+        },
+        andromeda: {
+            url: "https://andromeda.metis.io/?owner=1088",
+            accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+        },
+    },
+    etherscan: {
+        "api-key": "api-key"
+    }
+};
+```
 
 It should look like this, and you need to save the changes to compile, deploy, and verify your smart contract on the Stardust testnet. Make sure that you have updated your private key in the .env file.
 
@@ -90,7 +71,9 @@ The hardhat etherscan plugin doesn’t support the Metis testnet, but there is a
 
 First, make sure that the hardhat-etherscan plugin is version 3.0.3. If not, use the following commands in your terminal to switch to the right version. Now, you can check the hardhat-etherscan version using the package.json file.
 
-_npm i @nomiclabs/hardhat-etherscan@3.0.3_
+```bash
+$ yarn add -D @nomiclabs/hardhat-etherscan@3.0.3
+```
 
 ![](<.gitbook/assets/7 (3)>)
 
@@ -104,7 +87,9 @@ Now, we need to download the patch. Use the following commands to make a new fol
 
 Change the working directory to the main project directory (metis-demo), and use this command in the terminal to apply the patch.
 
-_yarn patch-package_
+```bash
+$ yarn patch-package
+```
 
 ![](<.gitbook/assets/9 (11) (1)>)
 
@@ -112,7 +97,9 @@ _yarn patch-package_
 
 Copy the contract address from the Stardust explorer and use it in the code below. Note that the address must be the same as your smart contract address to be verified successfully.
 
-_npx hardhat --network stardust verify --contract contracts/Greeter.sol:Greeter 0xf49e7dB67528Bb857BEb67d881274c39d418e0Bd 'Hello, Hardhat!'_
+```bash
+$ npx hardhat --network stardust verify --contract contracts/Greeter.sol:Greeter 0xf49e7dB67528Bb857BEb67d881274c39d418e0Bd 'Hello, Hardhat!'
+```
 
 ![](<.gitbook/assets/10 (1)>)
 
@@ -128,33 +115,26 @@ Here you can see the results after a successful verification process.
 
 #### Step 1 <a href="#_mwfo5whab4zs" id="_mwfo5whab4zs"></a>
 
-Let’s create a smart contract and deploy it on the Metis platform.
-
+```solidity
 // SPDX-License-Identifier: MIT
-
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
-
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyToken is ERC20, ERC20Burnable, Ownable {
+    constructor() ERC20("MyToken", "MTK") {
+        _mint(msg.sender, 10000 * 10 ** decimals());
+    }
 
-constructor() ERC20("MyToken", "MTK") {
-
-\_mint(msg.sender, 10000 \* 10 \*\* decimals());
-
+    function mint(address to, uint256 amount) public onlyOwner {
+        _mint(to, amount);
+    }
 }
+```
 
-function mint(address to, uint256 amount) public onlyOwner {
-
-\_mint(to, amount);
-
-}
-
-}
+Let’s create a smart contract and deploy it on the Metis platform.
 
 ![](<.gitbook/assets/13 (8) (1)>)
 

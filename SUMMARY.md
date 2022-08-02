@@ -3,7 +3,7 @@
 * [Welcome to the Metis Documentation](README.md)
   * [Metis Overview](readme/metis-overview.md)
   * [A Complete Guide to Deploying on the Metis Platform](readme/a-complete-guide-to-deploying-on-the-metis-platform.md)
-  * [A Complete Guide to Verifying Deployed Contracts on the Stardust Testnet](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
+  * [Verifying Deployed Contracts on Metis](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
 * [Browse in the Metis technology](browse-in-the-metis-technology/README.md)
   * [Oracles](browse-in-the-metis-technology/browse-in-metis-technologies/README.md)
     * [What is DIA\_](browse-in-the-metis-technology/browse-in-metis-technologies/what-is-dia\_.md)
