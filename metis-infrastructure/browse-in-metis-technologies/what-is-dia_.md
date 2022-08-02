@@ -1,4 +1,4 @@
-# What is DIA\_
+# What is DIA
 
 ### What is DIA? <a href="#_8j8ip8a3ktpy" id="_8j8ip8a3ktpy"></a>
 

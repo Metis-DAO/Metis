@@ -6,7 +6,7 @@
   * [Verifying Deployed Contracts on Metis](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
 * [Metis Infrastructure](metis-infrastructure/README.md)
   * [Oracles](metis-infrastructure/browse-in-metis-technologies/README.md)
-    * [What is DIA\_](metis-infrastructure/browse-in-metis-technologies/what-is-dia\_.md)
+    * [What is DIA](metis-infrastructure/browse-in-metis-technologies/what-is-dia\_.md)
     * [What is Witnet](metis-infrastructure/browse-in-metis-technologies/what-is-witnet.md)
     * [What is API3](metis-infrastructure/browse-in-metis-technologies/what-is-api3\_.md)
     * [API3 QRNG](metis-infrastructure/browse-in-metis-technologies/api3-qrng.md)
