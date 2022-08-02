@@ -94,13 +94,12 @@ After installing the latest version of Git, Nodejs, and Hardhat, create a projec
 
 Use the following commands to create a demo project and initialize git for the project. You can create a folder and then change the working directory.
 
-_$ mkdir metis-demo_
-
-_$ cd metis-demo_
-
-_$ git init_
-
-_$ npm init -y_
+```bash
+$ mkdir metis-demo
+$ cd metis-demo
+$ git init
+$ npm init -y
+```
 
 ![](<../.gitbook/assets/12 (2)>)
 
