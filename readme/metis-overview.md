@@ -32,27 +32,22 @@ You can install and configure Remix IDE as an open-source development environmen
 
 Contracts in Solidity are similar to classes in object-oriented languages like JavaScript. Each contract can have declarations of functions, events, state variables, etc. You can use the Remix IDE to write, run, and deploy smart contracts.
 
-_// SPDX-License-Identifier: GPL-3.0_
+```solidity
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.16 <0.9.0;
 
-_pragma solidity 0.8.7;_
+contract SimpleStorage {
+    uint storedData;
+    
+    function set(uint x) public {
+        storedData = x;
+    }
 
-_contract SimpleStorage {_
-
-_uint storedData;_
-
-_function set(uint x) public {_
-
-_storedData = x;_
-
-_}_
-
-_function get() public view returns (uint) {_
-
-_return storedData;_
-
-_}_
-
-_}_
+    function get() public view returns (uint) {
+        return storedData;
+    }
+}
+```
 
 #### Solidity Versions <a href="#_lkmu8a2pwu01" id="_lkmu8a2pwu01"></a>
 
@@ -72,31 +67,31 @@ There are different types of variables, including the following ones:
 
 State variables are variables whose values are permanently stored in contract storage.
 
-_pragma solidity >=0.4.16 <0.9.0;_
+```solidity
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.16 <0.9.0;
 
-_contract SimpleStorage {_
-
-_uint storedData; // State variable_
-
-_}_
+contract SimpleStorage {
+    uint storedData; // State variable
+}
+```
 
 #### Functions <a href="#_f7m5714086wu" id="_f7m5714086wu"></a>
 
 Functions are lines of code that can be executed in case you call them. Functions in Solidity are usually defined inside contracts.
 
-_// SPDX-License-Identifier: GPL-3.0_
+```solidity
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.16 <0.9.0;
 
-_pragma solidity >=0.4.16 <0.9.0;_
-
-_contract SimpleStorage {_
-
-_uint storedData;_
-
-_function set(uint x) public {_
-
-_storedData = x;_
-
-_}_
+contract SimpleStorage {
+    uint storedData;
+    
+    function set(uint x) public {
+        storedData = x;
+    }
+}
+```
 
 #### Contracts <a href="#_pt20ynauqio3" id="_pt20ynauqio3"></a>
 
