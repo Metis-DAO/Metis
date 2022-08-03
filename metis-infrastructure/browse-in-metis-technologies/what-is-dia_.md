@@ -23,77 +23,53 @@ Developers can use the explorer to see the details of how the contract was deplo
 
 Here is the verified source code of the contract that aims at getting price feed value ETH/USD:
 
-_pragma solidity 0.7.4;_
-
-_contract DIAOracle {_
-
-_mapping (string => uint256) public values;_
-
-_address oracleUpdater;_
-
-_event OracleUpdate(string key, uint128 value, uint128 timestamp);_
-
-_event UpdaterAddressChange(address newUpdater);_
-
-_constructor() {_
-
-_oracleUpdater = msg.sender;_
-
-_}_
-
-_function setValue(string memory key, uint128 value, uint128 timestamp) public {_
-
-_require(msg.sender == oracleUpdater);_
-
-_uint256 cValue = (((uint256)(value)) << 128) + timestamp;_
-
-_values\[key] = cValue;_
-
-_emit OracleUpdate(key, value, timestamp);_
-
-_}_
-
-_function getValue(string memory key) public view returns (uint128, uint128) {_
-
-_uint256 cValue = values\[key];_
-
-_uint128 timestamp = (uint128)(cValue % 2\*\*128);_
-
-_uint128 value = (uint128)(cValue >> 128);_
-
-_return (value, timestamp);_
-
-_}_
-
-_function updateOracleUpdaterAddress(address newOracleUpdaterAddress) public {_
-
-_require(msg.sender == oracleUpdater);_
-
-_oracleUpdater = newOracleUpdaterAddress;_
-
-_emit UpdaterAddressChange(newOracleUpdaterAddress);_
-
-_}_
-
-_}_
+```
+pragma solidity 0.7.4;
+contract DIAOracle {
+mapping (string => uint256) public values;
+address oracleUpdater;
+event OracleUpdate(string key, uint128 value, uint128 timestamp);
+event UpdaterAddressChange(address newUpdater);
+constructor() {
+oracleUpdater = msg.sender;
+}
+function setValue(string memory key, uint128 value, uint128 timestamp) public {
+require(msg.sender == oracleUpdater);
+uint256 cValue = (((uint256)(value)) << 128) + timestamp;
+values[key] = cValue;
+emit OracleUpdate(key, value, timestamp);
+}
+function getValue(string memory key) public view returns (uint128, uint128) {
+uint256 cValue = values[key];
+uint128 timestamp = (uint128)(cValue % 2**128);
+uint128 value = (uint128)(cValue >> 128);
+return (value, timestamp);
+}
+function updateOracleUpdaterAddress(address newOracleUpdaterAddress) public {
+require(msg.sender == oracleUpdater);
+oracleUpdater = newOracleUpdaterAddress;
+emit UpdaterAddressChange(newOracleUpdaterAddress);
+}
+}
+```
 
 The getValue() function allows you to get the value of a specific key according to the latest updated information. This key is a string, and each update emits an event containing the key of the updated value. The response value is an integer in a fixed comma format, and the timestamp associated with each value is a Unix timestamp for the UTC timezone.
 
 Using the deployed source code, you can display the price of ETH in USD. So, let’s create a new directory and build our index.html and index.js files as follows:
 
-$ mkdir pricefeed
+`$ mkdir pricefeed`
 
-$ cd pricefeed
+`$ cd pricefeed`
 
 Create the index.html and index.js files:
 
-$ touch index.html
+`$ touch index.html`
 
-$ touch index.js
+`$ touch index.js`
 
 Note that the ABI key in your index.js file must be set according to the contract ABI key that can be copied from the [Andromeda Explorer](https://andromeda-explorer.metis.io/address/0x6E6E633320Ca9f2c8a8722c5f4a993D9a093462E/transactions). Also, the contract address must be changed to the Metis DIA address. Using a call in your code is mandatory to get the updated information.
 
-const currentPriceResponse = await contract.methods.getValue('ETH/USD').call()
+`const currentPriceResponse = await contract.methods.getValue('ETH/USD').call()`
 
 ![](../../.gitbook/assets/0)
 
@@ -101,59 +77,40 @@ const currentPriceResponse = await contract.methods.getValue('ETH/USD').call()
 
 Index.js file should look like this:
 
+```
 async function connect() {
-
 const priceElem = document.querySelector('#price')
-
 try {
-
 priceElem.textContent = 'Updating price...';
-
-const abi = \[abi] // the contract’s ABI
-
+const abi = [abi] // the contract’s ABI
 const web3 = new Web3(new Web3.providers.HttpProvider("https://andromeda.metis.io/?owner=1088"))
-
 const contract = new web3.eth.Contract(ABI, "0x6E6E633320Ca9f2c8a8722c5f4a993D9a093462E");
-
 const currentPriceResponse = await contract.methods.getValue('ETH/USD').call()
-
-if (currentPriceResponse\[0]) {
-
+if (currentPriceResponse[0]) {
 const formatter = new Intl.NumberFormat('en-US', {
-
 style: 'currency',
-
 currency: 'USD',
-
 minimumFractionDigits: 2,
-
 });
-
-priceElem.textContent = formatter.format(currentPriceResponse\[0] / 100000000); // the output is in gwei so you would have to format to ether
-
+priceElem.textContent = formatter.format(currentPriceResponse[0] / 100000000); // the output is in gwei so you would have to format to ether
 }
-
 } catch (e) {
-
 priceElem.textContent = 'An error occurred while updating the price, please refresh your page.'; }
-
 }
-
 window.onload = function() {
-
 connect();
-
 }
+```
 
 You can style your index.html page as you like and put a div to get the ETH/USD exchange information.
 
 Index.html:
 
-\<h5>
-
-\<span>Current Value: \<i id=”price”>\</i>\<span>
-
-\</h5>
+```
+<h5>
+<span>Current Value: <i id=”price”></i><span>
+</h5>
+```
 
 After setting up your index.html file and including index.js inside of it, you can simply run index.html to get the values.
 

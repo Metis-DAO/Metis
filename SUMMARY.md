@@ -9,6 +9,7 @@
     * [What is DIA](metis-infrastructure/browse-in-metis-technologies/what-is-dia\_.md)
     * [What is Witnet](metis-infrastructure/browse-in-metis-technologies/what-is-witnet.md)
     * [What is API3](metis-infrastructure/browse-in-metis-technologies/what-is-api3\_.md)
+    * [Chainlink](metis-infrastructure/browse-in-metis-technologies/chainlink.md)
     * [API3 QRNG](metis-infrastructure/browse-in-metis-technologies/api3-qrng.md)
   * [METIS NFT Bridge](metis-infrastructure/metis-nft-bridge/README.md)
     * [Why Use the Metis NFT Bridge](metis-infrastructure/metis-nft-bridge/why-use-the-metis-nft-bridge.md)

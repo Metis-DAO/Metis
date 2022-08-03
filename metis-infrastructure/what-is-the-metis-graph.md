@@ -32,30 +32,23 @@ In order to start using [the Graph](https://thegraph.com/docs/en/developer/defin
 
 First, make sure you have the yarn package manager on your Debian-based system. If not, you can install both yarn and npm package managers using the following commands.
 
-npm
-
-```bash
+```
+#nodejs
 $ sudo apt-get update
 $ sudo apt-get install curl
 $ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 $ sudo apt-get install nodejs
-```
 
-$ npm install -g @graphprotocol/graph-cli
-
-yarn
-
-```
+#yarn
 $ sudo apt-get update
 $ npm install --global yarn
 ```
 
-$ yarn global add @graphprotocol/graph-cli
-
 Now you can add the Graph CLI by using either the yarn or npm package manager. For more details, please refer to the [official Github repository](https://github.com/graphprotocol/graph-cli) for Graph CLI.
 
-
-
-
+```
+$ yarn global add @graphprotocol/graph-cli
+$ npm install -g @graphprotocol/graph-cli
+```
 
 ![](<../.gitbook/assets/0 (2) (1) (1)>)

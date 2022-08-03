@@ -19,7 +19,7 @@ const config: HardhatUserConfig = {
     },
     etherscan: {
         "api-key": "api-key"
-    }
+    },
 };
 ```
 

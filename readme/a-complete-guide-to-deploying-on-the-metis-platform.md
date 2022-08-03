@@ -107,7 +107,7 @@ $ npm init -y
 
 If it’s a new project and you have not run Hardhat in the project folder, running Hardhat for the first time gives you the following options. Select the 3rd option to create an advanced sample project that uses Typescript. You then need to hit the enter button to initialize the project. If everything goes well, you get a message showing that creating the project was successful.
 
-_$ npx hardhat_
+`$ npx hardhat`
 
 ![](<../.gitbook/assets/13 (6) (1)>)
 
@@ -119,15 +119,13 @@ _$ npx hardhat_
 
 First, you need to open the project folder using VSCode. Then edit the project config file and add the following lines of code to it.
 
-_metis: {_
-
-_url: "https://stardust.metis.io/?owner=588",_
-
-_accounts:_
-
-_process.env.PRIVATE\_KEY !== undefined ? \[process.env.PRIVATE\_KEY] : \[],_
-
-_},_
+```
+metis: {
+url: "https://stardust.metis.io/?owner=588",
+accounts:
+process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+},
+```
 
 ![](<../.gitbook/assets/16 (2) (1)>)
 
@@ -153,9 +151,10 @@ We use a test code to deploy our first smart contract. So, let's leave it unchan
 
 Use the following command to compile the smart contract. Then, you can test by using the test command. If everything is good, you can get the success message.
 
-_$ npx hardhat compile_
-
-_$ npx hardhat test_
+```
+$ npx hardhat compile
+$ npx hardhat test
+```
 
 ![](<../.gitbook/assets/image (48).png>)
 
@@ -165,7 +164,7 @@ _$ npx hardhat test_
 
 You can now deploy your smart contract using the following command.
 
-_$ npx hardhat run scripts/deploy.ts --network metis_
+`$ npx hardhat run scripts/deploy.ts --network metis`
 
 ![](<../.gitbook/assets/image (7).png>)
 
