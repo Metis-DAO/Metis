@@ -98,4 +98,4 @@ The following sequence diagrams give you full insight into cross-platform NFTs a
 
 We can reduce transactions’ costs using a rollup by tracking chain ownership. A rollup platform can be used in this case to manage and explore the chain’s ownership. Using this solution, a transaction’s cost on the blockchain layer can be significantly reduced. The method can be applied to the L1 blockchain and it helps us reduce costs like other rollups in some ways.
 
-Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any other questions.
+Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.
