@@ -159,7 +159,7 @@ The Sequencer appends transactions to the chain in batches by calling the CTC's 
 
 function `appendSequencerBatch()`
 
-The data provided MUST conform to a custom encoding scheme (which is used for efficiency reasons). The scheme is described[ here](https://github.com/MetisProtocol/mvm/blob/develop/specs/l2-geth/transaction-indexer.md#transactions-via-appendsequencerbatch).
+The data provided MUST conform to a custom encoding scheme (which is used for efficiency reasons).&#x20;
 
 The BatchContext data provided by the Sequencer will be used to determine the ordering of transactions in the CTC:
 
