@@ -30,7 +30,7 @@ The sequencer in optimistic Ethereum has several roles and it can be cloud-based
 
 * The sequencer receives new transactions from users.
 * The sequencer must process transactions instantly without delay to determine an optimal ordering according to the situation.
-* The sequencer determines the ordering of transactions in the CTC. This process must follow the [constraints](https://github.com/MetisProtocol/mvm/blob/develop/specs/protocol/processes/chains.md#properties-enforced-by-appendsequencerbatch) imposed by the `appendSequencerBatch()` function.
+* The sequencer determines the ordering of transactions in the CTC. This process must follow the constraints imposed by the `appendSequencerBatch()` function.
 * The sequencer should append transactions from the CTC’s queue within the “Force Inclusion Period”.
 
 ### Proposers <a href="#_vy12geso1s6z" id="_vy12geso1s6z"></a>
