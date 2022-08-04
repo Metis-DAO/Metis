@@ -30,7 +30,7 @@ MetaMask for Chrome serves as an extension for the Chrome browser and you can do
 
 Here, after installing the MetaMask chrome extension, you can click on the MetaMask icon on the upper-right side of your browser and start configuring the wallet.
 
-![](<../.gitbook/assets/2 (1)>)
+![](<../.gitbook/assets/2 (1) (1)>)
 
 #### Step 4 <a href="#_hhjjs0swjrmp" id="_hhjjs0swjrmp"></a>
 

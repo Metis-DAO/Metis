@@ -52,7 +52,7 @@ Enter the [official bridge website](https://nftbridge.metis.io/bridge) of Metis 
 
 By clicking on the “Connect Wallet” option, a MetaMask window appears and you can select your account to connect to the Metis Bridge platform.
 
-![](<../../.gitbook/assets/1 (1)>)
+![](<../../.gitbook/assets/1 (1) (2)>)
 
 ![](<../../.gitbook/assets/2 (6)>)
 
