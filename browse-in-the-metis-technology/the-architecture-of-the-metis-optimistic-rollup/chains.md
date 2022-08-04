@@ -110,7 +110,7 @@ _batchHeader.extraData
 );
 ```
 
-Additionally, the CTC maintains its ‘global context’ in a bytes27 `latestBatchContext`, which encodes the fields of the [Extra Data](https://github.com/MetisProtocol/mvm/blob/develop/specs/protocol/data-structures#extra-data) structures as follows:
+Additionally, the CTC maintains its ‘global context’ in a bytes27 `latestBatchContext`, which encodes the fields of the Extra Data structures as follows:
 
 ```
 bytes27 extraData;
