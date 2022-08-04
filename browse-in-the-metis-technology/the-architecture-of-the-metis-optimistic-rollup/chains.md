@@ -110,7 +110,7 @@ _batchHeader.extraData
 );
 ```
 
-Additionally, the CTC maintains its ‘global context’ in a bytes27 `latestBatchContext`, which encodes the fields of the [Extra Data](https://github.com/MetisProtocol/mvm/blob/develop/specs/protocol/data-structures#extra-data) structures as follows:
+Additionally, the CTC maintains its ‘global context’ in a bytes27 `latestBatchContext`, which encodes the fields of the Extra Data structures as follows:
 
 ```
 bytes27 extraData;
@@ -159,7 +159,7 @@ The Sequencer appends transactions to the chain in batches by calling the CTC's 
 
 function `appendSequencerBatch()`
 
-The data provided MUST conform to a custom encoding scheme (which is used for efficiency reasons). The scheme is described[ here](https://github.com/MetisProtocol/mvm/blob/develop/specs/l2-geth/transaction-indexer.md#transactions-via-appendsequencerbatch).
+The data provided MUST conform to a custom encoding scheme (which is used for efficiency reasons).&#x20;
 
 The BatchContext data provided by the Sequencer will be used to determine the ordering of transactions in the CTC:
 
@@ -283,4 +283,4 @@ Note that this may result in valid state commitments prior to the fraudulent sta
 * The fraud-proof window must not have passed at runtime.
 * The batch header must be valid.
 
-Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any other questions.
+Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.
