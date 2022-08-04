@@ -55,4 +55,4 @@ We have 2 low-level bridge contracts known as the L1 and L2 Cross Domain Messeng
 * Stage 6: The address of the L2 `ovmCALLER` is then written to the `xDomainMessageSender` state variable. The call is then executed, allowing the target to query the value of the `L1CrossDomainMessenger.xDomainMessageSender` for authorization.
 * Stage 7: In the case of a successful condition, the message is added to the `successfulMessages`.
 
-Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any other questions.
+Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.
