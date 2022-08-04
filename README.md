@@ -38,7 +38,7 @@ Oracles connect blockchains to external systems and provide smart contracts with
 
 Metis Nodes allow security and reliability to come to the forefront. Blockchain nodes store a complete copy of the distributed network and play an important role in the blockchain ecosystem.
 
-●     Link
+●     [Nodes](browse-in-the-metis-technology/an-introduction-to-protocol-in-detail/)
 
 #### Metis Graph <a href="#_s7n3z5vmr8nt" id="_s7n3z5vmr8nt"></a>
 
@@ -70,10 +70,3 @@ We’re inviting you as a member of Metis to our social media channels. You can 
 
 ●     [Twitter](https://twitter.com/MetisDAO)
 
-### Keep Up with the Latest News and Interests <a href="#_lu22ejfob5g7" id="_lu22ejfob5g7"></a>
-
-Sign up now to get rich knowledge of the Metis platform and learn more about the latest Ethereum technologies.
-
-\[Enter your email address] \[Sign up]
-
-●     Yes, I agree to receive emails from Metis.

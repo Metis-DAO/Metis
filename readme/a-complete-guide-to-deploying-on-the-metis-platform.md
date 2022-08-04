@@ -180,4 +180,4 @@ You can explore your last transactions here and check that your last smart contr
 
 ![](<../.gitbook/assets/image (22).png>)
 
-Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any other questions.
+Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.
