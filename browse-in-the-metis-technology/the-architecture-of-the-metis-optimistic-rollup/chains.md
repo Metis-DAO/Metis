@@ -282,3 +282,5 @@ Note that this may result in valid state commitments prior to the fraudulent sta
 * The caller MUST be the Fraud Verifier contract.
 * The fraud-proof window must not have passed at runtime.
 * The batch header must be valid.
+
+Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any other questions.

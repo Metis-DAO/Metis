@@ -52,3 +52,5 @@ $ npm install -g @graphprotocol/graph-cli
 ```
 
 ![](<../.gitbook/assets/0 (2) (1) (1)>)
+
+Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any other questions.
