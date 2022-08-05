@@ -32,19 +32,19 @@ Built by a team of blockchain professionals, Metis NFT Bridge provides everythin
 
 Oracles connect blockchains to external systems and provide smart contracts with external information. A Metis Oracle gives Ethereum projects on-time data from the outside world to perform reliable actions.
 
-●     [Oracles](browse-in-the-metis-technology/browse-in-metis-technologies/)
+●     [Oracles](browse-the-metis-technology/browse-in-metis-technologies/)
 
 #### Metis Nodes <a href="#_z11ooy9etr4o" id="_z11ooy9etr4o"></a>
 
 Metis Nodes allow security and reliability to come to the forefront. Blockchain nodes store a complete copy of the distributed network and play an important role in the blockchain ecosystem.
 
-●     [Nodes](browse-in-the-metis-technology/an-introduction-to-protocol-in-detail/)
+●     [Nodes](browse-the-metis-technology/an-introduction-to-protocol-in-detail/)
 
 #### Metis Graph <a href="#_s7n3z5vmr8nt" id="_s7n3z5vmr8nt"></a>
 
 The Metis Graph is an indexing protocol for collecting, processing, and storing data to be used in the blockchain network. It aims at facilitating information retrieval using a service called GraphQL.
 
-●    [ What is a Metis Graph](browse-in-the-metis-technology/what-is-the-metis-graph.md)
+●    [ What is a Metis Graph](browse-the-metis-technology/what-is-the-metis-graph.md)
 
 #### Need Expert Support? <a href="#_vl1m2qrsjggl" id="_vl1m2qrsjggl"></a>
 

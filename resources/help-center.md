@@ -12,11 +12,11 @@ Step up to win a great opportunity and improve your Web 3.0 knowledge with our s
 * [Deploying on the Metis Platform](broken-reference)
 * [Verifying Deployed Contracts On the Metis Platform](../a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
 * [Implementing Metis Bridge](metis-bridge-using-a-unique-approach-to-bridge-between-l1-and-l2.md)
-* [API 3 in Action](../browse-in-the-metis-technology/browse-in-metis-technologies/what-is-api3\_.md)
-* [Metis Oracles](../browse-in-the-metis-technology/browse-in-metis-technologies/)
-* [Metis Nodes](../browse-in-the-metis-technology/an-introduction-to-protocol-in-detail/)
+* [API 3 in Action](broken-reference)
+* [Metis Oracles](../browse-the-metis-technology/browse-in-metis-technologies/)
+* [Metis Nodes](../browse-the-metis-technology/an-introduction-to-protocol-in-detail/)
 * [Metis Graph](broken-reference)
-* [Understanding the](../browse-in-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/) [Metis Architecture](../browse-in-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/)
+* [Understanding the](../browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/) [Metis Architecture](../browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/)
 
 ### Frequently Asked Questions <a href="#_qvgu41w5eky" id="_qvgu41w5eky"></a>
 
