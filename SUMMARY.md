@@ -17,7 +17,6 @@
     * [Deployed Contract Addresses](browse-the-metis-technology/an-introduction-to-protocol-in-detail/deployed-contract-addresses.md)
     * [Transaction Fees on the Metis Platform](browse-the-metis-technology/an-introduction-to-protocol-in-detail/transaction-fees-on-the-metis-platform.md)
     * [How to Get Started With the Client Integration](browse-the-metis-technology/an-introduction-to-protocol-in-detail/how-to-get-started-with-the-client-integration.md)
-    * [Deployed Contract Addresses](browse-the-metis-technology/an-introduction-to-protocol-in-detail/deployed-contract-addresses-1.md)
   * [The Graph](browse-the-metis-technology/what-is-the-metis-graph.md)
   * [The Architecture of the Metis Optimistic Rollup](browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/README.md)
     * [Chains](browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/chains.md)
