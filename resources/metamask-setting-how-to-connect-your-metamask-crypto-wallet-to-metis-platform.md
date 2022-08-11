@@ -1,4 +1,4 @@
-# MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform?
+# MetaMask Setting
 
 MetaMask is a cryptocurrency wallet that allows users to store and exchange digital tokens. More importantly, MetaMask makes it possible to interact with decentralized applications(DAAPs). Web 3 is the next generation of the internet and is based on cryptocurrencies and decentralized applications. So, we can call MetaMask the gateway to the world of web 3.
 
@@ -58,7 +58,7 @@ Let’s click on the “Next” button to see the secret recovery phrase. You ca
 
 Save your secret recovery phrase and move to the next step where you should confirm your secret recovery phrase. Every mistake when entering and confirming the security phrase may cause issues and you must be careful when saving the phrase and confirming it.
 
-![](<../.gitbook/assets/6 (10) (1)>)
+![](<../.gitbook/assets/6 (10) (1) (1)>)
 
 #### Step 8 <a href="#_kj6wei4xt5jn" id="_kj6wei4xt5jn"></a>
 

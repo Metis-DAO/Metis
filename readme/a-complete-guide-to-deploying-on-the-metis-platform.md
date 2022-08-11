@@ -1,4 +1,4 @@
-# A Complete Guide to Deploying on the Metis Platform
+# Deploying on Metis
 
 ### Using Solidity Language and Remix IDE to Write, Compile, and Deploy Smart Contracts <a href="#_jrhnn8um2jms" id="_jrhnn8um2jms"></a>
 
@@ -111,7 +111,7 @@ If it’s a new project and you have not run Hardhat in the project folder, runn
 
 ![](<../.gitbook/assets/13 (6) (1)>)
 
-![](<../.gitbook/assets/14 (1) (1)>)
+![](<../.gitbook/assets/14 (1) (1) (1)>)
 
 ![](<../.gitbook/assets/15 (5) (1)>)
 
@@ -137,7 +137,7 @@ You need to add your account private key to the .env file in your project. Follo
 
 ![](<../.gitbook/assets/17 (10) (1) (1)>)
 
-![](<../.gitbook/assets/18 (10) (1)>)
+![](<../.gitbook/assets/18 (10) (1) (1)>)
 
 ![](<../.gitbook/assets/19 (6) (1)>)
 

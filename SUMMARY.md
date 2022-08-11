@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the Metis Documentation](README.md)
+* [Get Started](README.md)
   * [Metis Connection Details](resources/metis-connection-details.md)
   * [Getting Test Tokens](resources/getting-test-tokens-and-transferring-them-to-metis.md)
   * [Deploying on Metis](readme/a-complete-guide-to-deploying-on-the-metis-platform.md)
