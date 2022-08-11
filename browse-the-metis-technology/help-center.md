@@ -6,8 +6,6 @@ Step up to win a great opportunity and improve your Web 3.0 knowledge with our s
 
 ### Contact Support <a href="#_oaaukeamjwap" id="_oaaukeamjwap"></a>
 
-You can get a bunch of ready-to-use solutions by exploring the Metis customer support center. Search for any services, from deploying smart contracts to implementing Metis tools. You can also submit your Technical questions and get help without delay.
+You can submit your Technical questions and get help without delay on [Metis Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals).
 
-* [Welcome to the Metis Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals)
-
-We have a [Telegram group dedicated to developers](https://t.me/metis\_dev), so if you are interested in developing on our platform, you are welcome to join it.
+Also, we have a [Telegram group dedicated to developers](https://t.me/metis\_dev), so if you are interested in developing on our platform, you are welcome to join it.

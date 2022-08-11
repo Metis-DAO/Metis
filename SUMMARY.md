@@ -28,6 +28,6 @@
   * [Witnet](https://docs.witnet.io/smart-contracts/supported-chains)
   * [API3 QRNG](https://docs.api3.org/qrng/)
   * [Chainlink](https://docs.chain.link/docs/data-feeds-metis/)
-  * [Bug Bounties](https://immunefi.com/bounty/metis/)
 * [Metis Audits](browse-the-metis-technology/metis-audits.md)
+* [Bug Bounties](https://immunefi.com/bounty/metis/)
 * [Help Center](browse-the-metis-technology/help-center.md)

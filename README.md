@@ -2,20 +2,6 @@
 
 Metis is solving Ethereum challenges by implementing easy-to-use methodologies. Metis expands the efficiency of the Ethereum network and gives you the opportunity to innovate, enhance security, and speed up your Ethereum L2 project deployment.
 
-### New to Metis and Smart Contracts? <a href="#_dwjm1jtchshk" id="_dwjm1jtchshk"></a>
-
-Let’s learn the fundamentals of using the Metis platform and building the first smart contract. Take the first steps by exploring the Getting Started Guide.
-
-### Supported Blockchain <a href="#_u8xd4c31zhhy" id="_u8xd4c31zhhy"></a>
-
-#### Ethereum + Metis = Layer 2 Blockchain <a href="#_tco37psc9v48" id="_tco37psc9v48"></a>
-
-Metis is an Ethereum Layer 2 rollup platform that combines a wide range of benefits to get things done on the Ethereum network with simplicity, speed, scalability, and security. With Metis, you can deploy your Ethereum projects on L2 and achieve a broad range of advantages.
-
-●     [Metis Overview](readme/metis-overview.md)
-
-●     [Your First Deployment on Metis](readme/a-complete-guide-to-deploying-on-the-metis-platform.md)
-
 ### Technologies Metis Provide <a href="#_7dc02qqfr79w" id="_7dc02qqfr79w"></a>
 
 Metis offers an exclusive list of products to blockchain project developers, app developers, and everyone who is interested in obtaining modern solutions for Ethereum challenges.
@@ -48,25 +34,9 @@ The Metis Graph is an indexing protocol for collecting, processing, and storing 
 
 #### Need Expert Support? <a href="#_vl1m2qrsjggl" id="_vl1m2qrsjggl"></a>
 
-Talk to our support team
+You can submit your Technical questions and get help without delay on  [Metis Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals).
 
-[contact@metis.io](mailto:contact@metis.io)
+Also, we have a [Telegram group dedicated to developers](https://t.me/metis\_dev), so if you are interested in developing on our platform, you are welcome to join it.
 
-#### Follow Us on Social Media <a href="#_2jy0l7vosvdw" id="_2jy0l7vosvdw"></a>
-
-We’re inviting you as a member of Metis to our social media channels. You can access the latest news and communicate with blockchain professionals now.
-
-●     [Facebook](https://www.facebook.com/M-E-T-I-S-103395985423004?\_rdc=1&\_rdr)
-
-●     [Reddit](https://www.reddit.com/r/METIS\_IO/)
-
-●     [Linkedin](https://www.linkedin.com/company/metislab-io/mycompany/)
-
-●     [Instagram](https://www.instagram.com/metisdao/)
-
-●     [Github](https://github.com/MetisProtocol)
-
-●     [Telegram](https://t.me/MetisDAO)
-
-●     [Twitter](https://twitter.com/MetisDAO)
+#### &#x20;<a href="#_2jy0l7vosvdw" id="_2jy0l7vosvdw"></a>
 
