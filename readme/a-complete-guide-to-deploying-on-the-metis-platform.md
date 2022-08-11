@@ -4,7 +4,7 @@
 
 Solidity is a free programming language you can use for deploying smart contracts. The Remix IDE helps us easily deploy our projects in a web-based programming environment. Before using the Remix IDE, you need to take a few steps and configure your MetaMask account. The MetaMask wallet is used as a tool to provide an account address and see the results.
 
-* __[_Configuring MetaMask and getting started with your account_](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)__
+* __[_Configuring MetaMask and getting started with your account_](../browse-the-metis-technology/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)__
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Stardust Testnet using the MetaMask networks section.
 
