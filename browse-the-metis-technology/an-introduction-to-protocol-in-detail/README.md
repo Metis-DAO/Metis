@@ -1,4 +1,4 @@
-# An Introduction to Protocol in Detail
+# Protocol in Detail
 
 ### An Introduction to Protocol in Detail <a href="#_th5v4y4qr6h2" id="_th5v4y4qr6h2"></a>
 
