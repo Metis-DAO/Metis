@@ -6,7 +6,7 @@
   * [Getting Test Tokens](resources/getting-test-tokens-and-transferring-them-to-metis.md)
   * [A Complete Guide to Deploying on the Metis Platform](readme/a-complete-guide-to-deploying-on-the-metis-platform.md)
   * [Verifying Deployed Contracts on Metis](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md)
-* [MetaMask Setting, How to Connect Your MetaMask Crypto Wallet to Metis Platform?](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
+* [MetaMask Setting](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 * [The Graph](browse-the-metis-technology/what-is-the-metis-graph.md)
 * [Metis Bridge: Using A Unique Approach to Bridge Between L1 & L2](resources/metis-bridge-using-a-unique-approach-to-bridge-between-l1-and-l2.md)
 * [The Architecture of the Metis Optimistic Rollup](browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/README.md)
