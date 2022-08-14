@@ -2,10 +2,10 @@
 
 Metis is an Ethereum Layer 2 Rollup platform that offers simple and fast smart contract deployment within the network. Metis provides several solutions to solve the big challenges we face in the main net Ethereum, including transaction speed, cost, and scalability.
 
-* [Metis Connection Details](resources/metis-connection-details.md): Use the Metis connection details section to set your MetaMask account to be able to get Metis tokens.&#x20;
-* [Getting Test Tokens](resources/getting-test-tokens-and-transferring-them-to-metis.md): In order to deploy smart contracts on the testnet, you need to get some test tokens for free.&#x20;
-* [Deploying On Metis](readme/a-complete-guide-to-deploying-on-the-metis-platform.md): You can write your code after getting test tokens and deploy it on the Stardust testnet.&#x20;
-* [Verifying Deployed Contracts](a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md): Verifying the code after deployment is a simple process and you can verify contracts in a few seconds using the Hardhat configuration or Metis Stardust explorer.
+* [Metis Connection Details](get-started/metis-connection-details.md): Use the Metis connection details section to set your MetaMask account to be able to get Metis tokens.&#x20;
+* [Getting Test Tokens](get-started/getting-test-tokens.md): In order to deploy smart contracts on the testnet, you need to get some test tokens for free.&#x20;
+* [Deploying On Metis](get-started/a-complete-guide-to-deploying-on-the-metis-platform.md): You can write your code after getting test tokens and deploy it on the Stardust testnet.&#x20;
+* [Verifying Deployed Contracts](get-started/a-complete-guide-to-verifying-deployed-contracts-on-the-stardust-testnet.md): Verifying the code after deployment is a simple process and you can verify contracts in a few seconds using the Hardhat configuration or Metis Stardust explorer.
 
 ### Metis Solutions <a href="#_7dc02qqfr79w" id="_7dc02qqfr79w"></a>
 
