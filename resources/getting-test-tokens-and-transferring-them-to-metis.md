@@ -1,8 +1,8 @@
 # Getting Test Tokens
 
-Navigate to https://faucet.metissafe.tech
+Navigate to [https://faucet.metissafe.tech](https://faucet.metissafe.tech)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (68).png>)
 
 ### If you need more Test Tokens <a href="#_z98tmu8zem2" id="_z98tmu8zem2"></a>
 
