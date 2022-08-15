@@ -41,7 +41,7 @@ Read more on [Nodes](browse-the-metis-technology/an-introduction-to-protocol-in-
 
 The Metis Graph is an indexing protocol for collecting, processing, and storing data to be used in the blockchain network. It aims at facilitating information retrieval using a service called GraphQL.
 
-Read more on[ What is a Metis Graph](browse-the-metis-technology/what-is-the-metis-graph.md)
+Read more on[ What is a Metis Graph](graph.md)
 
 
 
