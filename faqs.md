@@ -214,11 +214,13 @@ We explained Metis mining in this video:
 
 **What is the amount of tokens required to create and run a project on Metis?**
 
-* If you hope to launch a project on Metis Layer 2, just using the infrastructure, you will just need a small amount of the Metis token as the gas cost. But if you hope to leverage the DAC framework to create your own DAC, manage the community, and enjoy yield farming, it will cost you at least 100 $Metis tokens to get started. But of course, you will gain the farming rewards after you join.
+If you hope to launch a project on Metis Layer 2, just using the infrastructure, you will just need a small amount of the Metis token as the gas cost. But if you hope to leverage the DAC framework to create your own DAC, manage the community, and enjoy yield farming, it will cost you at least 100 $Metis tokens to get started. But of course, you will gain the farming rewards after you join.
 
-Would you explain the benefits of staking on Metisdao and the Metis token's use cases? What kind of revenue does MetisDAO generate to keep the project running, and what are your intentions for attracting more investors in the future?
 
-* Metis token is the utility token, it will be used as:
+
+**Would you explain the benefits of staking on Metisdao and the Metis token's use cases? What kind of revenue does MetisDAO generate to keep the project running, and what are your intentions for attracting more investors in the future?**
+
+Metis token is the utility token, it will be used as:
 
 Gas cost on layer 2
 
@@ -234,9 +236,13 @@ For the revenue model, the first and most direct one is the gas cost on layer 2,
 
 We see attracting more interest as the natural result of our work, which means we still focus on delivering the infrastructure and various DAC products and attracting projects and developers to build on Metis. This is the true and fundamental value of the Metis project.
 
-The APY for the mining and staking is based on the first come first served model and the APY depletes with numbers coming in. Are there other requirements for being an early bird?
 
-* The APY is for the total staking pool participants; it will decrease when more people join the pool, which is quite common in many projects. To gain mining rewards, you will need to state to create your DAC or join other people’s DAC to stake and participate. No other requirements.
+
+**The APY for the mining and staking is based on the first come first served model and the APY depletes with numbers coming in. Are there other requirements for being an early bird?**
+
+The APY is for the total staking pool participants; it will decrease when more people join the pool, which is quite common in many projects. To gain mining rewards, you will need to state to create your DAC or join other people’s DAC to stake and participate. No other requirements.
+
+
 
 What are the risks of staking? What is the basis for the APYs? Is it preferable for us who hold to join the earliest DAC?
 
