@@ -244,43 +244,59 @@ The APY is for the total staking pool participants; it will decrease when more p
 
 
 
-What are the risks of staking? What is the basis for the APYs? Is it preferable for us who hold to join the earliest DAC?
+**What are the risks of staking? What is the basis for the APYs? Is it preferable for us who hold to join the earliest DAC?**
 
-* The APY is based on the token rewards released, the number of participants and tokens staked at that particular moment. It’s changing all the time. You can choose to create or join a DAC to do the staking and mining. But if you have a great number of friends or community members, you might want to create your own DAC, inviting them to join and stake will empower your DAC with more mining power.
+The APY is based on the token rewards released, the number of participants and tokens staked at that particular moment. It’s changing all the time. You can choose to create or join a DAC to do the staking and mining. But if you have a great number of friends or community members, you might want to create your own DAC, inviting them to join and stake will empower your DAC with more mining power.
 
-Do members, amount of $Metis staked, and created DACs play a role in determining the mining power?
 
-* Mining power is only determined by how many members join your DAC. The amount of $Metis token staked affects the mining power and it will determine the shares you will get from the mining rewards.
 
-For verification and validation purposes, the Metis platform uses the concept of L2 Rangers in their MVM (METIS Virtual Machine). Can you explain how this concept works, who makes up the L2 Rangers, what they do in the validation and verification process, what benefits the L2 Rangers get as Validators, and how users become members of this special DAC called L2 Rangers?
+**Do members, amount of $Metis staked, and created DACs play a role in determining the mining power?**
 
-* Rangers are a specific set of validators, they act as a paid auditor, which they will be reimbursed for validating random transactions to keep the network secure. In order to become a validator you have to provide a stake and keep a node running.
+Mining power is only determined by how many members join your DAC. The amount of $Metis token staked affects the mining power and it will determine the shares you will get from the mining rewards.
 
-How will the power mining proportionally affect the degree to which the Metis reward is received? Will it be a huge difference?
 
-* Mining power is related to the community member you have in your DAC, and it has a maximum limit of 500.
+
+**For verification and validation purposes, the Metis platform uses the concept of L2 Rangers in their MVM (METIS Virtual Machine). Can you explain how this concept works, who makes up the L2 Rangers, what they do in the validation and verification process, what benefits the L2 Rangers get as Validators, and how users become members of this special DAC called L2 Rangers?**
+
+Rangers are a specific set of validators, they act as a paid auditor, which they will be reimbursed for validating random transactions to keep the network secure. In order to become a validator you have to provide a stake and keep a node running.
+
+
+
+**How will the power mining proportionally affect the degree to which the Metis reward is received? Will it be a huge difference?**
+
+Mining power is related to the community member you have in your DAC, and it has a maximum limit of 500.
 
 Your Staking Reward = (The numbers of $METIS Tokens Staked x Mining Power / Mining Power Weighted amount of all $METIS Tokens Staked) \* Mining Output.
 
-Are staking rewards going to be locked for a specific period?
 
-* No, you can unlock them anytime.
 
-Can anyone be a validator? And what determines the yield a validator has. Is it purely the amount of Metis staked?
+**Are staking rewards going to be locked for a specific period?**
 
-* For Rangers, it is open to everyone, and more details will be released regarding the mechanism.
+No, you can unlock them anytime.
 
-How many tokens in circulation are possible/eligible to start staking when mining begins? Are some of them locked, for example I know there are a certain amount of team tokens locked?
 
-* Now the circulation amount is around 1.2M, and the total supply, for now is 4.93M. The rest of the supply will be minted and mined via transactions in the following 10 years.
 
-How can I convince my friends to become Metis Stakers? What makes Metis different from other staking projects?
+**Can anyone be a validator? And what determines the yield a validator has. Is it purely the amount of Metis staked?**
 
-* With Metis, you can create or join a DAC to do the mining with your community, and with this staking model, you will be able to mine more new project tokens.
+For Rangers, it is open to everyone, and more details will be released regarding the mechanism.
 
-What are the main benefits of holding the Metis token? What are the main use cases?
 
-* Metis token holders or stakers can mine the Metis token in the DAC mining event, and have access to new projects’ tokens or allocations when these projects launch their business on Metis layer 2. The main use cases of Metis Token are gas cost, staking, and also governance purpose.
+
+**How many tokens in circulation are possible/eligible to start staking when mining begins? Are some of them locked, for example I know there are a certain amount of team tokens locked?**
+
+Now the circulation amount is around 1.2M, and the total supply, for now is 4.93M. The rest of the supply will be minted and mined via transactions in the following 10 years.
+
+
+
+**How can I convince my friends to become Metis Stakers? What makes Metis different from other staking projects?**
+
+With Metis, you can create or join a DAC to do the mining with your community, and with this staking model, you will be able to mine more new project tokens.
+
+
+
+**What are the main benefits of holding the Metis token? What are the main use cases?**
+
+Metis token holders or stakers can mine the Metis token in the DAC mining event, and have access to new projects’ tokens or allocations when these projects launch their business on Metis layer 2. The main use cases of Metis Token are gas cost, staking, and also governance purpose.
 
 How will APY be distributed within the DAC? I created a DAC at 1000% APY and invited people. What APY will they get? Is it somehow splitting?
 
