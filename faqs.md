@@ -68,45 +68,65 @@ IPFS will be used for file storage for your respective DAC. More details will be
 
 
 
-As you just explained, Metis has its own storage. But how will this actually help and give a competitive advantage to Metis?
+**As you just explained, Metis has its own storage. But how will this actually help and give a competitive advantage to Metis?**
 
-* Our IPFS-based data storage enables the storage of on-chain data very cheaply, while maintaining the underlying security that comes with Layer 1 Ethereum.
+Our IPFS-based data storage enables the storage of on-chain data very cheaply, while maintaining the underlying security that comes with Layer 1 Ethereum.
 
-SOLANA and ARBITRUM were shut down last week by overload TPS. How can METIS resolve the problem?
 
-* Our platform is built to maximize throughput and reduce transaction bottlenecks. We accomplish the objectives through the system of multiple Sequencers, Verifiers, Rangers, and multiple internal chains that work together to improve transaction flow and speed.
 
-How much TPS Metis can support?
+**SOLANA and ARBITRUM were shut down last week by overload TPS. How can METIS resolve the problem?**
 
-* Our platform is still undergoing the development process and we are working tirelessly on improving our tech to allow for greater scalability and speed. At the present, our network is able to handle 2,000 tps/sec.
+Our platform is built to maximize throughput and reduce transaction bottlenecks. We accomplish the objectives through the system of multiple Sequencers, Verifiers, Rangers, and multiple internal chains that work together to improve transaction flow and speed.
 
-Is there any reference project built with Metis?
 
-* We are onboarding new projects every day. You can read more about the projects here:[ https://metisdao.medium.com/the-vibrant-and-growing-metis-ecosystem-d517b36accb8](https://metisdao.medium.com/the-vibrant-and-growing-metis-ecosystem-d517b36accb8)
 
-What is the equivalent of ganache(local blockchain) in the Metis platform and how can we install it?
+**How much TPS Metis can support?**
 
-* We have recently switched from using OVM and a custom compiler to EVM. We are in the process of updating the documentation, but all you need to do is to include the endpoint and the Chain ID and it should deploy to the network.
+Our platform is still undergoing the development process and we are working tirelessly on improving our tech to allow for greater scalability and speed. At the present, our network is able to handle 2,000 tps/sec.
 
-Do I need to deposit METIS tokens on Layer 2 to execute transactions?
 
-* Users need to pay some L1 gas fee with ETH. The gas price is lower than 0.01 now on the Metis L2.
 
-Is there an ERC20 contract for Metis, i.e. something like wrapped Metis?
+**Is there any reference project built with Metis?**
 
-* Metis is a native token, no need to be wrapped.
+We are onboarding new projects every day. You can read more about the projects here:[ https://metisdao.medium.com/the-vibrant-and-growing-metis-ecosystem-d517b36accb8](https://metisdao.medium.com/the-vibrant-and-growing-metis-ecosystem-d517b36accb8)
 
-Can I use a cloud server to become a Verifier Node?
 
-* Yes.
 
-NFT is a trending topic in the blockchain world. Do you plan to develop NFTs on the Metis platform?
+**What is the equivalent of ganache(local blockchain) in the Metis platform and how can we install it?**
 
-* The purpose of Metis is to provide an infrastructure for deploying smart contracts. It means that anyone can deploy an NFT platform on Metis.
+We have recently switched from using OVM and a custom compiler to EVM. We are in the process of updating the documentation, but all you need to do is to include the endpoint and the Chain ID and it should deploy to the network.
 
-NFTs are very much hype, but it is not easy to buy with extremely high gas fees! Will it be possible to buy NFTs on the Metis Layer 2 platform with low gas gees?
 
-* Yes absolutely! You will also be able to transfer to L1 in hours after minting.
+
+**Do I need to deposit METIS tokens on Layer 2 to execute transactions?**
+
+Users need to pay some L1 gas fee with ETH. The gas price is lower than 0.01 now on the Metis L2.
+
+
+
+**Is there an ERC20 contract for Metis, i.e. something like wrapped Metis?**
+
+Metis is a native token, no need to be wrapped.
+
+
+
+**Can I use a cloud server to become a Verifier Node?**
+
+Yes.
+
+
+
+**NFT is a trending topic in the blockchain world. Do you plan to develop NFTs on the Metis platform?**
+
+The purpose of Metis is to provide an infrastructure for deploying smart contracts. It means that anyone can deploy an NFT platform on Metis.
+
+
+
+**NFTs are very much hype, but it is not easy to buy with extremely high gas fees! Will it be possible to buy NFTs on the Metis Layer 2 platform with low gas gees?**
+
+Yes absolutely! You will also be able to transfer to L1 in hours after minting.
+
+
 
 What will be the application of the Metis NFT, only staking?
 
