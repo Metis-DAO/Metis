@@ -312,17 +312,23 @@ One wallet can only create one DAC or join one DAC and you cannot do both. But t
 
 
 
-Are rewards distributed evenly through the DAC or is the process based on how many metis tokens a member contributes?
+**Are rewards distributed evenly through the DAC or is the process based on how many metis tokens a member contributes?**
 
-* APY is the total reward people can mine from the DAC mining pool. It will be split among every participant valued by its token amount staked and the mining power he has.
+APY is the total reward people can mine from the DAC mining pool. It will be split among every participant valued by its token amount staked and the mining power he has.
 
-Are the LP staking & Metis farming methods currently available?
 
-* Only staking is available. There is no LP for farming.
 
-Will Metis staking be in a wallet, exchange, or in the Metis platform?
+**Are the LP staking & Metis farming methods currently available?**
 
-* Staking will be done throughout the Metis Platform.
+Only staking is available. There is no LP for farming.
+
+
+
+**Will Metis staking be in a wallet, exchange, or in the Metis platform?**
+
+Staking will be done throughout the Metis Platform.
+
+
 
 ### Reddit FAQs  <a href="#_ydp7tnjh5v0b" id="_ydp7tnjh5v0b"></a>
 
@@ -330,24 +336,30 @@ Will Metis staking be in a wallet, exchange, or in the Metis platform?
 
 Metis’ Layer 2 Optimistic Rollup technology supports the decentralized economy. Businesses can leverage this economy and issue their own token to support the operation of their own ecosystem.
 
-How do you explain the security level of the Metis Platform?
+**How do you explain the security level of the Metis Platform?**
 
-* In short, it’s highly secured. In order to prevent fraudulent behavior, staking and pullback mechanisms are embedded into our Layer 2 solution. This means that before engaging in any business, the reputation and funds will need to be staked in order to ensure compliance and security of the network.
+In short, it’s highly secured. In order to prevent fraudulent behavior, staking and pullback mechanisms are embedded into our Layer 2 solution. This means that before engaging in any business, the reputation and funds will need to be staked in order to ensure compliance and security of the network.
 
-What is your Optimistic Governance (OG) solution?
 
-* Metis’ Optimistic governance solution is a staking, pullback, and reputation power mechanism. It means that before engaging in any business on the Metis platform, your reputation token (the NFT that has all the reputation tracked) and funds will need to be staked in order to make sure that you act in the best interests of the network. The staked funds are then refunded along with the monetary rewards, and your reputation is increased after every successful business collaboration. If the business collaboration is unsuccessful, there will be penalties involved, including potentially slashed funds and reputation cases. The mechanism allows for decentralized optimistic governance without any central party involvement.
 
-How do you compare Metis to other solutions?
+**What is your Optimistic Governance (OG) solution?**
+
+Metis’ Optimistic governance solution is a staking, pullback, and reputation power mechanism. It means that before engaging in any business on the Metis platform, your reputation token (the NFT that has all the reputation tracked) and funds will need to be staked in order to make sure that you act in the best interests of the network. The staked funds are then refunded along with the monetary rewards, and your reputation is increased after every successful business collaboration. If the business collaboration is unsuccessful, there will be penalties involved, including potentially slashed funds and reputation cases. The mechanism allows for decentralized optimistic governance without any central party involvement.
+
+
+
+**How do you compare Metis to other solutions?**
 
 1. The withdrawal time from the network takes hours as opposed to days from Arbitrum, and a week from Optimism
 2. Our IPFS integration is a competitive benefit, where you can store and share files and data, which is not present in other solutions.
 3. Our multiple chains and multiple virtual machine construct makes it a decentralized solution and eliminates the processing bottlenecks present in other competing Layer 2 solutions such as Optimism or Arbitrum
 4. Metis also defines a new DAO structure - Decentralized Autonomous Company (DAC) to act as the fundamental unit to support the operation and management of decentralized applications, communities, and businesses. This added functionality is not present in other competing solutions.
 
-How can I benefit from Metis?
 
-* Metis’ Layer 2 solution solves the problem of the high gas fees and low throughput of transactions present on Layer 1 Ethereum. Metis provides you with all the perks of a core blockchain such as trust and transparency, but with the increased transaction throughput speed, lower transaction cost, rich functionality, and a minimal learning curve. You can create your business unit - we call it a DAC (Decentralized Autonomous Company).
+
+**How can I benefit from Metis?**
+
+Metis’ Layer 2 solution solves the problem of the high gas fees and low throughput of transactions present on Layer 1 Ethereum. Metis provides you with all the perks of a core blockchain such as trust and transparency, but with the increased transaction throughput speed, lower transaction cost, rich functionality, and a minimal learning curve. You can create your business unit - we call it a DAC (Decentralized Autonomous Company).
 
 Potential businesses can include:
 
@@ -363,13 +375,17 @@ Yield farming
 
 and many more…
 
-Can I try it out?
 
-* We have released the Layer 2 alpha testnet demo app called “Prologue” to demonstrate the speed and low cost of Layer 2. Try it for yourself to test and create your very first Decentralized Autonomous Company (DAC) on Metis. We reward our community testers!
 
-[https://alphatest.metisdao.org](https://alphatest.metisdao.org/)
+**Can I try it out?**
 
-How many people have used Metis?
+We have released the Layer 2 alpha testnet demo app called “Prologue” to demonstrate the speed and low cost of Layer 2. Try it for yourself to test and create your very first Decentralized Autonomous Company (DAC) on Metis. We reward our community testers!
+
+{% embed url="https://alphatest.metisdao.org" %}
+
+
+
+**How many people have used Metis?**
 
 As of now:
 
@@ -378,7 +394,9 @@ As of now:
 * The number of testnet transactions is 166,859,
 * The number of Layer 2 smart contract calls is 22,607.
 
-What are the main advantages of the Metis platform?
+
+
+**What are the main advantages of the Metis platform?**
 
 In summary, Metis is:
 
@@ -387,7 +405,9 @@ In summary, Metis is:
 * Usable - 100% Ethereum virtual machine compatible,
 * Decentralized - Multiple Rangers and Sequencers help ensure that the network is fast and reliable.
 
-Where do I go to learn more?
+
+
+**Where do I go to learn more?**
 
 * Join our Official Community -[ https://t.me/MetisDAO](https://t.me/MetisDAO)
 
