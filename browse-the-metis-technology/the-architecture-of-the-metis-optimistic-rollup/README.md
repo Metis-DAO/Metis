@@ -9,6 +9,6 @@ In this section, we are going to explain the Metis architecture and the way tran
 * [Chains](chains.md)
 * [Sequencers](sequencers.md)
 * [Cross-layer NFTs](what-are-cross-layer-nfts.md)
-* [Actors and Roles](optimistic-ethereum-actors-and-their-roles.md)
+* [Actors and Roles](../../the-architecture-of-the-metis-optimistic-rollup/actors-and-their-roles.md)
 * [Synchronization Specification](synchronization-specifications.md)
 * [Cross Domain Messaging](cross-domain-messaging.md)
