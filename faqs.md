@@ -128,65 +128,91 @@ Yes absolutely! You will also be able to transfer to L1 in hours after minting.
 
 
 
-What will be the application of the Metis NFT, only staking?
+**What will be the application of the Metis NFT, only staking?**
 
-* The main feature we expect is that it can increase the mining power.
+The main feature we expect is that it can increase the mining power.
 
-How is the Metis NFT made? Can it only be purchased in the Metis or Opensea platform market, or is there another way to own a Metis NFT?
 
-* The usefulness of Metis is that you are able to create your own NFT platform on the Metis Platform. So, you will still be able to trade NFTs of the Layer 1 platform on Metis Layer 2.
 
-Can you tell us about the NFT model that you are offering?
+**How is the Metis NFT made? Can it only be purchased in the Metis or Opensea platform market, or is there another way to own a Metis NFT?**
 
-* We do not make NFTs directly, but you can build your own NFT platform on our network. The way that NFTs will work can vary depending on the use case. But you will be able to deposit your NFTs on Metis and transfer them multiple times, and utilize the fast transaction time and cheap transaction fee.
+The usefulness of Metis is that you are able to create your own NFT platform on the Metis Platform. So, you will still be able to trade NFTs of the Layer 1 platform on Metis Layer 2.
 
-Can NFT be used in staking & mining programs?
 
-* Yes, people who participated in the Tribe event have gained the NFT, and the NFT can be used in the upcoming staking event. NFT holders can have a slight increase in their mining power.
 
-Minting, buying, and selling NFTs are extremely expensive in the Ethereum network. Will there be a solution on Metis for integrating NFTs into Layer 2?
+**Can you tell us about the NFT model that you are offering?**
 
-* With Metis, we are the only L2 where direct NFTs can be minted at a few cents and transferred to L1 in a few hours. Over and above, we offer on-chain native data storage with IPFS.
+We do not make NFTs directly, but you can build your own NFT platform on our network. The way that NFTs will work can vary depending on the use case. But you will be able to deposit your NFTs on Metis and transfer them multiple times, and utilize the fast transaction time and cheap transaction fee.
+
+
+
+**Can NFT be used in staking & mining programs?**
+
+Yes, people who participated in the Tribe event have gained the NFT, and the NFT can be used in the upcoming staking event. NFT holders can have a slight increase in their mining power.
+
+
+
+**Minting, buying, and selling NFTs are extremely expensive in the Ethereum network. Will there be a solution on Metis for integrating NFTs into Layer 2?**
+
+With Metis, we are the only L2 where direct NFTs can be minted at a few cents and transferred to L1 in a few hours. Over and above, we offer on-chain native data storage with IPFS.
+
+
 
 ### Staking <a href="#_76fqq02c0a3b" id="_76fqq02c0a3b"></a>
 
-Does my APY get locked based on how fast I throw all my coins to stake? Or does my apy keep going down daily as more people stake?
+**Does my APY get locked based on how fast I throw all my coins to stake? Or does my apy keep going down daily as more people stake?**
 
-* If nobody else stakes again we’ll have a stable APY, or if all tokens get staked too we’ll get a stable APY.
+If nobody else stakes again we’ll have a stable APY, or if all tokens get staked too we’ll get a stable APY.
 
-Please let us know more about Rangers. Can holders become Rangers and get rewards?
 
-* Rangers are financially incentivized auditors. You will be rewarded if you choose to stake and become a Ranger. The $METIS token stake will be required.
 
-Income is a significant perspective for all activities to endure and keep up the venture/organization. What is the best approach to create benefits/income from tokens? What is the pay model?
+**Please let us know more about Rangers. Can holders become Rangers and get rewards?**
 
-* Metis will generate revenue via gathering the gas cost on Layer 2.
+Rangers are financially incentivized auditors. You will be rewarded if you choose to stake and become a Ranger. The $METIS token stake will be required.
 
-Token prices usually need lots of liquidity to go up in price and then stabilize in price. How will DEXes be able to ensure token liquidity?
 
-* Metis will provide the initial liquidity for the tokens on its native DEX. We anticipate the liquidity to be increased as more users are on board. Liquidity provider incentive programs will be put in place as well.
 
-How will DEXes on Metis L2 provide benefits to investors on the Ethereum mainnet compared to Uniswap?
+**Income is a significant perspective for all activities to endure and keep up the venture/organization. What is the best approach to create benefits/income from tokens? What is the pay model?**
 
-* Because Metis has been built on Ethereum, we are able to utilize the security and decentralization of the Ethereum network, while using our scaling solution to allow for transactions to be completed much faster and cheaper than on Uniswap.
+Metis will generate revenue via gathering the gas cost on Layer 2.
 
-Can you tell us the motivation and benefits for investors to hold Metis long term? Which plans do you have to help drive demand and scarcity for the token?
 
-* Metis is a utility token that helps us make transactions on the Metis network. So, you need Metis Tokens to be able to perform transactions and create smart contracts.
 
-How can I make sure that my staked tokens will be secure?
+**Token prices usually need lots of liquidity to go up in price and then stabilize in price. How will DEXes be able to ensure token liquidity?**
 
-* The Metis Network is secured through multiple Validators and Rangers. Any transactions that are published in the network are validated on Metis Layer 2. If everything is valid, it is published to Ethereum Layer 1.
+Metis will provide the initial liquidity for the tokens on its native DEX. We anticipate the liquidity to be increased as more users are on board. Liquidity provider incentive programs will be put in place as well.
 
-Is there a difference between staking and mining?
 
-* Staking and mining are similar concepts, but are slightly different in this case. To mine Metis tokens you will need to stake Metis tokens and sometimes a Metis NFT (community mining). Mining is based on using hardware to solve mathematical puzzles while staking relies on validating blocks without wasting electrical energy.
+
+**How will DEXes on Metis L2 provide benefits to investors on the Ethereum mainnet compared to Uniswap?**
+
+Because Metis has been built on Ethereum, we are able to utilize the security and decentralization of the Ethereum network, while using our scaling solution to allow for transactions to be completed much faster and cheaper than on Uniswap.
+
+
+
+**Can you tell us the motivation and benefits for investors to hold Metis long term? Which plans do you have to help drive demand and scarcity for the token?**
+
+Metis is a utility token that helps us make transactions on the Metis network. So, you need Metis Tokens to be able to perform transactions and create smart contracts.
+
+
+
+**How can I make sure that my staked tokens will be secure?**
+
+The Metis Network is secured through multiple Validators and Rangers. Any transactions that are published in the network are validated on Metis Layer 2. If everything is valid, it is published to Ethereum Layer 1.
+
+
+
+**Is there a difference between staking and mining?**
+
+Staking and mining are similar concepts, but are slightly different in this case. To mine Metis tokens you will need to stake Metis tokens and sometimes a Metis NFT (community mining). Mining is based on using hardware to solve mathematical puzzles while staking relies on validating blocks without wasting electrical energy.
 
 We explained Metis mining in this video:
 
-[https://youtu.be/c9DmnKFizcg](https://youtu.be/c9DmnKFizcg)
+{% embed url="https://youtu.be/c9DmnKFizcg" %}
 
-What is the amount of tokens required to create and run a project on Metis?
+
+
+**What is the amount of tokens required to create and run a project on Metis?**
 
 * If you hope to launch a project on Metis Layer 2, just using the infrastructure, you will just need a small amount of the Metis token as the gas cost. But if you hope to leverage the DAC framework to create your own DAC, manage the community, and enjoy yield farming, it will cost you at least 100 $Metis tokens to get started. But of course, you will gain the farming rewards after you join.
 
