@@ -6,9 +6,9 @@ You will experience very low gas fees, reduced from around $2-3 to around $0.02-
 
 In this section, we are going to explain the Metis architecture and the way transactions are performed and verified.
 
-* Chains
-* Sequencers
-* Cross-layer NFTs
-* Actors and Roles
-* Synchronization Specification
-* Cross Domain Messaging
+* [Chains](chains.md)
+* [Sequencers](sequencers.md)
+* [Cross-layer NFTs](what-are-cross-layer-nfts.md)
+* [Actors and Roles](optimistic-ethereum-actors-and-their-roles.md)
+* [Synchronization Specification](synchronization-specifications.md)
+* [Cross Domain Messaging](cross-domain-messaging.md)

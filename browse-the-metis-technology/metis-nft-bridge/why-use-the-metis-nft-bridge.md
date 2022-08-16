@@ -1,4 +1,4 @@
-# Why Use the Metis NFT Bridge
+# Metis NFT Bridge
 
 ### Why Use the Metis NFT Bridge? <a href="#_aidba0h9lz5v" id="_aidba0h9lz5v"></a>
 

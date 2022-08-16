@@ -16,7 +16,7 @@
   * [Optimistic Ethereum Actors and Their Roles](browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/optimistic-ethereum-actors-and-their-roles.md)
   * [Synchronization Specifications](browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/synchronization-specifications.md)
   * [Cross Domain Messaging](browse-the-metis-technology/the-architecture-of-the-metis-optimistic-rollup/cross-domain-messaging.md)
-* [Metis NFT Bridge](metis-nft-bridge.md)
+* [Metis NFT Bridge](browse-the-metis-technology/metis-nft-bridge/why-use-the-metis-nft-bridge.md)
 * [Protocol in Detail](protocol-in-detail/README.md)
   * [The METIS (token) Gateway](protocol-in-detail/the-metis-token-gateway.md)
   * [Deployed Contract Addresses](protocol-in-detail/deployed-contract-addresses.md)
