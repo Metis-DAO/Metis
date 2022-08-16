@@ -62,7 +62,7 @@ Many smart contracts created on the Metis platform follow a standard. This stand
 
 
 
-_In terms of the storage in IPFS, how will it interact with smart contracts deployed by users? Can You Explain it?_
+**In terms of the storage in IPFS, how will it interact with smart contracts deployed by users? Can You Explain it?**
 
 IPFS will be used for file storage for your respective DAC. More details will be provided during the DAC release.
 
