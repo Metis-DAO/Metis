@@ -1,2 +1,0 @@
-# METIS NFT Bridge
-
