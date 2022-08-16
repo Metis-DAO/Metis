@@ -298,13 +298,19 @@ With Metis, you can create or join a DAC to do the mining with your community, a
 
 Metis token holders or stakers can mine the Metis token in the DAC mining event, and have access to new projects’ tokens or allocations when these projects launch their business on Metis layer 2. The main use cases of Metis Token are gas cost, staking, and also governance purpose.
 
-How will APY be distributed within the DAC? I created a DAC at 1000% APY and invited people. What APY will they get? Is it somehow splitting?
 
-* APY is the total reward people can mine from the DAC mining pool. It will be split among every participant valued by its token amount staked and the mining power he has.
 
-What are the benefits of creating a DAC vs joining a DAC? What are the risks associated with joining another DAC?
+**How will APY be distributed within the DAC? I created a DAC at 1000% APY and invited people. What APY will they get? Is it somehow splitting?**
 
-* One wallet can only create one DAC or join one DAC and you cannot do both. But the DAC creator will gain more mining power if he/she can invite more members to join his/her DAC.
+APY is the total reward people can mine from the DAC mining pool. It will be split among every participant valued by its token amount staked and the mining power he has.
+
+
+
+**What are the benefits of creating a DAC vs joining a DAC? What are the risks associated with joining another DAC?**
+
+One wallet can only create one DAC or join one DAC and you cannot do both. But the DAC creator will gain more mining power if he/she can invite more members to join his/her DAC.
+
+
 
 Are rewards distributed evenly through the DAC or is the process based on how many metis tokens a member contributes?
 
