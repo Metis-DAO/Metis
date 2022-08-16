@@ -2,51 +2,71 @@
 
 ### General <a href="#_jvops3qyghwr" id="_jvops3qyghwr"></a>
 
-How will Metis provide strong security along with decentralization but also high scalability? In short, how are you planning to deal with the blockchain trilemma?
+**How will Metis provide strong security along with decentralization but also high scalability? In short, how are you planning to deal with the blockchain trilemma?**
 
-* Rollups attempt to get rid of the blockchain trilemma. On the topic of security, scalability, and decentralization, the solution that Metis provides focuses on all 3 aspects. For decentralization, we want to make sure that anyone who has a stake in Metis can become a Ranger, that is, it is not restricted by a specific number of Rangers. For scalability, we utilize multiple sequencers, multiple rangers, multiple Metis virtual machines, and multiple chains in order to remove the potential bottlenecks that may occur within the system. That being said, there is the issue where the more members that participate in the system, raise the costs for the users that are using the system. Finally, the security. Our goal is to make the system economically viable for the sequencers, rangers, and other providers that will be participating in keeping the network secure. As a result, the condition may increase the transaction cost, but will be much less expensive than Layer 1 Ethereum. In short, we are focused on targeting all 3 problems in the Blockchain trilemma. For that, there will be a cost to users, but that cost will be small in comparison with the security, scalability, decentralization, and usability of Metis.
+Rollups attempt to get rid of the blockchain trilemma. On the topic of security, scalability, and decentralization, the solution that Metis provides focuses on all 3 aspects. For decentralization, we want to make sure that anyone who has a stake in Metis can become a Ranger, that is, it is not restricted by a specific number of Rangers. For scalability, we utilize multiple sequencers, multiple rangers, multiple Metis virtual machines, and multiple chains in order to remove the potential bottlenecks that may occur within the system. That being said, there is the issue where the more members that participate in the system, raise the costs for the users that are using the system. Finally, the security. Our goal is to make the system economically viable for the sequencers, rangers, and other providers that will be participating in keeping the network secure. As a result, the condition may increase the transaction cost, but will be much less expensive than Layer 1 Ethereum. In short, we are focused on targeting all 3 problems in the Blockchain trilemma. For that, there will be a cost to users, but that cost will be small in comparison with the security, scalability, decentralization, and usability of Metis.
 
-What will the Metis tokens be used for?
 
-* METIS is a utility token. It will be used for the network gas fee.
 
-What is the Metis testnet? Where will it be used for?
+**What will the Metis tokens be used for?**
 
-* The Metis testnet (Stardust) is a world-class Ethereum testnet for creating transactions and deploying smart contracts. You can use the Stardust testnet in order to perform the development and deployment process like in the mainnet (Andromeda).
+METIS is a utility token. It will be used for the network gas fee.
 
-How much will the cost of transactions be with roll up? What about the time of transactions? Are they dependent on the amount?
 
-* In short, the cost will vary depending on the number of transactions that are rolled up. In essence, the more transactions there are, the more they will cost. This is because the more information that is stored on Layer 1, the higher the cost you will face. But, the cost will be significantly less if you make those individual transactions in Layer 2.
 
-What are the advantages of the project? Is there a buyback, borrowing, or burning system on the project?
+**What is the Metis testnet? Where will it be used for?**
 
-* The advantage of the METIS token is the utility of the token itself. It will be used as the base token for all transactions, just as the ETH token which is used in Ethereum.
+The Metis testnet (Stardust) is a world-class Ethereum testnet for creating transactions and deploying smart contracts. You can use the Stardust testnet in order to perform the development and deployment process like in the mainnet (Andromeda).
 
-What is the Optimistic Governance (OG) main feature? How does it work and what are its differences when compared to traditional ones?
 
-* Please refer to this article for all the details.
 
-[https://hackernoon.com/when-cross-domain-collaboration-meets-optimistic-rollup-051d32rf](https://hackernoon.com/when-cross-domain-collaboration-meets-optimistic-rollup-051d32rf)
+**How much will the cost of transactions be with roll up? What about the time of transactions? Are they dependent on the amount?**
 
-Metis is deployed on the Ethereum Virtual Machine (EVM). So, doesn’t Metis need an ETH gas fee for sending transactions?
+In short, the cost will vary depending on the number of transactions that are rolled up. In essence, the more transactions there are, the more they will cost. This is because the more information that is stored on Layer 1, the higher the cost you will face. But, the cost will be significantly less if you make those individual transactions in Layer 2.
 
-* We do not run on the EVM, we use a fork of the Optimistic Virtual Machine called the Metis Virtual Machine that is compatible with the EVM and adds additional functionality. The Metis Platform uses the METIS token for all transactions, like Ethereum which is using ETH.
 
-What are the differences between MetisSwap and a centralized exchange like Coinbase or Binance?
 
-* Decentralized exchanges have no KYC. This means that anyone that has crypto can freely swap and offer liquidity for an asset.
+**What are the advantages of the project? Is there a buyback, borrowing, or burning system on the project?**
 
-How long does it take to confirm a transaction?
+The advantage of the METIS token is the utility of the token itself. It will be used as the base token for all transactions, just as the ETH token which is used in Ethereum.
 
-* Less than a second.
+
+
+**What is the Optimistic Governance (OG) main feature? How does it work and what are its differences when compared to traditional ones?**
+
+Please refer to this article for all the details.
+
+{% embed url="https://hackernoon.com/when-cross-domain-collaboration-meets-optimistic-rollup-051d32rf" %}
+
+****
+
+**Metis is deployed on the Ethereum Virtual Machine (EVM). So, doesn’t Metis need an ETH gas fee for sending transactions?**
+
+We do not run on the EVM, we use a fork of the Optimistic Virtual Machine called the Metis Virtual Machine that is compatible with the EVM and adds additional functionality. The Metis Platform uses the METIS token for all transactions, like Ethereum which is using ETH.
+
+
+
+**What are the differences between MetisSwap and a centralized exchange like Coinbase or Binance?**
+
+Decentralized exchanges have no KYC. This means that anyone that has crypto can freely swap and offer liquidity for an asset.
+
+
+
+**How long does it take to confirm a transaction?**
+
+Less than a second.
 
 What is so special about the Metis Middleware, and we are sure many developers will love the idea of 1 click templates to build smart contracts. Since we have provided a highly scalable and low latency platform, you can create transactions and verify smart contracts just in a few seconds.
 
 Many smart contracts created on the Metis platform follow a standard. This standard allows them to be compatible with other systems and smart contracts. Most of the contracts that are created and deployed are very similar, with a few functions that differ from each other. We plan to make the core of each contract secure, with added functionality that allows users to personalize what they can do with a smart contract.
 
-In terms of the storage in IPFS, how will it interact with smart contracts deployed by users? Can You Explain it?
 
-* IPFS will be used for file storage for your respective DAC. More details will be provided during the DAC release.
+
+_In terms of the storage in IPFS, how will it interact with smart contracts deployed by users? Can You Explain it?_
+
+IPFS will be used for file storage for your respective DAC. More details will be provided during the DAC release.
+
+
 
 As you just explained, Metis has its own storage. But how will this actually help and give a competitive advantage to Metis?
 

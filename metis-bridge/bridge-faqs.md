@@ -1,4 +1,4 @@
-# Bridge FAQs
+# FAQs
 
 **What is Metis Bridge?**
 
