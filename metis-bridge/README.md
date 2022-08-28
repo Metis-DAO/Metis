@@ -10,7 +10,7 @@ You can use Metis Bridge to transfer tokens between testnets or mainnets. You ne
 
 After setting up your MetaMask account, you can use Metis Bridge to bridge tokens between networks. MetaMask is a great tool for managing Ethereum transactions and having all information in one place. But, if you want to achieve a bunch of additional features, you can set up your Polis account. Polis is a unique web-based console like MetaMask that offers more capabilities than MetaMask.
 
-Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in this link to add it to your account or simply follow the next steps.
+Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in [this link](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md) to add it to your account or simply follow the next steps.
 
 | Parameter                    | Value                                      |
 | ---------------------------- | ------------------------------------------ |
@@ -27,7 +27,7 @@ Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Fol
 
 ![](<../.gitbook/assets/1 (7)>)
 
-You can also set up the Metis testnet (Stardust) using the parameters given in this link.
+You can also set up the Metis testnet (Stardust) using the parameters given in [this link](../get-started/metis-connection-details.md).
 
 | Parameter                    | Value                                      |
 | ---------------------------- | ------------------------------------------ |
