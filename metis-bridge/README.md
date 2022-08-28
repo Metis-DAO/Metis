@@ -50,7 +50,7 @@ Once you have enough Metis tokens in your account, you can use Metis Bridge to t
 
 Here is the [Metis Bridge platform](https://bridge.metis.io/) that allows you to do the process. Click on the “connect account” button to connect your MetaMask to Metis Bridge. Then you can see that Metis Bridge allows you to transfer from a testnet like Rinkeby to Stardust.
 
-Note that you need enough Metis test tokens in your account to be able to transfer them from Rinkeby (Layer 1) to Metis Stardust (Layer 2). If you don’t have any Metis test tokens, head over to this link and get some by following a few steps.
+Note that you need enough Metis test tokens in your account to be able to transfer them from Rinkeby (Layer 1) to Metis Stardust (Layer 2). If you don’t have any Metis test tokens, head over to this [link ](../get-started/getting-test-tokens.md)and get some by following a few steps.
 
 * Transferring from L1 to L2 may take 1 to 2 minutes to complete. But, if you want to transfer from L2 to L1, it may take 7 days. The process is long to prevent fraud issues.
 
