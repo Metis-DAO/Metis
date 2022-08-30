@@ -28,3 +28,7 @@ It is a network of decentralized actors (nodes) that serve the Metis system. Any
 ## If Memolabs goes down, will the System still Operate?
 
 Yes, in this case the Verifier downloads the transaction data from the Peer Network. The Peer Network will continue to exist as long as there is a single node on the network.
+
+## What are the Security Model of the Metis Bridge?
+
+The Metis Bridge is a [Natively Verified](https://blog.connext.network/the-interoperability-trilemma-657c2cf69f17) bridge, which means that it is secured by the native Smart L2 protocol. This means that there are no multisigs or external validators present that could compromise the security of the bridge. The Metis bridge does have a set withdrawal time of 7 days as it is verified Optimistically. For additional details into the process, see the [Metis Smart L2 Explained Section](../get-started/metis-smart-l2-explained.md)
