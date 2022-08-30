@@ -53,11 +53,13 @@ Here we describe the process of executing and securing transactions on Metis' Sm
   * **11.B.1** - The Verifier requests the Sequencer via fee payment to post the Sequencer’s transaction data on Layer 1. This fee payment is collected on Layer 1 as an upfront amount to pay for the request fees. The fees are sent to the Governance Protocol to pay for potential reimbursements caused due to griefing. The Sequencer will have a time window (in # of blocks, currently set at around 24 hours) to respond and is responsible for the resulting gas fee. Both the Sequencer and Verifier lose money in this process;
   * **11.B.2** - The System enters the insecure transaction state for the data availability request time window until the next rotation. During this time the Verifier requests the Sequencer to provide valid transaction batch data;
   * _If the Sequencer submits the valid full transaction batch data within the_ data availability request time window_:_
-    * **11.B.2.A.1** - The Fraud proofing process will proceed just as a regular Optimistic Rollup hereafter.
+    * **11.B.2.A.1** - The System enters the secure transaction state.
+    * **11.B.2.A.2** - The Fraud proofing process will proceed just as a regular Optimistic Rollup hereafter.
   * _If the Sequencer does NOT submit the valid transaction data within the_ data availability request time window_:_
     * **11.B.2.B.1** - The Malfunctioning Sequencer may get kicked and/or slashed by Layer 1;
     * **11.B.2.B.2** - The MTTBR and MTSR that the Sequencer submitted gets marked invalid by Layer 1;
     * **11.B.2.B.3** - The Sequencer gets rotated by Layer 1.
+    * **11.B.2.B.4** - The System enters the secure transaction state.
 
 ## **How do you deal with the Data Availability Problem?**
 
@@ -69,7 +71,7 @@ Griefing is the process of needlessly requesting data to be on-chain. It is done
 
 This occurs when the data is present on Memolabs or the Peer Network transaction data matches what was posted on Layer 1, but the needless request is sent to the Sequencer for execution.
 
-* The Sequencer sends proposal to Governance Protocol to ban Verifier and get compensated;
+* The Sequencer sends a proposal to the Governance Protocol to ban the Verifier and get compensated;
 * The Sequencer can get compensated by any lost transaction fees through the data requests made by the Verifier.
 * The Verifier gets banned from making requests to the Sequencer. The Verifier will also lose any funds that are present in Layer 1. There is no rotation needed since other Verifiers work asynchronously.
 
@@ -77,9 +79,9 @@ This occurs when the data is present on Memolabs or the Peer Network transaction
 
 This occurs when the Sequencer does not submit data to Memolabs and the Peer Network transaction data does not match what was posted on Layer 1.
 
-* The Verifier sends proposal to Governance Protocol to ban the Sequencer and get compensated;
+* The Verifier sends a proposal to the Governance Protocol to ban the Sequencer and get compensated;
 * The affected Verifiers can get compensated by any lost transaction fees through the data requests made by the Sequencer.
-* The Sequencer gets banned from making requests to the Sequencer. The Sequencer will also lose a portion of their funds that are present in Layer 1.&#x20;
+* The Sequencer gets removed from the Sequencer pool. The Sequencer will also lose a portion of their funds that are present in Layer 1.&#x20;
 * A Sequencer Rotation is made.
 
 ### **What is the “Insecure transaction state of the system”?**
@@ -125,22 +127,21 @@ When this happens, the Block Producer stops producing blocks to the Metis Smart 
     * **3.B.2.A.1** - Layer 1 computes a batch from the newly posted transaction data that was submitted by the Sequencer;
     * **3.B.2.A.2** - Layer 1 compares the computed MTSR and the Sequencer submitted MTSR;
     * _If the computed MTSR = submitted MTSR:_
-      * **3.B.2.A.2.A.1** - The Smart L2 goes out of insecure transaction state;
-      * **3.B.2.A.2.A.2** - The Block Producer gets rotated by Layer 1;
-      * **3.B.2.A.2.A.3** - The Smart L2 gets re-enabled. User has to resend the transaction.
+      * **3.B.2.A.2.A.1** - The Block Producer gets rotated by Layer 1;
+      * **3.B.2.A.2.A.2** - The Smart L2 gets re-enabled. User has to resend the transaction.
     * _If the computed MTSR =/= submitted MTSR:_
-      * **3.B.2.A.2.B.1** - The malfunctioning Sequencer may get kicked and/or slashed by Layer 1;
-      * **3.B.2.A.2.B.2** - The fake transaction data that the Sequencer submitted gets marked invalid by Layer 1;
-      * **3.B.2.A.2.B.3** - The Sequencer gets rotated by Layer 1;
-      * **3.B.2.A.2.B.4** - The Block Producer gets rotated by Layer 1;
-      * **3.B.2.A.2.B.5** - The Smart L2 gets re-enabled. User has to resend the transaction.
+      * **3.B.2.A.2.B.1** - The transaction data that the Sequencer submitted gets marked invalid by Layer 1;
+      * **3.B.2.A.2.B.2** - The Sequencer gets rotated by Layer 1;
+      * **3.B.2.A.2.B.3** - The Block Producer gets rotated by Layer 1;
+      * **3.B.2.A.2.B.4** - The Smart L2 gets re-enabled. User has to resend the transaction.
   * _If the Sequencer does NOT submit the valid transaction data within the data availability request time window:_
-    * **3.B.2.B.1** - The Malfunctioning Sequencer may get kicked and/or slashed by Layer 1;
-    * **3.B.2.B.2** - The MTTBR and MTSR that the Sequencer submitted gets marked invalid by Layer 1;
-    * **3.B.2.B.3** - The Sequencer gets rotated by Layer 1.
-    * **3.B.2.B.4** - The Block Producer gets rotated by Layer 1;
-    * **3.B.2.B.5** - The Smart L2 gets re-enabled. The User has to resend the transaction.
+    * **3.B.2.B.1** - The MTTBR and MTSR that the Sequencer submitted gets marked invalid by Layer 1;
+    * **3.B.2.B.2** - The Sequencer gets rotated by Layer 1;
+    * **3.B.2.B.3** - The Block Producer gets rotated by Layer 1;
+    * **3.B.2.B.4** - The Smart L2 gets re-enabled. The User has to resend the transaction.
 
 ## **Diagrams** <a href="#_riv4fxyvrlil" id="_riv4fxyvrlil"></a>
 
-Coming soon
+<figure><img src="../.gitbook/assets/Metis Smart L2 Flowchart.png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://lucid.app/lucidspark/8c0b52b0-71ae-4ac2-ab6e-17eeab0965c7/edit?viewport_loc=-1712%2C-1727%2C15112%2C7758%2C0_0&invitationId=inv_0fab1530-41c8-4878-b76c-3f9293512b7b" %}
