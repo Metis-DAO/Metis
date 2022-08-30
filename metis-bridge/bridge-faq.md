@@ -1,22 +1,18 @@
-# Bridge FAQs
+# Bridge FAQ
 
-**What is Metis Bridge?**
+## **What is Metis Bridge?**
 
 Metis Bridge is a tool that helps you transfer tokens between different networks. You can use Metis Bridge to send ETH and Metis tokens from mainnet or testnets to Andromeda or Stardust.
 
+## **Where is Metis Bridge used in the Ethereum ecosystem?**
 
+You can use the Metis Bridge solution to transfer ERC-20 or ERC-721 Tokens between L1 and L2.
 
-**Where is Metis Bridge used in the Ethereum ecosystem?**
+## **How much does it cost to bridge?**
 
-You can use the Metis Bridge solution to transfer tokens or NFTs between L1 and L2.
+ETH is needed to bridge METIS from Ethereum L1 to Andromeda L2. Once Metis is on L2, transactions will be paid for in METIS.
 
-
-
-**How much does it cost to bridge?**
-
-ETH is needed to bridge METIS from Ethereum L1 to Andromeda L2. Once Metis is on L2, transactions will be paid for in METIS, which will start off at a few bucks and eventually cost only a few cents.
-
-
+## What are the other Bridges Present in the Metis Ecosystem
 
 Metis Bridge:[ https://bridge.metis.io](https://bridge.metis.io/) (Note, it costs 2 METIS to bridge back from Andromeda L2 to Ethereum L1 and currently takes up to 7 days).
 

@@ -10,7 +10,7 @@
 * [MetaMask Setting](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 * [The Graph](browse-the-metis-technology/what-is-the-metis-graph.md)
 * [Metis Bridge](metis-bridge/README.md)
-  * [FAQs](metis-bridge/bridge-faqs.md)
+  * [Bridge FAQ](metis-bridge/bridge-faq.md)
 * [The Architecture of the Metis Smart L2](the-architecture-of-the-metis-smart-l2/README.md)
   * [Chains](the-architecture-of-the-metis-smart-l2/chains.md)
   * [Sequencers](the-architecture-of-the-metis-smart-l2/sequencers.md)
