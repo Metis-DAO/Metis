@@ -6,7 +6,7 @@ There are 7 distinguished actors participating in the system (Governance Protoco
 
 1. **User** - Sends the transactions.
 2. **Block Producer** - Responsible for correcting the blockchain, propagating the blocks through the Peer Network.
-3. **Memolabs** - Stores the transaction data.
+3. **Memolabs** - Stores the transaction data **** off-chain.
 4. **Sequencer** - Responsible for providing transaction data and the data batch to other entities from the Smart L2.
 5. **Verifier** - The counterpart of a Sequencer, mostly responsible to keep an eye on Sequencer to not provide false/invalid data;
 6. **Layer 1** - The set of smart contracts on Ethereum that handle the security of the system, solves the disputes between Sequencer and Verifier.
@@ -18,11 +18,9 @@ There are 7 distinguished actors participating in the system (Governance Protoco
 
 **Merkle Tree State Root (MTSR)** - The calculated state hash of the transaction execution.
 
-**Memolabs Transaction Storage Location (MTSL)** - The content based address of the submitted data to Memolabs that is sent by the Sequencer.
-
 ## **Process** <a href="#_oamnefrlujtz" id="_oamnefrlujtz"></a>
 
-The entire structure of Metis Smart L2 is designed around several process loops (sections 2, 4, 7, 8, 12) which are designated to mitigate the potential damage and filter the possible malfunctions of decentralized actors and/or other outer ill-wishers.
+The entire structure of Metis Smart L2 is designed around several process loops which are designated to mitigate the potential damage and filter the possible malfunctions of decentralized actors and/or other outer ill-wishers.
 
 Here we describe the process of executing and securing transactions on Metis' Smart Layer 2. The desirable end is at section **11.A.3.A.1**
 
@@ -32,10 +30,10 @@ Here we describe the process of executing and securing transactions on Metis' Sm
 * **3** - The User gets confirmation of the transaction from the Smart L2.
 * **4** - The Sequencer receives the full transaction data from the Peer Network.
 * **5** - The Sequencer computes the data batch (MTTBR and MTSR).
-* **6** - The Sequencer submits the full transaction data to Memolabs, from where it will be provided to the Verifier. Memolabs provides the transaction data and returns the Memolabs Transaction Storage Location (MTSL).
-* **7** - The Sequencer submits the batch of data to Layer 1 (MTSL, MTTBR and MTSR).
-* **8** - The Verifier attempts to download the full transaction data from Memolabs by retrieving the MTSL on Layer 1 that was submitted by the Sequencer;
-* _If the Memolabs data is NOT available_[_\*_](metis-smart-l2-explained.md#how-do-you-deal-with-the-data-availability-problem)_:_
+* **6** - The Sequencer submits the full transaction data to Memolabs, from where it will be provided to the Verifier. Memolabs provides the transaction data to any node that is looking to access the transaction data, located by the MTTBR.
+* **7** - The Sequencer submits the batch of data to Layer 1 (MTTBR and MTSR).
+* **8** - The Verifier attempts to download the full transaction data from Memolabs by retrieving the MTTBR on Layer 1 that was submitted by the Sequencer;
+* _If the Memolabs data is NOT available_[_\*_](metis-smart-l2-explained.md#how-do-you-deal-with-the-data-availability-problem-speaker-listener-dilemma)_:_
   * **8.1.1** - The Verifier downloads the full transaction data from the Peer Network.
 * **9** - The Verifier computes its own MTTBR from the full transaction data it received from Memolabs / Peer Network.
 * **10** - The Verifier downloads the Sequencer’s MTTBR from Layer 1.
@@ -61,33 +59,50 @@ Here we describe the process of executing and securing transactions on Metis' Sm
     * **11.B.2.B.3** - The Sequencer gets rotated by Layer 1.
     * **11.B.2.B.4** - The System enters the secure transaction state.
 
-## **How do you deal with the Data Availability Problem?**
+## **How do you deal with the Data Availability Problem / Speaker-Listener Dilemma?**
+
+### Game Theory Mechanics
+
+Both the Sequencers and Verifiers benefit from acting in the best interest of the network. The Sequencer would retain the fees that they would make from processing the transactions normally without withholding data. The Verifiers would benefit by not losing money by making needless data requests. Based on these mechanics, there is no direct guaranteed incentive by attacking the network.
 
 ### Griefing
 
 Griefing is the process of needlessly requesting data to be on-chain. It is done as a malicious action towards the Verifier or the Sequencer, where both parties lose monetary value.
 
+#### If the Sequencer is griefing data requests to the Verifiers
+
+This occurs when the Sequencer does not submit data to Memolabs and the Peer Network transaction data does not match what was posted on Layer 1. Since data is not available and cannot be retrieved, the only way to do so would be to request the data directly from the Sequencer. If the Sequencer provides it, and it turns out to be valid, then no direct punishment can occur (For the full flow, see **11.B.1**).&#x20;
+
+**This is a serious attack vector and can affect network security** since the Sequencer can force all Verifiers to pay for transaction data to needlessly be brought on-chain. In the case when there are no Verifiers remaining because of attrition (fees), the Sequencer can submit a falsified MTSR and withdraw funds from the network after the 7-day withdrawal period. There are 2 flows to prevent this from happening:
+
+_The Rotation Flow_
+
+* The Sequencer checks if it is selected by Layer 1 for the current rotation;
+  * _If the Sequencer is the current selected Sequencer:_
+    * The Sequencer continues with the regular flow, in this case they download the transaction data from the Peer Network.
+  * _If the Sequencer is NOT the current selected Sequencer:_
+    * The Sequencer waits for the selection into the next slot on Layer 1.
+
+_The Governance Flow_
+
+* A proposal is submitted to the Governance Protocol to remove the Sequencer;
+* The affected Verifiers can get compensated by any lost transaction fees through the data requests made by the Sequencer;
+* If the Governance Protocol succeeds, the Sequencer gets removed from the Sequencer pool. The Sequencer will also lose a portion of their funds that are present in Layer 1 to pay for the affected data requests that the Verifiers made;
+* A Sequencer rotation is executed.
+
+Using a rotated Sequencer would enable network resilience, as the Sequencer has a limited amount of transactions that it can process per slot. Because of the automatic Sequencer rotation, the damage that a single Sequencer can produce is minimized per slot. In combination with the Protocol Governance, the malicious Sequencer can be manually removed from the Sequencer Pool to prevent further damage to the network.
+
 #### **I**f the Verifier is griefing data requests to the Sequencer
 
-This occurs when the data is present on Memolabs or the Peer Network transaction data matches what was posted on Layer 1, but the needless request is sent to the Sequencer for execution.
+This occurs when the data is present on Memolabs or the Peer Network transaction data matches what was posted on Layer 1, but the needless request is sent to the Sequencer for execution. This is significantly less serious than a griefing attack done by the Sequencer, as it only affects the efficiency of the network. **This griefing attack does NOT affect the security of the network** and the worst-case scenario is that there would no longer be any Sequencers on the network to process transactions, halting the network and freezing the funds until a new Sequencer is rotated. Since this only affects the efficiency of the platform, a governance flow is included to prevent this attack:
 
-* The Sequencer sends a proposal to the Governance Protocol to ban the Verifier and get compensated;
+* A proposal is submitted to the Governance Protocol to remove the Verifier;
 * The Sequencer can get compensated by any lost transaction fees through the data requests made by the Verifier.
 * The Verifier gets banned from making requests to the Sequencer. The Verifier will also lose any funds that are present in Layer 1. There is no rotation needed since other Verifiers work asynchronously.
 
-#### If the Sequencer is griefing data requests to the Verifiers
-
-This occurs when the Sequencer does not submit data to Memolabs and the Peer Network transaction data does not match what was posted on Layer 1.
-
-* The Verifier sends a proposal to the Governance Protocol to ban the Sequencer and get compensated;
-* The affected Verifiers can get compensated by any lost transaction fees through the data requests made by the Sequencer.
-* The Sequencer gets removed from the Sequencer pool. The Sequencer will also lose a portion of their funds that are present in Layer 1.&#x20;
-* A Sequencer Rotation is made.
-
 ### **What is the “Insecure transaction state of the system”?**
 
-It is a special state when the system stops in some sense, because the security of transactions after the problematic batch can not be guaranteed. The system enters insecure transaction state for data availability request time window until the next rotation. During this time window, if the Sequencer provides the valid data, the system will get out of an insecure transaction state.\
-For now, the duration of data availability request time window is 24 hours.
+It is a special state when the system stops in some sense, because the security of transactions after the problematic batch can not be guaranteed. The System will get out of the insecure transaction state after the data availability request time window (currently set at 24 hours) or until the Sequencer provides the valid data.
 
 ## **Special Scenarios FAQ** <a href="#_sghwxg6kz4gu" id="_sghwxg6kz4gu"></a>
 
@@ -142,6 +157,6 @@ When this happens, the Block Producer stops producing blocks to the Metis Smart 
 
 ## **Diagrams** <a href="#_riv4fxyvrlil" id="_riv4fxyvrlil"></a>
 
-<figure><img src="../.gitbook/assets/Metis Smart L2 Flowchart.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Metis Smart L2 Flowchart (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://lucid.app/lucidspark/8c0b52b0-71ae-4ac2-ab6e-17eeab0965c7/edit?viewport_loc=-1712%2C-1727%2C15112%2C7758%2C0_0&invitationId=inv_0fab1530-41c8-4878-b76c-3f9293512b7b" %}
