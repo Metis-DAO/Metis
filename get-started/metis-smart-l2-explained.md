@@ -14,9 +14,9 @@ There are 7 distinguished actors participating in the system (Governance Protoco
 
 ## Definitions
 
-**Merkle Tree Transaction Batch Root (MTTBR)** - The calculated list of transactions in a specified order.
+**Merkle Tree Transaction Batch Root (MTTBR)** - The calculated list of transactions in a specified order. Think of it as the individual variables on the left side of the equation (e.g. **1 + 2 + 3** = 6)
 
-**Merkle Tree State Root (MTSR)** - The calculated state hash of the transaction execution.
+**Merkle Tree State Root (MTSR)** - The calculated state hash of the transaction execution. Think of it as a the resulting value after executing the transactions in the order that they are specified (e.g. 1 + 2 + 3 = **6**)
 
 ## **Process** <a href="#_oamnefrlujtz" id="_oamnefrlujtz"></a>
 
@@ -73,7 +73,7 @@ Griefing is the process of needlessly requesting data to be on-chain. It is done
 
 This occurs when the Sequencer does not submit data to Memolabs and the Peer Network transaction data does not match what was posted on Layer 1. Since data is not available and cannot be retrieved, the only way to do so would be to request the data directly from the Sequencer. If the Sequencer provides it, and it turns out to be valid, then no direct punishment can occur (For the full flow, see **11.B.1**).&#x20;
 
-**This is a serious attack vector and can affect network security** since the Sequencer can force all Verifiers to pay for transaction data to needlessly be brought on-chain. In the case when there are no Verifiers remaining because of attrition (fees), the Sequencer can submit a falsified MTSR and withdraw funds from the network after the 7-day withdrawal period. There are 2 flows to prevent this from happening:
+**This is an attack vector and can affect network security** since the Sequencer can force all Verifiers to pay for transaction data to needlessly be brought on-chain. In the case when there are no Verifiers remaining because of attrition (fees), the Sequencer can submit a falsified MTSR and withdraw funds from the network after the 7-day withdrawal period. There are 2 flows to prevent this from happening:
 
 _The Rotation Flow_
 
