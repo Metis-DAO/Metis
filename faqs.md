@@ -10,7 +10,7 @@ Rollups attempt to get rid of the blockchain trilemma. On the topic of security,
 
 **What will the Metis tokens be used for?**
 
-METIS is a utility token. It will be used for the network gas fee.
+Metis is a utility token. It will be used for the network gas fee.
 
 
 
@@ -28,7 +28,7 @@ In short, the cost will vary depending on the number of transactions that are ro
 
 **What are the advantages of the project? Is there a buyback, borrowing, or burning system on the project?**
 
-The advantage of the METIS token is the utility of the token itself. It will be used as the base token for all transactions, just as the ETH token which is used in Ethereum.
+The advantage of the Metis token is the utility of the token itself. It will be used as the base token for all transactions, just as the ETH token which is used in Ethereum.
 
 
 
@@ -42,7 +42,7 @@ Please refer to this article for all the details.
 
 **Metis is deployed on the Ethereum Virtual Machine (EVM). So, doesn’t Metis need an ETH gas fee for sending transactions?**
 
-We do not run on the EVM, we use a fork of the Optimistic Virtual Machine called the Metis Virtual Machine that is compatible with the EVM and adds additional functionality. The Metis Platform uses the METIS token for all transactions, like Ethereum which is using ETH.
+We do not run on the EVM, we use a fork of the Optimistic Virtual Machine called the Metis Virtual Machine that is compatible with the EVM and adds additional functionality. The Metis Platform uses the Metis token for all transactions, like Ethereum which is using ETH.
 
 
 
@@ -74,7 +74,7 @@ Our IPFS-based data storage enables the storage of on-chain data very cheaply, w
 
 
 
-**SOLANA and ARBITRUM were shut down last week by overload TPS. How can METIS resolve the problem?**
+**SOLANA and ARBITRUM were shut down last week by overload TPS. How can Metis resolve the problem?**
 
 Our platform is built to maximize throughput and reduce transaction bottlenecks. We accomplish the objectives through the system of multiple Sequencers, Verifiers, Rangers, and multiple internal chains that work together to improve transaction flow and speed.
 
@@ -160,7 +160,7 @@ With Metis, we are the only L2 where direct NFTs can be minted at a few cents an
 
 ### Staking <a href="#_76fqq02c0a3b" id="_76fqq02c0a3b"></a>
 
-**Does my APY get locked based on how fast I throw all my coins to stake? Or does my apy keep going down daily as more people stake?**
+**Does my APY get locked based on how fast I throw all my coins to stake? Or does my APY keep going down daily as more people stake?**
 
 If nobody else stakes again we’ll have a stable APY, or if all tokens get staked too we’ll get a stable APY.
 
@@ -266,7 +266,7 @@ Rangers are a specific set of validators, they act as a paid auditor, which they
 
 Mining power is related to the community member you have in your DAC, and it has a maximum limit of 500.
 
-Your Staking Reward = (The numbers of $METIS Tokens Staked x Mining Power / Mining Power Weighted amount of all $METIS Tokens Staked) \* Mining Output.
+Your Staking Reward = (The numbers of $Metis Tokens Staked x Mining Power / Mining Power Weighted amount of all $Metis Tokens Staked) \* Mining Output.
 
 
 
@@ -312,7 +312,7 @@ One wallet can only create one DAC or join one DAC and you cannot do both. But t
 
 
 
-**Are rewards distributed evenly through the DAC or is the process based on how many metis tokens a member contributes?**
+**Are rewards distributed evenly through the DAC or is the process based on how many Metis tokens a member contributes?**
 
 APY is the total reward people can mine from the DAC mining pool. It will be split among every participant valued by its token amount staked and the mining power he has.
 
@@ -470,7 +470,7 @@ Creating a DAC or joining the DAC is the first step to do. You don’t need to d
 
 10 Metis Token to start, 2000 at the ultimate level.
 
-**We created our DAC on layer 2 and bridged metis tokens from the Ethereum mainnet to layer 2 during the launch of the public testnet. So, if we invite people to join the DAC to increase our mining power and stake $METIS tokens, what do we get from the reward pool? are the rewards Metis tokens or "new projects’ tokens"? What are the new projects’ tokens?**
+**We created our DAC on layer 2 and bridged Metis tokens from the Ethereum mainnet to layer 2 during the launch of the public testnet. So, if we invite people to join the DAC to increase our mining power and stake $METIS tokens, what do we get from the reward pool? are the rewards Metis tokens or "new projects’ tokens"? What are the new projects’ tokens?**
 
 Now it is the Metis Token that you can get as a reward. When we launch the mainnet, you will be able to mine new project tokens.
 
@@ -494,7 +494,7 @@ Members in a DAC can assume roles in a way like in an organization with differen
 
 **What are the responsibilities related to staking?**
 
-If we want to be in business operating a DAC, then we also stake 10+ tokens. For staking, you’ll need to have $METIS tokens in your ERC-20 smart wallets such as MetaMask, Trust Wallet, and dozens of others. There are lots of choices.
+If we want to be in business operating a DAC, then we also stake 10+ tokens. For staking, you’ll need to have $Metis tokens in your ERC-20 smart wallets such as MetaMask, Trust Wallet, and dozens of others. There are lots of choices.
 
 If you currently hold Metis tokens somewhere other than a smart wallet, you will need to transfer them. If you hold them on, say, Gate.io, you can simply withdraw your $METIS tokens from Gate directly to your smart wallet.
 
