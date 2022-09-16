@@ -192,7 +192,7 @@ Because Metis has been built on Ethereum, we are able to utilize the security an
 
 **Can you tell us the motivation and benefits for investors to hold Metis long term? Which plans do you have to help drive demand and scarcity for the token?**
 
-Metis is a utility token that helps us make transactions on the Metis network. So, you need Metis Tokens to be able to perform transactions and create smart contracts.
+Metis is a utility token that helps us make transactions on the Metis network. So, you need Metis tokens to be able to perform transactions and create smart contracts.
 
 
 
@@ -266,7 +266,7 @@ Rangers are a specific set of validators, they act as a paid auditor, which they
 
 Mining power is related to the community member you have in your DAC, and it has a maximum limit of 500.
 
-Your Staking Reward = (The numbers of $Metis Tokens Staked x Mining Power / Mining Power Weighted amount of all $Metis Tokens Staked) \* Mining Output.
+Your Staking Reward = (The numbers of $Metis tokens Staked x Mining Power / Mining Power Weighted amount of all $Metis tokens Staked) \* Mining Output.
 
 
 
@@ -466,9 +466,9 @@ Creating a DAC or joining the DAC is the first step to do. You don’t need to d
 
 
 
-**What is the amount of Metis Tokens I need for Adding a DAC?**
+**What is the amount of Metis tokens I need for Adding a DAC?**
 
-10 Metis Tokens to start, 2000 at the ultimate level.
+10 Metis tokens to start, 2000 at the ultimate level.
 
 **We created our DAC on layer 2 and bridged Metis tokens from the Ethereum mainnet to layer 2 during the launch of the public testnet. So, if we invite people to join the DAC to increase our mining power and stake $Metis tokens, what do we get from the reward pool? are the rewards Metis tokens or "new projects’ tokens"? What are the new projects’ tokens?**
 
