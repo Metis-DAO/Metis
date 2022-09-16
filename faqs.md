@@ -468,7 +468,7 @@ Creating a DAC or joining the DAC is the first step to do. You don’t need to d
 
 **What is the amount of Metis Tokens I need for Adding a DAC?**
 
-10 Metis Tokena to start, 2000 at the ultimate level.
+10 Metis Token to start, 2000 at the ultimate level.
 
 **We created our DAC on layer 2 and bridged metis tokens from the Ethereum mainnet to layer 2 during the launch of the public testnet. So, if we invite people to join the DAC to increase our mining power and stake $METIS tokens, what do we get from the reward pool? are the rewards Metis tokens or "new projects’ tokens"? What are the new projects’ tokens?**
 
