@@ -82,7 +82,7 @@ Our platform is built to maximize throughput and reduce transaction bottlenecks.
 
 **How much TPS Metis can support?**
 
-Our platform is still undergoing the development process and we are working tirelessly on improving our tech to allow for greater scalability and speed. At the present, our network is able to handle 2,000 tps/sec.
+Our platform is still undergoing the development process and we are working tirelessly on improving our tech to allow for greater scalability and speed. At the present, our network is able to handle 2,000 TPS/sec.
 
 
 
