@@ -218,7 +218,7 @@ If you hope to launch a project on Metis Layer 2, just using the infrastructure,
 
 
 
-**Would you explain the benefits of staking on Metisdao and the Metis token's use cases? What kind of revenue does MetisDAO generate to keep the project running, and what are your intentions for attracting more investors in the future?**
+**Would you explain the benefits of staking on MetisDAO and the Metis token's use cases? What kind of revenue does MetisDAO generate to keep the project running, and what are your intentions for attracting more investors in the future?**
 
 Metis token is the utility token, it will be used as:
 
