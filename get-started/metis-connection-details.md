@@ -4,7 +4,7 @@
 NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.** It is a built-in feature, so there is no need to create a wrapped Metis token.
 {% endhint %}
 
-### Andromeda Mainnet
+### Mainnet-Andromeda
 
 | Parameter                    | Value                                                                            |
 | ---------------------------- | -------------------------------------------------------------------------------- |
@@ -16,9 +16,9 @@ NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.
 | WebSocket RPC ENDPOINT       | wss://andromeda-ws.metis.io                                                      |
 | Block Explorer               | [https://andromeda-explorer.metis.io/](https://andromeda-explorer.metis.io/)     |
 | L1 Metis Token Address       | 0x9e32b13ce7f2e80a01932b42553652e053d6ed8e                                       |
-| L1 Chain ID                  | 1 (Ethereum)                                                                     |
+| L1 Chain ID                  | 1                                                                                |
 
-### Goerli Testnet
+### Testnet-Goerli
 
 | Parameter                    | Value                                      |
 | ---------------------------- | ------------------------------------------ |
@@ -32,7 +32,7 @@ NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.
 | L1 Chain ID                  | 5                                          |
 | Faucet                       | TODO                                       |
 
-### Rinkeby Testnet(Deprecated)
+### Testnet-Rinkeby(WILL BE DEPRECATED SOON)
 
 | Parameter                    | Value                                                                        |
 | ---------------------------- | ---------------------------------------------------------------------------- |
