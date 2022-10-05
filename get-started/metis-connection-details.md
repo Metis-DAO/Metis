@@ -20,17 +20,17 @@ NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.
 
 ### Testnet-Goerli
 
-| Parameter                    | Value                                      |
-| ---------------------------- | ------------------------------------------ |
-| Currency                     | tMetis                                     |
-| Chain ID                     | 599                                        |
-| L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 |
-| HTTP RPC Endpoint            | https://goerli.gateway.metisdevops.link    |
-| WebSocket Endpoint           | wss://goerli-ws.gateway.metisdevops.link   |
-| Block Explorer               | https://goerli.explorer.metisdevops.link   |
-| L1 Metis Token Address       | 0x114f836434a9aa9ca584491e7965b16565bf5d7b |
-| L1 Chain ID                  | 5                                          |
-| Faucet                       | TODO                                       |
+| Parameter                    | Value                                                                              |
+| ---------------------------- | ---------------------------------------------------------------------------------- |
+| Currency                     | tMetis                                                                             |
+| Chain ID                     | 599                                                                                |
+| L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000                                         |
+| HTTP RPC Endpoint            | https://goerli.gateway.metisdevops.link                                            |
+| WebSocket Endpoint           | wss://goerli-ws.gateway.metisdevops.link                                           |
+| Block Explorer               | https://goerli.explorer.metisdevops.link                                           |
+| L1 Metis Token Address       | 0x114f836434a9aa9ca584491e7965b16565bf5d7b                                         |
+| L1 Chain ID                  | 5                                                                                  |
+| Faucet                       | [https://goerli.faucet.metisdevops.link/](https://goerli.faucet.metisdevops.link/) |
 
 ### Testnet-Rinkeby(WILL BE DEPRECATED SOON)
 
