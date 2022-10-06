@@ -32,7 +32,7 @@ NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.
 | L1 Chain ID                  | 5                                                                                  |
 | Faucet                       | [https://goerli.faucet.metisdevops.link/](https://goerli.faucet.metisdevops.link/) |
 
-### Testnet-Rinkeby(WILL BE DEPRECATED SOON)
+### Testnet-Rinkeby(DEPRECATED)
 
 | Parameter                    | Value                                                                        |
 | ---------------------------- | ---------------------------------------------------------------------------- |
