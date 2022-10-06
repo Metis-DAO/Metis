@@ -1,6 +1,8 @@
 # Getting Test Tokens
 
-Navigate to [https://goerli.faucet.metisdevops.link/](https://goerli.faucet.metisdevops.link/)
+Navigate to [https://goerli.faucet.metisdevops.link/](https://goerli.faucet.metisdevops.link/) for Goerli
+
+Navigate to [https://faucet.metissafe.tech/](https://faucet.metissafe.tech/) for Stardust
 
 ![](<../.gitbook/assets/image (68).png>)
 
