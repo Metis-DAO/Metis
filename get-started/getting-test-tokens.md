@@ -1,6 +1,6 @@
 # Getting Test Tokens
 
-Navigate to [https://faucet.metissafe.tech](https://faucet.metissafe.tech)
+Navigate to [https://goerli.faucet.metisdevops.link/](https://goerli.faucet.metisdevops.link/)
 
 ![](<../.gitbook/assets/image (68).png>)
 
