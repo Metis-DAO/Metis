@@ -29,9 +29,9 @@ Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Fol
 
 You can also set up the Metis Goerli Testnet using the parameters given in this [link](../get-started/metis-connection-details.md#testnet-goerli).
 
-### Getting Test Tokens and Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
+### Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
 
-After adding the Metis mainnet and testnet, you can [get Metis test tokens](../get-started/getting-test-tokens.md). To start a project on L2 Ethereum, you will need to transfer your Metis test tokens using the Metis Bridge method. It doesn’t take much time and you can perform the process in a few minutes.
+To start a project on L2 Ethereum, you will need to transfer your Metis test tokens using the Metis Bridge method. It doesn’t take much time and you can perform the process in a few minutes.
 
 Once you have enough Metis tokens in your account, you can use Metis Bridge to transfer them from L1 to L2.
 
