@@ -27,24 +27,11 @@ Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Fol
 
 ![](<../.gitbook/assets/1 (7)>)
 
-You can also set up the Metis testnet (Stardust) using the parameters given in [this link](../get-started/metis-connection-details.md).
-
-| Parameter                    | Value                                      |
-| ---------------------------- | ------------------------------------------ |
-| Currency                     | tMetis                                     |
-| Chain ID                     | 588 (Stardust)                             |
-| L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 |
-| HTTP RPC ENDPOINT            | https://stardust.metis.io/?owner=588       |
-| WEBSOCKET ENDPOINT           | wss://stardust-ws.metis.io/                |
-| Block Explorer               | https://stardust-explorer.metis.io/        |
-| L1 Metis Token Address       | 0x6e5791ad106fcadfba3115cdc21d1ad3471d2e13 |
-| L1 Chain ID                  | 4 (Rinkeby)                                |
-
-![](<../.gitbook/assets/2 (12) (1)>)
+You can also set up the Metis Goerli Testnet using the parameters given in this [link](../get-started/metis-connection-details.md#testnet-goerli).
 
 ### Getting Test Tokens and Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
 
-After adding the Metis mainnet and testnet, you can [get Metis test tokens](broken-reference). To start a project on L2 Ethereum, you will need to transfer your Metis test tokens using the Metis Bridge method. It doesn’t take much time and you can perform the process in a few minutes.
+After adding the Metis mainnet and testnet, you can [get Metis test tokens](../get-started/getting-test-tokens.md). To start a project on L2 Ethereum, you will need to transfer your Metis test tokens using the Metis Bridge method. It doesn’t take much time and you can perform the process in a few minutes.
 
 Once you have enough Metis tokens in your account, you can use Metis Bridge to transfer them from L1 to L2.
 
