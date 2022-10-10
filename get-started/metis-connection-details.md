@@ -44,4 +44,4 @@ NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.
 | Block Explorer               | [https://stardust-explorer.metis.io/](https://stardust-explorer.metis.io/)   |
 | L1 Metis Token Address       | 0x6e5791ad106fcadfba3115cdc21d1ad3471d2e13                                   |
 | L1 Chain ID                  | 4                                                                            |
-| Faucet                       | [https://rinkeby-faucet.metis.io/](https://rinkeby-faucet.metis.io/)         |
+| Faucet                       | [https://faucet.metissafe.tech/](https://faucet.metissafe.tech/)             |
