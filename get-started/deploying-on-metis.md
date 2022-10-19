@@ -8,7 +8,7 @@ Solidity is a free programming language you can use for deploying smart contract
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Goerli Testnet using the MetaMask networks section.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the [instructions](https://docs.metis.io/dev/get-started/getting-test-tokens) to get Metis test tokens and bridge them from L1 to the Metis Goerli Testnet.
 
@@ -73,7 +73,7 @@ If everything goes well, MetaMask shows you a success message. You can then veri
 Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.\
 
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 2: Configuring Hardhat to Get a Comprehensive Environment for Deploying Contracts <a href="#_ytwknjghhuz" id="_ytwknjghhuz"></a>
 
@@ -124,7 +124,7 @@ process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
 },
 ```
 
-![](<../.gitbook/assets/16 (2) (1)>)
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4 <a href="#_6bnnsb85cieo" id="_6bnnsb85cieo"></a>
 
@@ -132,9 +132,15 @@ You need to add your account private key to the .env file in your project. Follo
 
 * Open your MetaMask and click on account details. You will be able to export your account private key and copy it to use for deploying your smart contract.
 
-![](<../.gitbook/assets/17 (10) (1) (1)>)
+<div>
 
-![](<../.gitbook/assets/18 (10) (1) (1)>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ![](<../.gitbook/assets/19 (6) (1)>)
 
@@ -163,7 +169,7 @@ You can now deploy your smart contract using the following command.
 
 `$ npx hardhat run scripts/deploy.ts --network metis`
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (2).png>)
 
 #### Step 8 <a href="#_662vdat5z0oc" id="_662vdat5z0oc"></a>
 
@@ -175,6 +181,6 @@ You can explore your last transactions here and check that your last smart contr
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (22) (2).png>)
 
 Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.
