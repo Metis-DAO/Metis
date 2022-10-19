@@ -12,7 +12,7 @@ Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply s
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the [instructions](https://docs.metis.io/dev/get-started/getting-test-tokens) to get Metis test tokens and bridge them from L1 to the Metis Goerli Testnet.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### What is OpenZeppelin? <a href="#_imk2ztgyg14m" id="_imk2ztgyg14m"></a>
 
@@ -70,11 +70,10 @@ If everything goes well, MetaMask shows you a success message. You can then veri
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.
+Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.\
 
-![](<../.gitbook/assets/9 (4)>)
 
-![](<../.gitbook/assets/10 (5) (1)>)
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 2: Configuring Hardhat to Get a Comprehensive Environment for Deploying Contracts <a href="#_ytwknjghhuz" id="_ytwknjghhuz"></a>
 
@@ -119,7 +118,7 @@ First, you need to open the project folder using VSCode. Then edit the project c
 
 ```
 metis: {
-url: "https://stardust.metis.io/?owner=588",
+url: "https://goerli.gateway.metisdevops.link",
 accounts:
 process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
 },
