@@ -1,7 +1,7 @@
 # Metis Connection Details
 
 {% hint style="info" %}
-NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.** It is a built-in feature, so there is no need to create a wrapped Metis token.
+OTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.** It is a built-in feature, so there is no need to create a wrapped Metis token.
 {% endhint %}
 
 ### Mainnet-Andromeda
@@ -22,7 +22,7 @@ NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.
 
 | Parameter                    | Value                                                                              |
 | ---------------------------- | ---------------------------------------------------------------------------------- |
-| Currency                     | tMetis                                                                             |
+| Currenc                      | tMetis                                                                             |
 | Chain ID                     | 599                                                                                |
 | L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000                                         |
 | HTTP RPC Endpoint            | https://goerli.gateway.metisdevops.link                                            |
@@ -31,17 +31,3 @@ NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.
 | L1 Metis Token Address       | 0x114f836434a9aa9ca584491e7965b16565bf5d7b                                         |
 | L1 Chain ID                  | 5                                                                                  |
 | Faucet                       | [https://goerli.faucet.metisdevops.link/](https://goerli.faucet.metisdevops.link/) |
-
-### Testnet-Rinkeby(DEPRECATED)
-
-| Parameter                    | Value                                                                        |
-| ---------------------------- | ---------------------------------------------------------------------------- |
-| Currency                     | tMetis                                                                       |
-| Chain ID                     | 588                                                                          |
-| L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000                                   |
-| HTTP RPC Endpoint            | [https://stardust.metis.io/?owner=588](https://stardust.metis.io/?owner=588) |
-| WebSocket Endpoint           | wss://stardust-ws.metis.io/                                                  |
-| Block Explorer               | [https://stardust-explorer.metis.io/](https://stardust-explorer.metis.io/)   |
-| L1 Metis Token Address       | 0x6e5791ad106fcadfba3115cdc21d1ad3471d2e13                                   |
-| L1 Chain ID                  | 4                                                                            |
-| Faucet                       | [https://faucet.metissafe.tech/](https://faucet.metissafe.tech/)             |
