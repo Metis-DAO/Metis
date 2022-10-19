@@ -6,13 +6,13 @@ Solidity is a free programming language you can use for deploying smart contract
 
 * __[_Configuring MetaMask and getting started with your account_](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)__
 
-Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Stardust Testnet using the MetaMask networks section.
+Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Goerli Testnet using the MetaMask networks section.
 
-![](<../.gitbook/assets/0 (9)>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the instructions to get Metis test tokens and bridge them from L1 to the Metis Stardust Testnet.
+You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the [instructions](https://docs.metis.io/dev/get-started/getting-test-tokens) to get Metis test tokens and bridge them from L1 to the Metis Goerli Testnet.
 
-![](<../.gitbook/assets/1 (5) (1)>)
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### What is OpenZeppelin? <a href="#_imk2ztgyg14m" id="_imk2ztgyg14m"></a>
 
@@ -50,27 +50,25 @@ Working with the Remix IDE is really simple. You can do the compilation process 
 
 We will deploy our smart contract on a testnet using a MetaMask account. So, make sure your MetaMask account is configured and ready to use.
 
-First, select the environment you want to deploy your smart contract. Choose the “Injected Web3” option from the environment menu. A pop-up window will appear, and you will be able to connect the Remix IDE to your desired MetaMask account.
+First, select the environment you want to deploy your smart contract. Choose the “Injected Provider” option from the environment menu. A pop-up window will appear, and you will be able to connect the Remix IDE to your desired MetaMask account.
 
-![](<../.gitbook/assets/5 (1) (1)>)
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Once you have connected to Remix IDE, you can see that your account address has been successfully added to the Remix IDE.
 
-![](<../.gitbook/assets/6 (12) (1)>)
-
 #### Step 5 <a href="#_3bpnlw326dw7" id="_3bpnlw326dw7"></a>
 
-After doing all the settings, you can click on the “Deploy” button. Be careful your MetaMask network must be switched to the Metis Stardust Testnet, and you must have enough Metis tokens in your account.
+After doing all the settings, you can click on the “Deploy” button. Be careful your MetaMask network must be switched to the Metis Goerli Testnet, and you must have enough Metis tokens in your account.
 
 Click on the “Deploy” button, and you will see a MetaMask pop-up window. Confirm the deployment process to finish everything.
 
 #### Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
 
-![](<../.gitbook/assets/7 (8) (1) (1)>)
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
 
-![](<../.gitbook/assets/8 (9)>)
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.
 

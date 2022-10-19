@@ -22,7 +22,7 @@ OTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.*
 
 | Parameter                    | Value                                                                              |
 | ---------------------------- | ---------------------------------------------------------------------------------- |
-| Currenc                      | tMetis                                                                             |
+| Currency                     | tMetis                                                                             |
 | Chain ID                     | 599                                                                                |
 | L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000                                         |
 | HTTP RPC Endpoint            | https://goerli.gateway.metisdevops.link                                            |
