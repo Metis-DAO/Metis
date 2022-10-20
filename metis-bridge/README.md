@@ -4,7 +4,7 @@
 
 Metis Bridge allows you to transfer Ethereum tokens from layer 1 blockchain to layer 2. You can make use of this feature to bridge Ethereum tokens to the Metis Andromeda network that extends the capabilities of regular testnets and development platforms.
 
-You can use Metis Bridge to transfer tokens between testnets or mainnets. You need to set up your MetaMask account and connect to the Metis mainnet (Andromeda) and Metis testnet (Stardust).
+You can use Metis Bridge to transfer tokens between testnets or mainnets. You need to set up your MetaMask account and connect to the Metis mainnet (Andromeda) and Metis testnet (Goerli).
 
 ### Adding the Metis Testnet and Mainnet <a href="#_91qdkyrnmc0i" id="_91qdkyrnmc0i"></a>
 
@@ -12,20 +12,21 @@ After setting up your MetaMask account, you can use Metis Bridge to bridge token
 
 Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in [this link](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md) to add it to your account or simply follow the next steps.
 
-| Parameter                    | Value                                      |
-| ---------------------------- | ------------------------------------------ |
-| Currency                     | Metis                                      |
-| Chain ID                     | 1088 (Andromeda)                           |
-| L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 |
-| HTTP RPC ENDPOINT            | https://andromeda.metis.io/?owner=1088     |
-| WebSocket RPC ENDPOINT       | wss://andromeda-ws.metis.io                |
-| Block Explorer               | https://andromeda-explorer.metis.io/       |
-| L1 Metis Token Address       | 0x9e32b13ce7f2e80a01932b42553652e053d6ed8e |
-| L1 Chain ID                  | 1 (Ethereum)                               |
+| Network                      | Value                                      | Value                                      |
+| ---------------------------- | ------------------------------------------ | ------------------------------------------ |
+| Currency                     | Metis                                      | tMetis                                     |
+| Chain ID                     | 1088 (Andromeda)                           | 599 (Goerli)                               |
+| L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 |
+| HTTP RPC ENDPOINT            | https://andromeda.metis.io/?owner=1088     | https://goerli.gateway.metisdevops.link    |
+| WebSocket RPC ENDPOINT       | wss://andromeda-ws.metis.io                | wss://goerli-ws.gateway.metisdevops.link   |
+| Block Explorer               | https://andromeda-explorer.metis.io/       | https://goerli.explorer.metisdevops.link   |
+| L1 Metis Token Address       | 0x9e32b13ce7f2e80a01932b42553652e053d6ed8e | 0x114f836434a9aa9ca584491e7965b16565bf5d7b |
+| L1 Chain ID                  | 1 (Ethereum)                               | 5                                          |
+| Faucet                       |                                            | https://goerli.faucet.metisdevops.link     |
 
-![](<../.gitbook/assets/0 (14)>)
+<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/1 (7)>)
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 You can also set up the Metis Goerli Testnet using the parameters given in this [link](../get-started/metis-connection-details.md#testnet-goerli).
 
@@ -35,9 +36,9 @@ To start a project on L2 Ethereum, you will need to transfer your Metis test tok
 
 Once you have enough Metis tokens in your account, you can use Metis Bridge to transfer them from L1 to L2.
 
-Here is the [Metis Bridge platform](https://bridge.metis.io/) that allows you to do the process. Click on the “connect account” button to connect your MetaMask to Metis Bridge. Then you can see that Metis Bridge allows you to transfer from a testnet like Rinkeby to Stardust.
+Here is the [Metis Bridge platform](https://bridge.metis.io/) that allows you to do the process. Click on the “connect account” button to connect your MetaMask to Metis Bridge. Then you can see that Metis Bridge allows you to transfer from a testnet like Rinkeby to Goerli.
 
-Note that you need enough Metis test tokens in your account to be able to transfer them from Rinkeby (Layer 1) to Metis Stardust (Layer 2). If you don’t have any Metis test tokens, head over to this [link ](../get-started/getting-test-tokens.md)and get some by following a few steps.
+Note that you need enough Metis test tokens in your account to be able to transfer them from Rinkeby (Layer 1) to Metis Goerli (Layer 2). If you don’t have any Metis test tokens, head over to this [link ](../get-started/getting-test-tokens.md)and get some by following a few steps.
 
 * Transferring from L1 to L2 may take 1 to 2 minutes to complete. But, if you want to transfer from L2 to L1, it may take 7 days. The process is long to prevent fraud issues.
 

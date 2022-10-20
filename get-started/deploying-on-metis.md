@@ -8,7 +8,7 @@ Solidity is a free programming language you can use for deploying smart contract
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Goerli Testnet using the MetaMask networks section.
 
-<figure><img src="../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the [instructions](https://docs.metis.io/dev/get-started/getting-test-tokens) to get Metis test tokens and bridge them from L1 to the Metis Goerli Testnet.
 
@@ -64,7 +64,7 @@ Click on the “Deploy” button, and you will see a MetaMask pop-up window. Con
 
 #### Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
 
-<figure><img src="../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
 
