@@ -25,7 +25,7 @@ const config: HardhatUserConfig = {
 
 It should look like this, and you need to save the changes to compile, deploy, and verify your smart contract on the Goerli testnet. Make sure that you have updated your private key in the .env file.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 In order to verify your contract, first, check that your smart contract is ready to verify. Follow the steps below to see that your smart contract is ready and it needs a verification process.
 
@@ -41,15 +41,15 @@ You can see the history of your transactions and smart contract deployment at th
 
 Click on the last contract to see the details.
 
-<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 In the new window, click on the contract address to explore the code and its verification status.
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 You can click on the “Code” button and see that the last smart contract is not verified. So, we are going to take some steps to verify it and change the status to verified.
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Here you have 2 options for completing the process. You can use the Goerli explorer website to easily verify the smart contract that we are going to explain in the next sections. The second option is to use the hardhat-etherscan plugin.
 
@@ -99,7 +99,7 @@ Copy the contract address from the Goerli explorer and use it in the code below.
 $ npx hardhat --network goerli verify --contract contracts/Greeter.sol:Greeter 0xf49e7dB67528Bb857BEb67d881274c39d418e0Bd 'Hello, Hardhat!'
 ```
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../.gitbook/assets/11 (2) (1)>)
 
@@ -107,7 +107,7 @@ $ npx hardhat --network goerli verify --contract contracts/Greeter.sol:Greeter 0
 
 Here you can see the results after a successful verification process.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 2: Using the Goerli Explorer <a href="#_c9gw8b2b62bn" id="_c9gw8b2b62bn"></a>
 
@@ -134,39 +134,39 @@ contract MyToken is ERC20, ERC20Burnable, Ownable {
 
 Let’s create a smart contract and deploy it on the Metis platform.
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2 <a href="#_mk5top3xdczv" id="_mk5top3xdczv"></a>
 
 Click on the “Deploy” button to connect your MetaMask account and deploy the smart contract.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3 <a href="#_eo39r9aykwe6" id="_eo39r9aykwe6"></a>
 
 Open Goerli explorer in MetaMask to see if the smart contract is deployed or not. Click on the contract to see the details.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4 <a href="#_x7bj14n9bidh" id="_x7bj14n9bidh"></a>
 
 You can see that the smart contract is not verified, and we need to take a few steps to verify it. Click on the “Verify & publish” button.
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 We want to verify the contract with flattened source code!
 
 But, there are two more options if you want to try another method. Select the first option and click the next button.
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5 <a href="#_toipv3tql8or" id="_toipv3tql8or"></a>
 
 In this step, we need to complete some fields to verify the contract. But here, we must install the flattener plugin on the Remix IDE and get the flattened source code for the smart contract. Follow the screenshots below to install the flattener plugin.
 
-<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 Choose the flattener plugin and click on the “flatten” button, and then save it to use for verifying the contract.
 
@@ -180,10 +180,10 @@ After completing the fields, you can click on the “Verify & publish” button.
 
 Once completed, a new window appears, and you can see that your smart contract is now verified.
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 You can scroll down and check the source code, contract ABI, etc.
 
-<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.

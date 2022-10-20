@@ -138,7 +138,7 @@ You need to add your account private key to the .env file in your project. Follo
 
  
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (69) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -177,7 +177,7 @@ Let’s check the results on the Metis platform. Click on the “View account ex
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
