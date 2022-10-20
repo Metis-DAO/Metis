@@ -4,7 +4,7 @@ The Metis protocol consists of several contracts that are deployed on some speci
 
 
 
-| Network                                            | Andromeda (Mainnet)                                                                                                   | Goerli (Testnet)                           |
+| Network                                            | **Andromeda (Mainnet)**                                                                                               | **Goerli (Testnet)**                       |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | Chain ID                                           | 1                                                                                                                     | 5                                          |
 | Contract                                           | Address                                                                                                               | Address                                    |
