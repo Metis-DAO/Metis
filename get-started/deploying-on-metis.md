@@ -8,7 +8,7 @@ Solidity is a free programming language you can use for deploying smart contract
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Goerli Testnet using the MetaMask networks section.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
 
 You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the [instructions](https://docs.metis.io/dev/get-started/getting-test-tokens) to get Metis test tokens and bridge them from L1 to the Metis Goerli Testnet.
 
@@ -52,7 +52,7 @@ We will deploy our smart contract on a testnet using a MetaMask account. So, mak
 
 First, select the environment you want to deploy your smart contract. Choose the “Injected Provider” option from the environment menu. A pop-up window will appear, and you will be able to connect the Remix IDE to your desired MetaMask account.
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once you have connected to Remix IDE, you can see that your account address has been successfully added to the Remix IDE.
 
@@ -64,7 +64,7 @@ Click on the “Deploy” button, and you will see a MetaMask pop-up window. Con
 
 #### Step 6 <a href="#_pbslhwfq4ja4" id="_pbslhwfq4ja4"></a>
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
 
@@ -73,7 +73,7 @@ If everything goes well, MetaMask shows you a success message. You can then veri
 Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.\
 
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 2: Configuring Hardhat to Get a Comprehensive Environment for Deploying Contracts <a href="#_ytwknjghhuz" id="_ytwknjghhuz"></a>
 
@@ -124,7 +124,7 @@ process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
 },
 ```
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4 <a href="#_6bnnsb85cieo" id="_6bnnsb85cieo"></a>
 
@@ -177,7 +177,7 @@ Let’s check the results on the Metis platform. Click on the “View account ex
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
