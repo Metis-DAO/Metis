@@ -2,9 +2,9 @@
 
 ### Why Use the Metis NFT Bridge? <a href="#_aidba0h9lz5v" id="_aidba0h9lz5v"></a>
 
-An NFT bridge is a helping hand used to connect different networks throughout the blockchain ecosystem. Most of the time, you need to send NFTs from one test network to another on the Ethereum platform. NFT bridging is a helpful solution when you want to send an Ethereum test token from Rinkeby (testnet) to another test network (Stardust).
+An NFT bridge is a helping hand used to connect different networks throughout the blockchain ecosystem. Most of the time, you need to send NFTs from one test network to another on the Ethereum platform. NFT bridging is a helpful solution when you want to send an Ethereum test token from Rinkeby (testnet) to another test network (Goerli).
 
-Note that every network (Rinkeby, Stardust, Kovan, etc) has its own protocols. So, an NFT bridge solution must meet their requirements to establish a trustworthy connection between them.
+Note that every network (Rinkeby, Goerli, Kovan, etc) has its own protocols. So, an NFT bridge solution must meet their requirements to establish a trustworthy connection between them.
 
 We need NFT bridging in order to reach the following benefits:
 
@@ -32,7 +32,7 @@ Blockchain networks such as Ethereum or Bitcoin have their exclusive protocols. 
 
 Metis NFT Bridge offers a simple and quick method for wrapping and bridging NFTs between Ethereum networks. You can use Metis Bridge to send tokens from L1 to L2 and it provides you with several features, including low gas fees, speed of transactions, and safe operations.
 
-With the help of Metis Bridge, developers can wrap tokens and bridge between L1 Ethereum (mainnet) and L2 Andromeda (Metis mainnet). Also, there is an option to bridge between the Ethereum testnet (Rinkeby) and the Metis testnet (Stardust).
+With the help of Metis Bridge, developers can wrap tokens and bridge between L1 Ethereum (mainnet) and L2 Andromeda (Metis mainnet). Also, there is an option to bridge between the Ethereum testnet (Rinkeby) and the Metis testnet (Goerli).
 
 ### How to Wrap NFTs? <a href="#_cw7nquxep38c" id="_cw7nquxep38c"></a>
 
@@ -60,7 +60,7 @@ By clicking on the “Connect Wallet” option, a MetaMask window appears and yo
 
 After connecting your wallet to the Metis NFT Bridge, you can enter the NFT token address. Click on “I’m a developer, take me to deploy wrapped NFT” and enter your NFT address.
 
-We have created an NFT with the name of MyToken on the Stardust testnet. So, The Metis system will automatically process the details and then you need to confirm to proceed.
+We have created an NFT with the name of MyToken on the Goerli testnet. So, The Metis system will automatically process the details and then you need to confirm to proceed.
 
 ![](<../../.gitbook/assets/3 (11)>)
 
@@ -82,7 +82,7 @@ So, you have your wrapped NFT token address and you now need to click on the “
 
 #### Step 6 <a href="#_kkdity156atd" id="_kkdity156atd"></a>
 
-Users can submit a new issue and Metis will process your requests in a few days and provide you with the information when it's ready to bridge. Provide your wrapped NFT address copied from the previous step. Also, you need to get the contract address from the Stardust explorer and the transaction hash as well.
+Users can submit a new issue and Metis will process your requests in a few days and provide you with the information when it's ready to bridge. Provide your wrapped NFT address copied from the previous step. Also, you need to get the contract address from the Goerli explorer and the transaction hash as well.
 
 ![](<../../.gitbook/assets/8 (2)>)
 
@@ -100,7 +100,7 @@ Metis NFT Bridge platform calls the following functions for ERC721 and ERC1155 t
 The bridge addresses that you need to consider when granting the function permissions:
 
 * Andromeda: 0x5EA23Cb3D609F4522a21ADcC9Ca366e76C23c40f
-* Stardust: 0x5126F650ca04bc6cB0C47ea2654e997ae5670120
+* Goerli: 0xCF7257A86A5dBba34bAbcd2680f209eb9a05b2d2
 
 You can read more details about the ERC721 and ERC1155 token wrapping on the Metis Github.
 
