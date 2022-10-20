@@ -1,4 +1,4 @@
-# Verifying Deployed Contracts on Metis
+# Verifying Deployed Contracts
 
 ### Compile, Test, and Deploy Your Smart Contract <a href="#_vb5pw17j4e2y" id="_vb5pw17j4e2y"></a>
 
@@ -8,8 +8,8 @@ Open your project folder in VSCode, click on the `hardhat.config.ts` file and ad
 const config: HardhatUserConfig = {
     solidity: "0.8.4",
     networks: {
-        stardust: {
-            url: "https://stardust.metis.io/?owner=588",
+        goerli: {
+            url: "https://goerli.gateway.metisdevops.link",
             accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
         },
         andromeda: {
@@ -38,8 +38,6 @@ Use your MetaMask account to explore the latest account transactions.
 ![](<../.gitbook/assets/2 (5) (1)>)
 
 You can see the history of your transactions and smart contract deployment at the bottom of the page.
-
-![](<../.gitbook/assets/3 (12) (1)>)
 
 Click on the last contract to see the details.
 
