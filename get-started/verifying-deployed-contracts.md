@@ -45,7 +45,7 @@ Click on the last contract to see the details.
 
 In the new window, click on the contract address to explore the code and its verification status.
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 You can click on the “Code” button and see that the last smart contract is not verified. So, we are going to take some steps to verify it and change the status to verified.
 
@@ -148,13 +148,13 @@ Open Goerli explorer in MetaMask to see if the smart contract is deployed or not
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4 <a href="#_x7bj14n9bidh" id="_x7bj14n9bidh"></a>
 
 You can see that the smart contract is not verified, and we need to take a few steps to verify it. Click on the “Verify & publish” button.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 We want to verify the contract with flattened source code!
 
@@ -184,6 +184,6 @@ Once completed, a new window appears, and you can see that your smart contract i
 
 You can scroll down and check the source code, contract ABI, etc.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.
