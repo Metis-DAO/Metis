@@ -16,7 +16,7 @@ Metis is a utility token. It will be used for the network gas fee.
 
 **What is the Metis testnet? Where will it be used for?**
 
-The Metis testnet (Stardust) is a world-class Ethereum testnet for creating transactions and deploying smart contracts. You can use the Stardust testnet in order to perform the development and deployment process like in the mainnet (Andromeda).
+The Metis testnet (Goerli) is a world-class Ethereum testnet for creating transactions and deploying smart contracts. You can use the Goerli testnet in order to perform the development and deployment process like in the mainnet (Andromeda).
 
 
 

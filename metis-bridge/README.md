@@ -12,7 +12,7 @@ After setting up your MetaMask account, you can use Metis Bridge to bridge token
 
 Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in [this link](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md) to add it to your account or simply follow the next steps.
 
-| Network                      | Andromeda (Mainnet)                        | Goerli (Testnet)                           |
+| Network                      | **Andromeda (Mainnet)**                    | **Goerli (Testnet)**                       |
 | ---------------------------- | ------------------------------------------ | ------------------------------------------ |
 | Currency                     | Metis                                      | tMetis                                     |
 | Chain ID                     | 1088 (Andromeda)                           | 599 (Goerli)                               |
@@ -24,11 +24,11 @@ Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Fol
 | L1 Chain ID                  | 1 (Ethereum)                               | 5                                          |
 | Faucet                       |                                            | https://goerli.faucet.metisdevops.link     |
 
+### Metamask settings
+
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-You can also set up the Metis Goerli Testnet using the parameters given in this [link](../get-started/metis-connection-details.md#testnet-goerli).
 
 ### Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
 

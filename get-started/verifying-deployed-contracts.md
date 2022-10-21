@@ -41,7 +41,7 @@ You can see the history of your transactions and smart contract deployment at th
 
 Click on the last contract to see the details.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 In the new window, click on the contract address to explore the code and its verification status.
 
