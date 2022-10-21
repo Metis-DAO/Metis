@@ -26,7 +26,11 @@ Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Fol
 
 ### Metamask settings
 
+1. Open Metamask, click on network panel panel.
+
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+2\. Click on Add Network and fill in the following lines.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
