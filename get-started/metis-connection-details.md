@@ -1,7 +1,7 @@
 # Metis Connection Details
 
 {% hint style="info" %}
-OTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.** It is a built-in feature, so there is no need to create a wrapped Metis token.
+NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.** It is a built-in feature, so there is no need to create a wrapped Metis token.
 {% endhint %}
 
 | Network                      | **Andromeda (Mainnet)**                    | **Goerli (Testnet)**                       |
