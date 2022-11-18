@@ -146,12 +146,6 @@ We do not make NFTs directly, but you can build your own NFT platform on our net
 
 
 
-**Can NFT be used in staking & mining programs?**
-
-Yes, people who participated in the Tribe event have gained the NFT, and the NFT can be used in the upcoming staking event. NFT holders can have a slight increase in their mining power.
-
-
-
 **Minting, buying, and selling NFTs are extremely expensive in the Ethereum network. Will there be a solution on Metis for integrating NFTs into Layer 2?**
 
 With Metis, we are the only L2 where direct NFTs can be minted at a few cents and transferred to L1 in a few hours. Over and above, we offer on-chain native data storage with IPFS.
