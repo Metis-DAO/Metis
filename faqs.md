@@ -4,7 +4,15 @@
 
 **How will Metis provide strong security along with decentralization but also high scalability? In short, how are you planning to deal with the blockchain trilemma?**
 
-Rollups attempt to get rid of the blockchain trilemma. On the topic of security, scalability, and decentralization, the solution that Metis provides focuses on all 3 aspects. For decentralization, we want to make sure that anyone who has a stake in Metis can become a Ranger, that is, it is not restricted by a specific number of Rangers. For scalability, we utilize multiple sequencers, multiple rangers, multiple Metis virtual machines, and multiple chains in order to remove the potential bottlenecks that may occur within the system. That being said, there is the issue where the more members that participate in the system, raise the costs for the users that are using the system. Finally, the security. Our goal is to make the system economically viable for the sequencers, rangers, and other providers that will be participating in keeping the network secure. As a result, the condition may increase the transaction cost, but will be much less expensive than Layer 1 Ethereum. In short, we are focused on targeting all 3 problems in the Blockchain trilemma. For that, there will be a cost to users, but that cost will be small in comparison with the security, scalability, decentralization, and usability of Metis.
+Rollups attempt to get rid of the blockchain trilemma. On the topic of security, scalability, and decentralization, the solution that Metis provides focuses on all 3 aspects.&#x20;
+
+For decentralization, we want to make sure that anyone who has a stake in Metis can become a Verifier.&#x20;
+
+For scalability, we utilize multiple sequencers, multiple verifiers, multiple Metis virtual machines, and multiple chains in order to remove the potential bottlenecks that may occur within the system. That being said, there is the issue where the more members that participate in the system, raise the costs for the users that are using the system.&#x20;
+
+Finally, the security. Our goal is to make the system economically viable for the sequencers, rangers, and other providers that will be participating in keeping the network secure. As a result, the condition may increase the transaction cost, but will be much less expensive than Layer 1 Ethereum.&#x20;
+
+In short, we are focused on targeting all 3 problems in the Blockchain trilemma. For that, there will be a cost to users, but that cost will be small in comparison with the security, scalability, decentralization, and usability of Metis.
 
 
 
@@ -143,12 +151,6 @@ The usefulness of Metis is that you are able to create your own NFT platform on 
 **Can you tell us about the NFT model that you are offering?**
 
 We do not make NFTs directly, but you can build your own NFT platform on our network. The way that NFTs will work can vary depending on the use case. But you will be able to deposit your NFTs on Metis and transfer them multiple times, and utilize the fast transaction time and cheap transaction fee.
-
-
-
-**Can NFT be used in staking & mining programs?**
-
-Yes, people who participated in the Tribe event have gained the NFT, and the NFT can be used in the upcoming staking event. NFT holders can have a slight increase in their mining power.
 
 
 
