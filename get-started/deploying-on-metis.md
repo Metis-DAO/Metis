@@ -181,6 +181,6 @@ You can explore your last transactions here and check that your last smart contr
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.

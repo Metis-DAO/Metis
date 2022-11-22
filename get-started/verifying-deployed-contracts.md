@@ -41,7 +41,7 @@ You can see the history of your transactions and smart contract deployment at th
 
 Click on the last contract to see the details.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 In the new window, click on the contract address to explore the code and its verification status.
 
@@ -148,7 +148,7 @@ Open Goerli explorer in MetaMask to see if the smart contract is deployed or not
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4 <a href="#_x7bj14n9bidh" id="_x7bj14n9bidh"></a>
 
