@@ -1,3 +1,7 @@
+---
+description: Discover the internal structure of Smart L2 in details
+---
+
 # Metis Smart L2 Explained
 
 ## **Actors**

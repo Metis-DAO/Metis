@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Get Started](README.md)
-  * [Metis Connection Details](get-started/metis-connection-details.md)
   * [Metis Smart L2 Explained](get-started/metis-smart-l2-explained.md)
+  * [Metis Connection Details](get-started/metis-connection-details.md)
   * [Getting Test Tokens](get-started/getting-test-tokens.md)
   * [Deploying on Metis](get-started/deploying-on-metis.md)
   * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md)
