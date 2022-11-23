@@ -6,6 +6,7 @@
   * [Getting Test Tokens](get-started/getting-test-tokens.md)
   * [Deploying on Metis](get-started/deploying-on-metis.md)
   * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md)
+  * [Testnet Transaction Tracking](get-started/testnet-transaction-tracking.md)
   * [Run A Verifier Node](https://github.com/ericlee42/metis-verifier-node)
 * [MetaMask Setting](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 * [The Graph](browse-the-metis-technology/what-is-the-metis-graph.md)
