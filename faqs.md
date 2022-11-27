@@ -2,6 +2,12 @@
 
 ### General <a href="#_jvops3qyghwr" id="_jvops3qyghwr"></a>
 
+**Where can I find the whitepaper?**
+
+You can find it [here](https://drive.google.com/file/d/1LS7CmKFt-FkfVXxSNu06hNgoZXxMzTC-/view).
+
+
+
 **How will Metis provide strong security along with decentralization but also high scalability? In short, how are you planning to deal with the blockchain trilemma?**
 
 Rollups attempt to get rid of the blockchain trilemma. On the topic of security, scalability, and decentralization, the solution that Metis provides focuses on all 3 aspects.&#x20;
