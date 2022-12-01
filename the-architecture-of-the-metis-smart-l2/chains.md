@@ -73,7 +73,7 @@ The Transaction Queue is append-only and the only allowed update operation is ap
 
 #### Appending to the Transaction Queue <a href="#_50bi7td5l969" id="_50bi7td5l969"></a>
 
-Any account may append to the Transaction Queue by calling the CTC’s `enqueue()` function.
+Only Proxy\_\_OVM\_L1CrossDomainMessenger address can append to the Transaction Queue by calling the CTC’s enqueue() function. Any account who want to enqueue may send a cross domain message by calling a L1 contract which checked by MVM\_DiscountOracle.isXDomainSenderAllowed.
 
 ```
 function enqueue(
@@ -91,7 +91,7 @@ Where the parameters are:
 
 ### Canonical Transaction Chain <a href="#_subnpt4i4hcw" id="_subnpt4i4hcw"></a>
 
-Canonical Transaction Chain is an essential part of verifying the L2 state. It is an append-only array of transactions that must be processed in-order to determine and verify the L2 state. Here, the transaction data is compressed into batches to reduce storage costs.
+Canonical Transaction Chain is an essential part of verifying the L2 state. It is an array of transactions that must be processed in-order to determine and verify the L2 state. The manager can add, delete and update the transactions data, update queue data when a fraud proof accepted in challege. Here, the transaction data is compressed into batches to reduce storage costs.
 
 Note that there are no blocks here and the CTC is just an ordered list of transactions.
 

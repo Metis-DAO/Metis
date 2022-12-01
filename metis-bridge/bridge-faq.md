@@ -12,6 +12,8 @@ You can use the Metis Bridge solution to transfer ERC-20 or ERC-721 Tokens betwe
 
 ETH is needed to bridge METIS from Ethereum L1 to Andromeda L2. Once Metis is on L2, transactions will be paid for in METIS.
 
+Bridging tokens and coins require paying fees and there is the defined minimal L2 Gas limit, which may make the defined by user Gas value increase.
+
 ## What are the other Bridges Present in the Metis Ecosystem
 
 Metis Bridge:[ https://bridge.metis.io](https://bridge.metis.io/) (Note, it costs 2 METIS to bridge back from Andromeda L2 to Ethereum L1 and currently takes up to 7 days).

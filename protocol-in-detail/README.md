@@ -85,10 +85,9 @@ The CSC gives reusable storage and provides its owner contract with read, write,
 
 This will provide gas efficiency gains and better functionality when it comes to performing transactions on L1.
 
-There are 3 different CSC types that will be deployed on L1, two of them are controlled by the CTC and one is controlled by the SCC:
+There are 2 different CSC types that will be deployed on L1, two of them are controlled by the CTC and one is controlled by the SCC:
 
 * CTC: Stores transaction batches
-* CTC: Stores queued transactions
 * SCC: Stores chain state batches
 
 ### Layer 1 Verification <a href="#_4vbtg0nj0qvz" id="_4vbtg0nj0qvz"></a>

@@ -1,4 +1,4 @@
-# Optimistic Ethereum Actors and Their Roles
+# Actors and Their Roles
 
 An optimistic Ethereum platform relies on a fraud-proof mechanism, and it consists of several sections to achieve a trusted level of the fraud-proof process. It is used to prove the legitimacy of the transactions which are being requested by users. Sequencers, proposers, and verifiers have critical roles in such a fraud-proof process in the blockchain network.
 
@@ -70,4 +70,4 @@ Users have accounts and they are known by their account addresses. Users may req
 * Users may post L2 transactions via the sequencer’s RPC endpoint. The transactions will be appended to the sequencer's batch of transactions.
 * Users may submit an L2 transaction via the Canonical Transaction Chain’s queue on L1. This process can be used to:
   * Circumvent censorship caused by a sequencer in the blockchain.
-  * Send a cross domain message from an L1 contract account.
+  * Send a cross domain message from an L1 contract account which checked by MVM\_DiscountOracle.isXDomainSenderAllowed.
