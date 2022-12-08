@@ -1,7 +1,7 @@
 # Metis Connection Details
 
 {% hint style="info" %}
-NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.** It is a built-in feature, so there is no need to create a wrapped Metis token.
+NOTICE: **Metis is a native token but also an ERC20 compatible token on Layer 2.** It is a built-in feature, so there is no need to create a wrapped Metis token, and the source code is [here](https://github.com/MetisProtocol/mvm/blob/develop/packages/contracts/contracts/MVM/MVM\_Coinbase.sol). Sushiswap team deployed a wMetis, it's the same with WETH9, the contract address is [0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481](https://andromeda-explorer.metis.io/address/0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481/contracts)
 {% endhint %}
 
 | Network                      | **Andromeda (Mainnet)**                    | **Goerli (Testnet)**                       |
