@@ -1,5 +1,7 @@
 # Metis Bridge
 
+For the list of 3rd party bridges, please check the [Bridge FAQ page](https://docs.metis.io/dev/metis-bridge/bridge-faq).
+
 ### Using A Unique Approach to Bridge Between L1 & L2
 
 Metis Bridge allows you to transfer Ethereum tokens from layer 1 blockchain to layer 2. You can make use of this feature to bridge Ethereum tokens to the Metis Andromeda network that extends the capabilities of regular testnets and development platforms.
