@@ -2,7 +2,7 @@
 
 ## Using the ThirdWeb framework <a href="#_jrhnn8um2jms" id="_jrhnn8um2jms"></a>
 
-ThirdWeb [provides](https://thirdweb.com/explore) a great great set of tools for web3 developers to explore smart contracts from world-class web3 protocols & engineers — all deployable with one click.
+ThirdWeb [provides](https://thirdweb.com/explore) a great set of tools for web3 developers to explore smart contracts from world-class web3 protocols & engineers — all deployable with one click.
 
 You can find a comprehensive guide on how to deploy a smart contract on Metis Blockchain [here](https://blog.thirdweb.com/guides/how-to-deploy-a-smart-contract-on-metis-blockchain/).
 
