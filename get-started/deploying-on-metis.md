@@ -1,5 +1,11 @@
 # Deploying on Metis
 
+## Using the ThirdWeb framework <a href="#_jrhnn8um2jms" id="_jrhnn8um2jms"></a>
+
+ThirdWeb [provides](https://thirdweb.com/explore) a great great set of tools for web3 developers to explore smart contracts from world-class web3 protocols & engineers — all deployable with one click.
+
+You can find a comprehensive guide on how to deploy a smart contract on Metis Blockchain [here](https://blog.thirdweb.com/guides/how-to-deploy-a-smart-contract-on-metis-blockchain/).
+
 ### Using Solidity Language and Remix IDE to Write, Compile, and Deploy Smart Contracts <a href="#_jrhnn8um2jms" id="_jrhnn8um2jms"></a>
 
 Solidity is a free programming language you can use for deploying smart contracts. The Remix IDE helps us easily deploy our projects in a web-based programming environment. Before using the Remix IDE, you need to take a few steps and configure your MetaMask account. The MetaMask wallet is used as a tool to provide an account address and see the results.
