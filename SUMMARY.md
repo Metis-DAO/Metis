@@ -8,7 +8,7 @@
   * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md)
   * [Testnet Transaction Tracking](get-started/testnet-transaction-tracking.md)
   * [Run A Verifier Node](https://github.com/ericlee42/metis-verifier-node)
-* [MetaMask Setting](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
+* [Wallet Setting](wallet-setting.md)
 * [Protocol in Detail](protocol-in-detail/README.md)
   * [The METIS (token) Gateway](protocol-in-detail/the-metis-token-gateway.md)
   * [Deployed Contract Addresses](protocol-in-detail/deployed-contract-addresses.md)

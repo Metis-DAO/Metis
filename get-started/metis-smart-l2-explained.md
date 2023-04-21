@@ -10,7 +10,7 @@ There are 7 distinguished actors participating in the system (Governance Protoco
 
 1. **User** - Sends the transactions.
 2. **Block Producer** - Responsible for correcting the blockchain, propagating the blocks through the Peer Network.
-3. **Memolabs** - Stores the transaction data **** off-chain.
+3. **Memolabs** - Stores the transaction data off-chain.
 4. **Sequencer** - Responsible for providing transaction data and the data batch to other entities from the Smart L2.
 5. **Verifier** - The counterpart of a Sequencer, mostly responsible to keep an eye on Sequencer to not provide false/invalid data;
 6. **Layer 1** - The set of smart contracts on Ethereum that handle the security of the system, solves the disputes between Sequencer and Verifier.
@@ -28,7 +28,7 @@ The entire structure of Metis Smart L2 is designed around several process loops 
 
 Here we describe the process of executing and securing transactions on Metis' Smart Layer 2. The desirable end is at section **11.A.3.A.1**
 
-* **1** - The User submits a transaction to the **** Block Producer.
+* **1** - The User submits a transaction to the Block Producer.
 * **2** - The Block Producer produces the blocks for the Smart L2;
   * **2.1** - The Block Producer propagates the blocks through the Peer Network[**\***](metis-smart-l2-explained.md#what-if-the-block-producer-unites-with-sequencer-to-stop-the-system):
 * **3** - The User gets confirmation of the transaction from the Smart L2.
@@ -142,7 +142,7 @@ When this happens, the Block Producer stops producing blocks to the Metis Smart 
 * _If the Sequencer submits a MTTBR and MTSR:_
   * **3.B.1** - The Verifier requests the Sequencer to post the transaction data on Layer 1 which may prove Sequencer’s malfunction. Both Sequencer and Block Producer may get kicked and rotated;
   * **3.B.2** - The System enters the insecure transaction state for the data availability request window or until the Sequencer posts valid transaction data on Layer 1;
-  * _If **** the Sequencer submits the valid transaction data within the data availability request time window:_
+  * _If_ _the Sequencer submits the valid transaction data within the data availability request time window:_
     * **3.B.2.A.1** - Layer 1 computes a batch from the newly posted transaction data that was submitted by the Sequencer;
     * **3.B.2.A.2** - Layer 1 compares the computed MTSR and the Sequencer submitted MTSR;
     * _If the computed MTSR = submitted MTSR:_

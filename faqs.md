@@ -56,7 +56,7 @@ Please refer to this article for all the details.
 
 {% embed url="https://hackernoon.com/when-cross-domain-collaboration-meets-optimistic-rollup-051d32rf" %}
 
-****
+
 
 **Metis is deployed on the Ethereum Virtual Machine (EVM). So, doesn’t Metis need an ETH gas fee for sending transactions?**
 

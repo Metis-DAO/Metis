@@ -1,5 +1,7 @@
 # Metis Bridge
 
+For the list of 3rd party bridges, please check the [Bridge FAQ page](https://docs.metis.io/dev/metis-bridge/bridge-faq).
+
 ### Using A Unique Approach to Bridge Between L1 & L2
 
 Metis Bridge allows you to transfer Ethereum tokens from layer 1 blockchain to layer 2. You can make use of this feature to bridge Ethereum tokens to the Metis Andromeda network that extends the capabilities of regular testnets and development platforms.
@@ -10,7 +12,7 @@ You can use Metis Bridge to transfer tokens between testnets or mainnets. You ne
 
 After setting up your MetaMask account, you can use Metis Bridge to bridge tokens between networks. MetaMask is a great tool for managing Ethereum transactions and having all information in one place. But, if you want to achieve a bunch of additional features, you can set up your Polis account. Polis is a unique web-based console like MetaMask that offers more capabilities than MetaMask.
 
-Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in [this link](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md) to add it to your account or simply follow the next steps.
+Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in [this link](../wallet-setting.md) to add it to your account or simply follow the next steps.
 
 | Network                      | **Andromeda (Mainnet)**                    | **Goerli (Testnet)**                       |
 | ---------------------------- | ------------------------------------------ | ------------------------------------------ |
@@ -32,7 +34,7 @@ Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Fol
 
 2\. Click on Add Network and fill in the following lines.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
 
