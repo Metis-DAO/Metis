@@ -2,7 +2,7 @@
 
 ### Using Cookbook.dev <a href="#cookbookdev" id="cookbookdev"></a>
 
-Cookbook is the easiest way for web3 developers to [find](https://www.cookbook.dev/search?q=&sort=popular&filter=&page=1) documented smart contracts, solidity libraries, and discover protocols. Deploy with a single click, or easily integrate with ChainIDE, Remix, Hardhat, Foundry or any other Solidity tool!
+Cookbook is the easiest way for web3 developers to [find](https://www.cookbook.dev/search?q=\&sort=popular\&filter=\&page=1) documented smart contracts, solidity libraries, and discover protocols. Deploy with a single click, or easily integrate with ChainIDE, Remix, Hardhat, Foundry or any other Solidity tool!
 
 ### Using the ThirdWeb framework <a href="#_jrhnn8um2jms" id="_jrhnn8um2jms"></a>
 
@@ -14,7 +14,7 @@ You can find a comprehensive guide on how to deploy a smart contract on Metis Bl
 
 Solidity is a free programming language you can use for deploying smart contracts. The Remix IDE helps us easily deploy our projects in a web-based programming environment. Before using the Remix IDE, you need to take a few steps and configure your MetaMask account. The MetaMask wallet is used as a tool to provide an account address and see the results.
 
-* [_Configuring MetaMask and getting started with your account_](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
+* [_Configuring MetaMask and getting started with your account_](../readme/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Goerli Testnet using the MetaMask networks section.
 
@@ -80,8 +80,7 @@ If everything goes well, MetaMask shows you a success message. You can then veri
 
 <figure><img src="../.gitbook/assets/image (44) (2).png" alt=""><figcaption></figcaption></figure>
 
-Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.\
-
+Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.\\
 
 <figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 

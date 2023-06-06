@@ -12,29 +12,21 @@ You can use Metis Bridge to transfer tokens between testnets or mainnets. You ne
 
 After setting up your MetaMask account, you can use Metis Bridge to bridge tokens between networks. MetaMask is a great tool for managing Ethereum transactions and having all information in one place. But, if you want to achieve a bunch of additional features, you can set up your Polis account. Polis is a unique web-based console like MetaMask that offers more capabilities than MetaMask.
 
-Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in [this link](../resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md) to add it to your account or simply follow the next steps.
-
-| Network                      | **Andromeda (Mainnet)**                    | **Goerli (Testnet)**                       |
-| ---------------------------- | ------------------------------------------ | ------------------------------------------ |
-| Currency                     | Metis                                      | tMetis                                     |
-| Chain ID                     | 1088 (Andromeda)                           | 599 (Goerli)                               |
-| L2 Metis ERC20-style Address | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 |
-| HTTP RPC ENDPOINT            | https://andromeda.metis.io/?owner=1088     | https://goerli.gateway.metisdevops.link    |
-| WebSocket RPC ENDPOINT       | wss://andromeda-ws.metis.io                | wss://goerli-ws.gateway.metisdevops.link   |
-| Block Explorer               | https://andromeda-explorer.metis.io/       | https://goerli.explorer.metisdevops.link   |
-| L1 Metis Token Address       | 0x9e32b13ce7f2e80a01932b42553652e053d6ed8e | 0x114f836434a9aa9ca584491e7965b16565bf5d7b |
-| L1 Chain ID                  | 1 (Ethereum)                               | 5                                          |
-| Faucet                       |                                            | https://goerli.faucet.metisdevops.link     |
+Make sure you have added Andromeda (Metis Mainnet) to your MetaMask account. Follow the instructions given in [this link](../readme/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md) to add it to your account or simply follow the next steps.
 
 ### Metamask settings
 
 1. Open Metamask, click on network panel panel.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<div align="center">
+
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 2\. Click on Add Network and fill in the following lines.
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Transferring ETH to Your Account <a href="#_i16jl1t6ezgn" id="_i16jl1t6ezgn"></a>
 
@@ -50,7 +42,7 @@ Note that you need enough Metis test tokens in your account to be able to transf
 
 ![](<../.gitbook/assets/3 (9) (1)>)
 
-![](<../.gitbook/assets/4 (7)>)
+![](<../.gitbook/assets/4 (7) (1)>)
 
 ### Metis Mainnet Andromeda <a href="#_1r37mz9ztkti" id="_1r37mz9ztkti"></a>
 
@@ -78,7 +70,7 @@ To sign in with your MetaMask account, click on “Connect with Metamask” and 
 
 ![](<../.gitbook/assets/9 (12) (1)>)
 
-![](<../.gitbook/assets/10 (2)>)
+![](<../.gitbook/assets/10 (2) (1)>)
 
 If you want a unique Ethereum address, Polis allows you to create a new account with your email address. Click on “Sign up using email and password” to get your free Polis account. Here is your dashboard after signing up, and you can now transfer tokens and use the Metis Bridge method to bridge between L1 and L2.
 
@@ -92,7 +84,7 @@ Create an account with your email address and sign in to connect to Metis Bridge
 
 Go to [this link](https://bridge.metis.io/home) and click on “Connect account”. Then select “connect by Polis”.
 
-![](<../.gitbook/assets/13 (3)>)
+![](<../.gitbook/assets/13 (3) (1)>)
 
 ![](<../.gitbook/assets/14 (4) (1)>)
 
@@ -108,6 +100,6 @@ By signing in to the Polis account and connecting to Metis Bridge, you will see 
 
 Switch to Ethereum mainnet using your Polis dashboard, and you can refresh Metis Bridge to see that the networks have been changed.
 
-![](<../.gitbook/assets/18 (1)>)
+![](<../.gitbook/assets/18 (1) (1)>)
 
 ![](<../.gitbook/assets/19 (10) (1)>)

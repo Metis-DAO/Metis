@@ -1,4 +1,4 @@
-# The Graph
+# The Subgraph
 
 The Graph is an open-source code developed to streamline the data storage and retrieval within the blockchain network. The Graph helps developers and blockchain organizations increase efficiency and speed on the subject of decentralized applications (Dapps).
 
@@ -51,7 +51,7 @@ $ yarn global add @graphprotocol/graph-cli
 $ npm install -g @graphprotocol/graph-cli
 ```
 
-![](<../.gitbook/assets/0 (2) (1) (1)>)
+![](<../.gitbook/assets/0 (5) (1)>)
 
 Please feel free to reach out to our [Help Center](https://metisdao.atlassian.net/servicedesk/customer/portals) if you have any technical questions.\
 \

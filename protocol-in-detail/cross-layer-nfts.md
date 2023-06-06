@@ -1,4 +1,4 @@
-# What Are Cross layer NFTs
+# Cross Layer NFTs
 
 ### What Are Cross-layer NFTs? <a href="#_4t9f1uo01vxl" id="_4t9f1uo01vxl"></a>
 
@@ -31,7 +31,7 @@ The solution is to design a way for the transfer of NFTs across layers. Also, us
 
 Here is a representation of the solution, helping you get the idea. Making use of this method, users can have their NFT contracts on both blockchain layers and withdraw/deposit at any time they want.
 
-![](<../../.gitbook/assets/0 (1)>)
+![](<../.gitbook/assets/0 (1)>)
 
 ### Initializing the NFT contract <a href="#_7jl4io2sjucn" id="_7jl4io2sjucn"></a>
 
@@ -84,15 +84,15 @@ The following sequence diagrams give you full insight into cross-platform NFTs a
 
 #### Provisioning <a href="#_et5xhwky07eq" id="_et5xhwky07eq"></a>
 
-![](<../../.gitbook/assets/1 (1)>)
+![](<../.gitbook/assets/1 (1)>)
 
 ### Layer 1 => Layer 2 <a href="#_42yg4sfauifw" id="_42yg4sfauifw"></a>
 
-![](../../.gitbook/assets/2)
+![](../.gitbook/assets/2)
 
 ### Layer 2 => Layer 1 <a href="#_jxdvm7fwhiwn" id="_jxdvm7fwhiwn"></a>
 
-![](<../../.gitbook/assets/3 (2)>)
+![](<../.gitbook/assets/3 (2) (2)>)
 
 ### Extensions <a href="#_2lsm4c7e9k9" id="_2lsm4c7e9k9"></a>
 

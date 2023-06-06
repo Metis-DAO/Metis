@@ -1,4 +1,4 @@
-# Metis NFT Bridge
+# NFT Bridge
 
 ### Why Use the Metis NFT Bridge? <a href="#_aidba0h9lz5v" id="_aidba0h9lz5v"></a>
 
@@ -46,15 +46,15 @@ The following steps can be applied for both L1 to L2 or L2 to L1.
 
 Enter the [official bridge website](https://nftbridge.metis.io/bridge) of Metis and you can see the different options available for bridging NFTs. Once you have entered the website, you can connect your wallet with MetaMask. Click on the “Connect Wallet” button to proceed. Note that you need to switch to Rinkeby testnet in your MetaMask account and there is a need for enough ETH to pay for gas fees. If you don’t have any, read the instructions to get enough ETH and METIS test tokens.
 
-#### ![](<../../.gitbook/assets/0 (2)>) <a href="#_9q6djuqocqej" id="_9q6djuqocqej"></a>
+#### ![](<../.gitbook/assets/0 (2)>) <a href="#_9q6djuqocqej" id="_9q6djuqocqej"></a>
 
 #### Step 2 <a href="#_vigujvx6rxw3" id="_vigujvx6rxw3"></a>
 
 By clicking on the “Connect Wallet” option, a MetaMask window appears and you can select your account to connect to the Metis Bridge platform.
 
-![](<../../.gitbook/assets/1 (1) (2)>)
+![](<../.gitbook/assets/1 (1) (2)>)
 
-![](<../../.gitbook/assets/2 (6)>)
+![](<../.gitbook/assets/2 (6)>)
 
 #### Step 3 <a href="#_na8l7z4mhkgx" id="_na8l7z4mhkgx"></a>
 
@@ -62,33 +62,33 @@ After connecting your wallet to the Metis NFT Bridge, you can enter the NFT toke
 
 We have created an NFT with the name of MyToken on the Goerli testnet. So, The Metis system will automatically process the details and then you need to confirm to proceed.
 
-![](<../../.gitbook/assets/3 (11)>)
+![](<../.gitbook/assets/3 (11)>)
 
-![](<../../.gitbook/assets/4 (17)>)
+![](<../.gitbook/assets/4 (17)>)
 
 #### Step 4 <a href="#_h8gy6pf6mp06" id="_h8gy6pf6mp06"></a>
 
 Let the platform interact with your MetaMask account and confirm the gas fee to continue the process.
 
-![](<../../.gitbook/assets/5 (1)>)
+![](<../.gitbook/assets/5 (1)>)
 
-![](<../../.gitbook/assets/6 (9)>)
+![](<../.gitbook/assets/6 (9) (1)>)
 
 #### Step 5 <a href="#_n9jhwncz8at7" id="_n9jhwncz8at7"></a>
 
 So, you have your wrapped NFT token address and you now need to click on the “Take me there” button. By clicking on the option, a new window will be shown that requires some information about your NFT token and its wrapped NFT address.
 
-![](<../../.gitbook/assets/7 (13)>)
+![](<../.gitbook/assets/7 (13)>)
 
 #### Step 6 <a href="#_kkdity156atd" id="_kkdity156atd"></a>
 
 Users can submit a new issue and Metis will process your requests in a few days and provide you with the information when it's ready to bridge. Provide your wrapped NFT address copied from the previous step. Also, you need to get the contract address from the Goerli explorer and the transaction hash as well.
 
-![](<../../.gitbook/assets/8 (2)>)
+![](<../.gitbook/assets/8 (2)>)
 
-![](../../.gitbook/assets/9)
+![](../.gitbook/assets/9)
 
-![](<../../.gitbook/assets/10 (8)>)
+![](<../.gitbook/assets/10 (8) (1)>)
 
 ### An Important Point <a href="#_h85t2nrkmb1f" id="_h85t2nrkmb1f"></a>
 
@@ -115,30 +115,30 @@ Users and developers can use the Metis NFT Bridge solution to transfer tokens fr
 
 Once your wrapped NFT token is approved, you can open the Metis NFT Bridge website and perform the process in a few seconds. Fill out the following form and you need to confirm the gas fee and allow the website to connect to your MetaMask account.
 
-![](<../../.gitbook/assets/11 (5)>)
+![](<../.gitbook/assets/11 (5) (2)>)
 
 #### Step 2 <a href="#_foftgqoi8y6p" id="_foftgqoi8y6p"></a>
 
 By clicking on the “Approve” button, you need to confirm the transfer and allow the website to connect to your MetaMask.
 
-![](<../../.gitbook/assets/12 (3)>)
+![](<../.gitbook/assets/12 (3)>)
 
-![](<../../.gitbook/assets/13 (14)>)
+![](<../.gitbook/assets/13 (14)>)
 
 #### Step 4 <a href="#_bi9j27qlg83d" id="_bi9j27qlg83d"></a>
 
 Note that the transfer from L2 to L1 blockchain takes about one week to be performed. You can click on “Confirm I will wait for 8 days” and the process starts to be confirmed.
 
-![](<../../.gitbook/assets/14 (11)>)
+![](<../.gitbook/assets/14 (11)>)
 
-![](<../../.gitbook/assets/15 (12)>)
+![](<../.gitbook/assets/15 (12)>)
 
 ### How to Check Transaction History? <a href="#_d7viwzo3imlo" id="_d7viwzo3imlo"></a>
 
 Searching the transaction history is a very simple job using Metis NFT Bridge. Open [the link](https://nftbridge.metis.io/bridge) and scroll down to see “View history”. You can click on it and check the transactions and full details in one place. You can also use the [Etherscan explorer](https://etherscan.io/) to see the latest transactions and history of an NFT token all on one platform.
 
-![](<../../.gitbook/assets/16 (3)>)
+![](<../.gitbook/assets/16 (3)>)
 
-![](<../../.gitbook/assets/17 (2)>)
+![](<../.gitbook/assets/17 (2) (1)>)
 
 ### &#x20;<a href="#_hflu41th36ar" id="_hflu41th36ar"></a>

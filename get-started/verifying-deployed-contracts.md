@@ -35,7 +35,7 @@ Compile and deploy your smart contract on the Metis platform.
 
 Use your MetaMask account to explore the latest account transactions.
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 You can see the history of your transactions and smart contract deployment at the bottom of the page.
 
@@ -73,7 +73,7 @@ First, make sure that the hardhat-etherscan plugin is version 3.0.3. If not, use
 $ yarn add -D @nomiclabs/hardhat-etherscan@3.0.3
 ```
 
-![](<../.gitbook/assets/7 (3)>)
+![](<../.gitbook/assets/7 (3) (1)>)
 
 #### Step 2 <a href="#_2450fsslvqog" id="_2450fsslvqog"></a>
 
@@ -148,7 +148,7 @@ Open Goerli explorer in MetaMask to see if the smart contract is deployed or not
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4 <a href="#_x7bj14n9bidh" id="_x7bj14n9bidh"></a>
 
@@ -166,7 +166,7 @@ But, there are two more options if you want to try another method. Select the fi
 
 In this step, we need to complete some fields to verify the contract. But here, we must install the flattener plugin on the Remix IDE and get the flattened source code for the smart contract. Follow the screenshots below to install the flattener plugin.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 Choose the flattener plugin and click on the “flatten” button, and then save it to use for verifying the contract.
 

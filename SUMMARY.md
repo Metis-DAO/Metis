@@ -1,37 +1,49 @@
 # Table of contents
 
-* [Get Started](README.md)
-  * [Metis Smart L2 Explained](get-started/metis-smart-l2-explained.md)
-  * [Metis Connection Details](get-started/metis-connection-details.md)
-  * [Getting Test Tokens](get-started/getting-test-tokens.md)
+* [Building On Metis L2](README.md)
+  * [Connection Details](readme/connection-details.md)
+  * [Faucet - Get Test Tokens](get-started/getting-test-tokens.md)
+  * [Wallet Setting](readme/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
   * [Deploying on Metis](get-started/deploying-on-metis.md)
+  * [Deployed Contract Addresses](readme/deployed-contract-addresses.md)
   * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md)
-  * [Testnet Transaction Tracking](get-started/testnet-transaction-tracking.md)
+  * [Client Integration](readme/client-integration.md)
   * [Run A Verifier Node](https://github.com/ericlee42/metis-verifier-node)
-* [Wallet Setting](resources/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 * [Protocol in Detail](protocol-in-detail/README.md)
-  * [The METIS (token) Gateway](protocol-in-detail/the-metis-token-gateway.md)
-  * [Deployed Contract Addresses](protocol-in-detail/deployed-contract-addresses.md)
-  * [Transaction Fees on the Metis Platform](protocol-in-detail/transaction-fees-on-the-metis-platform.md)
-  * [How to Get Started With the Client Integration](protocol-in-detail/how-to-get-started-with-the-client-integration.md)
-* [The Architecture of the Metis Smart L2](the-architecture-of-the-metis-smart-l2/README.md)
-  * [Chains](the-architecture-of-the-metis-smart-l2/chains.md)
-  * [Sequencers](the-architecture-of-the-metis-smart-l2/sequencers.md)
-  * [What Are Cross Layer NFTs](the-architecture-of-the-metis-smart-l2/what-are-cross-layer-nfts.md)
-  * [Actors and Their Roles](the-architecture-of-the-metis-smart-l2/actors-and-their-roles.md)
-  * [Synchronization Specifications](the-architecture-of-the-metis-smart-l2/synchronization-specifications.md)
-  * [Cross Domain Messaging](the-architecture-of-the-metis-smart-l2/cross-domain-messaging.md)
-  * [Protocol FAQ](the-architecture-of-the-metis-smart-l2/protocol-faq.md)
-* [Metis Bridge](metis-bridge/README.md)
-  * [Bridge FAQ](metis-bridge/bridge-faq.md)
-* [Metis NFT Bridge](browse-the-metis-technology/metis-nft-bridge/why-use-the-metis-nft-bridge.md)
-* [The Graph](browse-the-metis-technology/what-is-the-metis-graph.md)
-* [Oracles](oracles/README.md)
+  * [Protocol FAQ](protocol-in-detail/protocol-faq.md)
+  * [Metis L2 Explained](protocol-in-detail/metis-l2-explained.md)
+  * [Transaction Fees](protocol-in-detail/transaction-fees.md)
+  * [Chains](protocol-in-detail/chains.md)
+  * [Sequencers](protocol-in-detail/sequencers.md)
+  * [Cross Layer NFTs](protocol-in-detail/cross-layer-nfts.md)
+  * [Actors and Their Roles](protocol-in-detail/actors-and-their-roles.md)
+  * [Sync Specifications](protocol-in-detail/sync-specifications.md)
+  * [Cross Domain Messaging](protocol-in-detail/cross-domain-messaging.md)
+
+## Bridge
+
+* [Bridge FAQ](bridge/bridge-faq.md)
+* [NFT Bridge](bridge/nft-bridge.md)
+
+## Tools
+
+* [The Subgraph](tools/the-subgraph.md)
+* [Oracles](tools/oracles/README.md)
   * [DIA](https://docs.diadata.org/documentation/oracle-documentation/deployed-contracts#metis)
   * [Witnet](https://docs.witnet.io/smart-contracts/supported-chains)
   * [API3 QRNG](https://docs.api3.org/qrng/)
   * [Chainlink](https://docs.chain.link/docs/data-feeds-metis/)
-* [Metis Audits](browse-the-metis-technology/metis-audits.md)
+
+## Support
+
+* [FAQs](support/faqs.md)
+* [Help Center](support/help-center.md)
+* [Metis Audits](support/metis-audits.md)
 * [Bug Bounty](https://immunefi.com/bounty/metis/)
-* [FAQs](faqs.md)
-* [Help Center](browse-the-metis-technology/help-center.md)
+
+## Deprecated
+
+* [The Architecture of the Metis L2](deprecated/the-architecture-of-the-metis-l2.md)
+* [Testnet Transaction Tracking](deprecated/testnet-transaction-tracking.md)
+* [The METIS (token) Gateway](deprecated/the-metis-token-gateway.md)
+* [Metis Bridge](deprecated/metis-bridge.md)

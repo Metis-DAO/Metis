@@ -1,8 +1,8 @@
 ---
-description: Discover the internal structure of Smart L2 in details
+description: Discover the internal structure of L2 in details
 ---
 
-# Metis Smart L2 Explained
+# Metis L2 Explained
 
 ## **Actors**
 
@@ -30,14 +30,14 @@ Here we describe the process of executing and securing transactions on Metis' Sm
 
 * **1** - The User submits a transaction to the Block Producer.
 * **2** - The Block Producer produces the blocks for the Smart L2;
-  * **2.1** - The Block Producer propagates the blocks through the Peer Network[**\***](metis-smart-l2-explained.md#what-if-the-block-producer-unites-with-sequencer-to-stop-the-system):
+  * **2.1** - The Block Producer propagates the blocks through the Peer Network[**\***](metis-l2-explained.md#what-if-the-block-producer-unites-with-sequencer-to-stop-the-system):
 * **3** - The User gets confirmation of the transaction from the Smart L2.
 * **4** - The Sequencer receives the full transaction data from the Peer Network.
 * **5** - The Sequencer computes the data batch (MTTBR and MTSR).
 * **6** - The Sequencer submits the full transaction data to Memolabs, from where it will be provided to the Verifier. Memolabs provides the transaction data to any node that is looking to access the transaction data, located by the MTTBR.
 * **7** - The Sequencer submits the batch of data to Layer 1 (MTTBR and MTSR).
 * **8** - The Verifier attempts to download the full transaction data from Memolabs by retrieving the MTTBR on Layer 1 that was submitted by the Sequencer;
-* _If the Memolabs data is NOT available_[_\*_](metis-smart-l2-explained.md#how-do-you-deal-with-the-data-availability-problem-speaker-listener-dilemma)_:_
+* _If the Memolabs data is NOT available_[_\*_](metis-l2-explained.md#how-do-you-deal-with-the-data-availability-problem-speaker-listener-dilemma)_:_
   * **8.1.1** - The Verifier downloads the full transaction data from the Peer Network.
 * **9** - The Verifier computes its own MTTBR from the full transaction data it received from Memolabs / Peer Network.
 * **10** - The Verifier downloads the Sequencer’s MTTBR from Layer 1.
@@ -51,7 +51,7 @@ Here we describe the process of executing and securing transactions on Metis' Sm
   * _If the Verifier’s MTSR =/= Sequencer’s MTSR:_
     * **11.A.3.B.1** - The Verifier submits the transaction data it received from Memolabs / Peer Network to Layer 1 and marks them challengeable;
     * **11.A.3.B.2** - The Verifier can submit a Fraud Proof. The Fraud proofing process will proceed just as a regular Optimistic Rollup hereafter.
-* _If the Verifier’s_ MTTBR _=/= Sequencer’s_ MTTBR[\*](metis-smart-l2-explained.md#griefing)_:_
+* _If the Verifier’s_ MTTBR _=/= Sequencer’s_ MTTBR[\*](metis-l2-explained.md#griefing)_:_
   * **11.B.1** - The Verifier requests the Sequencer via fee payment to post the Sequencer’s transaction data on Layer 1. This fee payment is collected on Layer 1 as an upfront amount to pay for the request fees. The fees are sent to the Governance Protocol to pay for potential reimbursements caused due to griefing. The Sequencer will have a time window (in # of blocks, currently set at around 24 hours) to respond and is responsible for the resulting gas fee. Both the Sequencer and Verifier lose money in this process;
   * **11.B.2** - The System enters the insecure transaction state for the data availability request time window until the next rotation. During this time the Verifier requests the Sequencer to provide valid transaction batch data;
   * _If the Sequencer submits the valid full transaction batch data within the_ data availability request time window_:_
