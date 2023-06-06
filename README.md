@@ -37,11 +37,11 @@ Read more on [Nodes](protocol-in-detail/)
 
 
 
-#### Metis Graph <a href="#_s7n3z5vmr8nt" id="_s7n3z5vmr8nt"></a>
+#### Metis SubGraph <a href="#_s7n3z5vmr8nt" id="_s7n3z5vmr8nt"></a>
 
-The Metis Graph is an indexing protocol for collecting, processing, and storing data to be used in the blockchain network. It aims at facilitating information retrieval using a service called GraphQL.
+The Metis SubGraph is an indexing protocol for collecting, processing, and storing data to be used in the blockchain network. It aims at facilitating information retrieval using a service called GraphQL.
 
-Read more on[ What is a Metis Graph](tools/the-subgraph.md)
+Read more on[ What is a Metis SubGraph](tools/the-subgraph.md)
 
 
 
