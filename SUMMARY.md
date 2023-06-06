@@ -27,12 +27,18 @@
 
 ## Tools
 
-* [The Subgraph](tools/the-subgraph.md)
+* [Analytics](tools/analytics/README.md)
+  * [DefLlama](https://defillama.com/chain/Metis?tvl=true)
+  * [Orbiter.finance](https://www.orbiter.finance/dataDetail?nav=Rollups)
+* [Frameworks](tools/frameworks/README.md)
+  * [Cookbook](https://www.cookbook.dev/search?q=\&sort=popular\&filter=\&page=1)
+  * [Thirdweb](https://thirdweb.com/explore)
 * [Oracles](tools/oracles/README.md)
   * [DIA](https://docs.diadata.org/documentation/oracle-documentation/deployed-contracts#metis)
   * [Witnet](https://docs.witnet.io/smart-contracts/supported-chains)
   * [API3 QRNG](https://docs.api3.org/qrng/)
   * [Chainlink](https://docs.chain.link/docs/data-feeds-metis/)
+* [The Subgraph](tools/the-subgraph.md)
 
 ## Support
 
@@ -42,7 +48,7 @@
 
 ## Deprecated
 
-* [FAQs](deprecated/faqs.md)
+* [FAQs](support/faqs.md)
 * [The Architecture of the Metis L2](deprecated/the-architecture-of-the-metis-l2.md)
 * [Testnet Transaction Tracking](deprecated/testnet-transaction-tracking.md)
 * [The METIS (token) Gateway](deprecated/the-metis-token-gateway.md)
