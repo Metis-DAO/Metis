@@ -45,11 +45,3 @@
 * [Help Center](support/help-center.md)
 * [Metis Audits](support/metis-audits.md)
 * [Bug Bounty](https://immunefi.com/bounty/metis/)
-
-## Deprecated
-
-* [FAQs](support/faqs.md)
-* [The Architecture of the Metis L2](deprecated/the-architecture-of-the-metis-l2.md)
-* [Testnet Transaction Tracking](deprecated/testnet-transaction-tracking.md)
-* [The METIS (token) Gateway](deprecated/the-metis-token-gateway.md)
-* [Metis Bridge](deprecated/metis-bridge.md)
