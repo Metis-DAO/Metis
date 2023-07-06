@@ -23,11 +23,12 @@ Which 3rd party bridges does Metis Bridge support at the moment?
 There are also a variety of 3rd party bridges from other popular chains available:
 
 1. Synapse - https://synapseprotocol.com/landing
-2. Celer - https://cbridge.celer.network/#/transfer
-3. BoringDAO - https://oportal.boringdao.com/
-4. Relay Chain (Avalance, Fantom, Cronos <> Andromeda) - https://app.relaychain.com/#/cross-chain-bridge-transfer
-5. O3 Swap - https://o3swap.com/bridge
-6. Multichain - https://app.multichain.org/#/router
-7. Stargate (Supported tokens - METIS, USDT  - https://stargate.finance/transfer
+2. LayerZero - [https://layerzero.network/](https://layerzero.network/)
+3. Celer - https://cbridge.celer.network/#/transfer
+4. BoringDAO - https://oportal.boringdao.com/
+5. Relay Chain (Avalance, Fantom, Cronos <> Andromeda) - https://app.relaychain.com/#/cross-chain-bridge-transfer
+6. O3 Swap - https://o3swap.com/bridge
+7. Multichain - https://app.multichain.org/#/router
+8. Stargate (Supported tokens - METIS, USDT  - https://stargate.finance/transfer
 
 BoringDAO: [https://oportal.boringdao.com/twoway](https://oportal.boringdao.com/twoway)

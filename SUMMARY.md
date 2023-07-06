@@ -24,6 +24,7 @@
 
 * [Bridge FAQ](bridge/bridge-faq.md)
 * [NFT Bridge](bridge/nft-bridge.md)
+* [LayerZero](bridge/layerzero.md)
 
 ## Tools
 
