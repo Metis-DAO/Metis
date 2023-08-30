@@ -37,11 +37,19 @@ Read more on [Nodes](protocol-in-detail/)
 
 
 
+#### Metis Data Indexers <a href="#_h1ka8epzf8qo" id="_h1ka8epzf8qo"></a>
+
+Data indexers are third-party services that provide APIs and SDKs for raw and processed blockchain data on transactions, dApp-specific data, as well as additional offchain data such as token prices  on Metis chain.
+
+Read more on [Data Indexers](tools/data-indexers/)
+
+
+
 #### Metis SubGraph <a href="#_s7n3z5vmr8nt" id="_s7n3z5vmr8nt"></a>
 
 The Metis SubGraph is an indexing protocol for collecting, processing, and storing data to be used in the blockchain network. It aims at facilitating information retrieval using a service called GraphQL.
 
-Read more on[ What is a Metis SubGraph](tools/the-subgraph.md)
+Read more on [What is a Metis SubGraph](tools/the-subgraph.md)
 
 
 
