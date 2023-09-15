@@ -1,3 +1,7 @@
+---
+description: Using hardhat
+---
+
 # Verifying Deployed Contracts
 
 NOTE: `hardhat-verify`,successor to `hardhat-etherscan`, if you still use legacy `hardhat-etherscan` package, make sure that your current package version is [3.1.0](https://github.com/NomicFoundation/hardhat/releases/tag/%40nomiclabs%2Fhardhat-etherscan%403.1.0) or above.
