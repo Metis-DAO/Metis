@@ -39,9 +39,9 @@
   * [Witnet](https://docs.witnet.io/smart-contracts/supported-chains)
   * [API3 QRNG](https://docs.api3.org/qrng/)
   * [Chainlink](https://docs.chain.link/docs/data-feeds-metis/)
-* [The Subgraph](tools/the-subgraph.md)
 * [Indexers](tools/indexers/README.md)
-  * [Custom on-chain data indexing on Metis](tools/indexers/custom-on-chain-data-indexing-on-metis.md)
+  * [Flair](tools/indexers/flair.md)
+* [The Subgraph](tools/the-subgraph.md)
 
 ## Support
 
