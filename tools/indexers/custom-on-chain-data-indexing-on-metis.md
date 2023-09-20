@@ -6,9 +6,7 @@ description: Real-time and historical custom data indexing for any evm chain.
 
 [Flair](https://flair.dev/) offers reusable **indexing primitives** (such as fault-tolerant RPC ingestors, custom processors, re-org aware database integrations) to make it easy to receive, transform, store and access your on-chain data.
 
-store and access your on-chain data.
-
-
+<figure><img src="../../.gitbook/assets/c170f96b-c9c8-4e7c-8a4a-cc265b5a3722_3921x2148-1.png" alt=""><figcaption></figcaption></figure>
 
 ### Why Flair?[​](https://doc-zk-evm-git-fork-0xflair-main-infura-web.vercel.app/build-on-linea/tooling/data-indexers/flair#why-flair)
 
