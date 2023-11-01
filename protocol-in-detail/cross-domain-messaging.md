@@ -17,7 +17,7 @@ We have 2 low-level bridge contracts known as the L1 and L2 Cross Domain Messeng
 
 #### Starting on L2 <a href="#_lrjmv2fbwcbg" id="_lrjmv2fbwcbg"></a>
 
-* Stage 1: Any account on L2 may call the `L2CrossDomainMessenger.sendMessage()` function with the information for the L1 message (`aka xDomainCalldata`). (i.e. \_target, msg.sender, \_message)
+* Stage 1: A whitelisted account on L2 may call the `L2CrossDomainMessenger.sendMessage()` function with the information for the L1 message (`aka xDomainCalldata`). (i.e. \_target, msg.sender, \_message)
 * Stage 2: This data is hashed with the `messageNonce` storage variable and the hash is stored in the `sentMessages` mapping.
 * Stage 3: The `messageNonce` is then incremented.
 * The L2CrossDomainMessenger contract then passes the `xDomainCallData` to the `OVM_L2ToL1MessagePasser.passMessageToL1()` function. Note that `xDomainCalldata` is hashed with `msg.sender` (i.e. ovmCaller) and written to the `sentMessages` mapping.
