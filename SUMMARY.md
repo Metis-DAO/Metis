@@ -22,7 +22,8 @@
 
 ## Decentralized Sequencer
 
-* [Overview](decentralized-sequencer/overview.md)
+* [Overview](decentralized-sequencer/overview/README.md)
+  * [Sequencer node](decentralized-sequencer/overview/sequencer-node.md)
 
 ## Bridge
 
