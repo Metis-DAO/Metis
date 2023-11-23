@@ -20,6 +20,10 @@
   * [Sync Specifications](protocol-in-detail/sync-specifications.md)
   * [Cross Domain Messaging](protocol-in-detail/cross-domain-messaging.md)
 
+## Decentralized Sequencer
+
+* [Overview](decentralized-sequencer/overview.md)
+
 ## Bridge
 
 * [Bridge FAQ](bridge/bridge-faq.md)
