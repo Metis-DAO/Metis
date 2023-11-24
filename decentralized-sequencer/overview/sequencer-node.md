@@ -8,7 +8,7 @@ The Sequencer node (or Metis node) includes&#x20;
 2. Batch submitter (Proposer)
 3. Adapter module
 
-1\. L2 Geth (including the OP-Node)
+**1. L2 Geth (including the OP-Node)**
 
 * It is responsible for transaction sequencing and assembly of the blocks on the Metis layer.
 * The processing logic of whether it is the current block sequencer is added in the applyTransactionToTip function, to conduct regular sequencer rotation.
@@ -18,14 +18,14 @@ The main process is described in the following flowchart:
 
 <figure><img src="https://lh7-us.googleusercontent.com/61XgsYnVIF-XuvcZKlvnK8xT6Zcyy2edqk9Z2qbcSu_zYRVRUIhMOJd47dSFGM5954Ub0vFbktsTbvPGKouCxo18NqdHtjIn01rVDdZfb18DEkD0dStFuhbp6i3n8E-Z_JeEu4lfMuF3meruotmysNC6Y2G3qhI7f3FcVWdsRwAToqYuXLBiqxKLe0owtg" alt=""><figcaption></figcaption></figure>
 
-2\. Batch submitter (Proposer):
+**2. Batch submitter (Proposer):**
 
 * Responsible for building the batches and submitting them to Layer 1 after they get signed by multiple sequencers;
 * For decentralization it utilizes MPC – multiple sequencers sign the transaction batch jointly – when the transaction batch is being formed.
 * MPC service signs the batch submission with such entry parameters: batchID, signHash, and the signature result has such parameters: batchID – return value: signature r, s, v-values.
 * Query the corresponding signHash according to the batchID: Input parameter: batchID – return value: signHash
 
-3\. Adapter module:
+**3. Adapter module:**
 
 * Responsible for interacting with the other external modules on the consensus layer (PoS Node).
 
@@ -46,18 +46,18 @@ The core problem of the single-sequencer model adopted by other Layer 2 networks
 
 Main interface:
 
-* CheckNeedReselectSeq judges whether Reselect is needed, and checks whether the current seq node produces blocks normally
-* GetCurrentSeq Get the current seq, read from the seq contract
+* `CheckNeedReselectSeq` judges whether Reselect is needed, and checks whether the current sequencer node produces blocks normally
+* `GetCurrentSeq` Get the current seq, read from the seq contract
 *   Sequencer set contract design:
 
-    type SeqSetInfo struct {\
-    startNum int64\
-    endNum int64\
-    sequence address\
-    }
-* seqList \[]SeqSetInfo is used to store seqList information:
+    `type SeqSetInfo struct {`\
+    `startNum int64`\
+    `endNum int64`\
+    `sequence address`\
+    `}`
+* `seqList []SeqSetInfo` is used to store `seqList` information:
 
-AddNewSeqSet : Add seq sets information for the next epoch
+`AddNewSeqSet` : Add seq sets information for the next epoch
 
-* ReselectSeq: Reselect sequencer
+* `ReselectSeq`: Reselect sequencer
 
