@@ -1,12 +1,12 @@
 # MPC module
 
-It is responsible for the management of the entire life-cycle of the multisignature keys. Conducts external operations such as&#x20;
+Multi Party Computation (MPC) module is responsible for the management of the entire life-cycle of the multisignature keys. Conducts external operations such as&#x20;
 
-1. Multisig generation;
-2. Key resharing;
-3. Applying the signature;
-4. Deletion of signature.
-5. Provides support for the asynchronous usage of many multisignatures;
+1. Multisig generation
+2. Key resharing
+3. Applying the signature
+4. Deletion of signature
+5. Provides support for the asynchronous usage of many multisignatures
 
 #### Core method processing flow
 
