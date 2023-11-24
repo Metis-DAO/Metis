@@ -25,6 +25,7 @@
 * [Overview](decentralized-sequencer/overview/README.md)
   * [Sequencer node](decentralized-sequencer/overview/sequencer-node.md)
   * [MPC module](decentralized-sequencer/overview/mpc-module.md)
+  * [Bridge module](decentralized-sequencer/overview/bridge-module.md)
 
 ## Bridge
 
