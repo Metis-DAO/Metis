@@ -8,13 +8,11 @@ Anyone can mortgage metis and apply to become a sequencer. When the number of ac
 
 If the sequencer is unhealthy for a long time, they will be withdrawn from the network. When there is free space in the sequencer pool, remove the top node from the head of the waiting queue and enter the pool.
 
-Reference example:
+Reference examples:
 
-[https://github.com/poanetwork/posdao-contracts](https://github.com/poanetwork/posdao-contracts)
-
-[https://github.com/bnb-chain/bsc-genesis-contract/tree/master/contracts](https://github.com/bnb-chain/bsc-genesis-contract/tree/master/contracts)
-
-[https://github.com/maticnetwork/contracts](https://github.com/maticnetwork/contracts)
+* [https://github.com/poanetwork/posdao-contracts](https://github.com/poanetwork/posdao-contracts)
+* [https://github.com/bnb-chain/bsc-genesis-contract/tree/master/contracts](https://github.com/bnb-chain/bsc-genesis-contract/tree/master/contracts)
+* [https://github.com/maticnetwork/contracts](https://github.com/maticnetwork/contracts)
 
 ## **Locking NFT**
 
