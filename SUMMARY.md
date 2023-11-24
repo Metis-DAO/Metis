@@ -27,6 +27,7 @@
   * [MPC module](decentralized-sequencer/overview/mpc-module.md)
   * [Bridge module](decentralized-sequencer/overview/bridge-module.md)
   * [Locking Pool / NFT](decentralized-sequencer/overview/locking-pool-nft.md)
+  * [Selection and Rotation](decentralized-sequencer/overview/selection-and-rotation.md)
 
 ## Bridge
 

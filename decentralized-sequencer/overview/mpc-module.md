@@ -33,18 +33,18 @@ Phase 2: Initiating the `keyGen` process
   * Constructs a `LocalParty` instance locally;
   * Begins receiving information from other nodes;
 
-#### Additional processes flow
+## Additional processes flow
 
 * In essence, the processing flow of `keySign` is similar to `keyGen`, with the difference lying in some data transmission and verification..
 * On the other hand, `keyDelete` does not involve any TSS-lib operations. It only requires broadcasting the `KeyDeleteMessage` message to all nodes to request the deletion of the key.
 
-#### TSS Library:
+## TSS Library:
 
 Threshold Signature Scheme Library - open-source multisig tool library and the main source of MPC logic:
 
 * Responsible for the multisig key algorithm layer
 
-#### Key Local Storage:
+## Key Local Storage:
 
 * Conducts the saving and encrypting the key’s info in the local kv storage (levelDB) provided by the corresponding node
 * The specific fields are described as follows:
@@ -56,13 +56,13 @@ Threshold Signature Scheme Library - open-source multisig tool library and the m
     * `READY` (already available)
     * `ERROR` (An error occurred during generation, the current key cannot be used to sign)
 
-#### Tendermint channel:
+## Tendermint channel:
 
 Open-source p2p communication and consensus library provided by cosmos-sdk:
 
 * POS Node creates a separate Tendermint channel for communication messages between multiple p2p nodes during MPC operations
 
-#### libp2p
+## libp2p
 
 ibp2p Is an open-source p2p network communication library
 
