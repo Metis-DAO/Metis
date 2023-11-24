@@ -7,9 +7,6 @@ The Sequencer node (or Metis node) includes&#x20;
 1. L2 Geth (including the OP-Node)
 2. Batch submitter (Proposer)
 3. Adapter module
-4. MPC module
-
-
 
 1\. L2 Geth (including the OP-Node)
 
@@ -47,7 +44,7 @@ The core problem of the single-sequencer model adopted by other Layer 2 networks
 
 <figure><img src="https://lh7-us.googleusercontent.com/n0JheWDSQQrMdA5Q8EFIPt8mpCSwP9-HVYgtDfvCoFc6lfCWEh2i8NNcKUCynWvN67jZNRyqrVWLZQ0ZCnNVMNH_-BY9bhpCC_7Voe6Jhy0bcvv9xPTAvj9EH1GD3i8FRo0iRq6jfoBp9idteWfsxtCSRpVvraZ37vUs-rdpYMhDMnxkBr3-Xwl_WXno7Q" alt=""><figcaption></figcaption></figure>
 
-Main new interface:
+Main interface:
 
 * CheckNeedReselectSeq judges whether Reselect is needed, and checks whether the current seq node produces blocks normally
 * GetCurrentSeq Get the current seq, read from the seq contract
@@ -62,4 +59,5 @@ Main new interface:
 
 AddNewSeqSet : Add seq sets information for the next epoch
 
-&#x20;   ReselectSeq: Reselect sequencer.\
+* ReselectSeq: Reselect sequencer
+
