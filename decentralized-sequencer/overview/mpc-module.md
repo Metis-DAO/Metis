@@ -1,5 +1,7 @@
 # MPC module
 
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
 Multi Party Computation (MPC) module is a part of Sequencer node and is responsible for the management of the entire life-cycle of the multisignature keys. Conducts external operations such as:
 
 1. Multisig generation
