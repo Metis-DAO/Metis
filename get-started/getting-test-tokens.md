@@ -1,6 +1,6 @@
-# Getting Test Tokens
+# Faucet - Get Test Tokens
 
-Navigate to [https://goerli.faucet.metisdevops.link/](https://goerli.faucet.metisdevops.link/) for Goerli(Metis L2 Native)
+Navigate to [https://holesky.faucet.metisdevops.link/](https://holesky.faucet.metisdevops.link/) for Holesky (Metis L2 Native) faucet
 
 ### If you need more Test Tokens <a href="#_z98tmu8zem2" id="_z98tmu8zem2"></a>
 

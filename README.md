@@ -2,9 +2,9 @@
 
 Metis is an Ethereum Layer 2 Rollup platform that offers simple and fast smart contract deployment within the network. Metis provides several solutions to solve the big challenges we face in the main net Ethereum, including transaction speed, cost, and scalability.
 
-* [Metis Connection Details](readme/connection-details.md): Use the Metis connection details section to set your MetaMask account to be able to get Metis tokens.&#x20;
-* [Getting Test Tokens](get-started/getting-test-tokens.md): In order to deploy smart contracts on the testnet, you need to get some test tokens for free.&#x20;
-* [Deploying On Metis](broken-reference): You can write your code after getting test tokens and deploy it on the Goerli testnet.&#x20;
+* [Metis Connection Details](readme/connection-details.md): Use the Metis connection details section to set your MetaMask account to be able to get Metis tokens.
+* [Getting Test Tokens](https://holesky.faucet.metisdevops.link/): In order to deploy smart contracts on the testnet, you need to get some test tokens for free.
+* [Deploying On Metis](broken-reference/): You can write your code after getting test tokens and deploy it on the Goerli testnet.
 * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md): Verifying the code after deployment is a simple process and you can verify contracts in a few seconds using the Hardhat configuration or Metis Goerli explorer.
 
 ### Metis Solutions <a href="#_7dc02qqfr79w" id="_7dc02qqfr79w"></a>
@@ -17,9 +17,7 @@ Select a product to start with Ethereum Layer 2 and access an extended range of 
 
 Built by a team of blockchain professionals, Metis NFT Bridge provides everything you need for connecting two different networks.
 
-Read more on  [Why use the Metis NFT bridge](https://app.gitbook.com/o/G4KKHlD52DFa4pHrw51i/s/MkexAWdCekeDPPCMOdGs/\~/changes/kD3RNZAYVe4u0VhGB046/browse-in-the-metis-technology/metis-nft-bridge/why-use-the-metis-nft-bridge)
-
-
+Read more on [Why use the Metis NFT bridge](https://app.gitbook.com/o/G4KKHlD52DFa4pHrw51i/s/MkexAWdCekeDPPCMOdGs/\~/changes/kD3RNZAYVe4u0VhGB046/browse-in-the-metis-technology/metis-nft-bridge/why-use-the-metis-nft-bridge)
 
 #### Metis Oracles <a href="#_9ciejj5cougz" id="_9ciejj5cougz"></a>
 
@@ -27,31 +25,23 @@ Oracles connect blockchains to external systems and provide smart contracts with
 
 Read more on [Oracles](tools/oracles/)
 
-
-
 #### Metis Nodes <a href="#_z11ooy9etr4o" id="_z11ooy9etr4o"></a>
 
 Metis Nodes allow security and reliability to come to the forefront. Blockchain nodes store a complete copy of the distributed network and play an important role in the blockchain ecosystem.
 
 Read more on [Nodes](protocol-in-detail/)
 
-
-
 #### Metis Data Indexers <a href="#_h1ka8epzf8qo" id="_h1ka8epzf8qo"></a>
 
-Data indexers are third-party services that provide APIs and SDKs for raw and processed blockchain data on transactions, dApp-specific data, as well as additional offchain data such as token prices  on Metis chain.
+Data indexers are third-party services that provide APIs and SDKs for raw and processed blockchain data on transactions, dApp-specific data, as well as additional offchain data such as token prices on Metis chain.
 
 Read more on [Data Indexers](tools/data-indexers/)
-
-
 
 #### Metis SubGraph <a href="#_s7n3z5vmr8nt" id="_s7n3z5vmr8nt"></a>
 
 The Metis SubGraph is an indexing protocol for collecting, processing, and storing data to be used in the blockchain network. It aims at facilitating information retrieval using a service called GraphQL.
 
 Read more on [What is a Metis SubGraph](tools/the-subgraph.md)
-
-
 
 #### Need More Technical Support? <a href="#_vl1m2qrsjggl" id="_vl1m2qrsjggl"></a>
 
@@ -60,4 +50,3 @@ You can submit your Technical questions and get help without delay at [Metis Hel
 Also, we have a [Telegram group dedicated to developers](https://t.me/metis\_dev), so if you are interested in developing on our platform, you are welcome to join it.
 
 #### &#x20;<a href="#_2jy0l7vosvdw" id="_2jy0l7vosvdw"></a>
-

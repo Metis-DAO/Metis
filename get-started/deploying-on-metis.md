@@ -16,7 +16,7 @@ Solidity is a free programming language you can use for deploying smart contract
 
 * [_Configuring MetaMask and getting started with your account_](../readme/metamask-setting-how-to-connect-your-metamask-crypto-wallet-to-metis-platform.md)
 
-Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis Goerli Testnet using the MetaMask networks section.
+Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis HoleskyTestnet using the MetaMask networks section.
 
 <figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
