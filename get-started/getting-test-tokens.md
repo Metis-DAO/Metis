@@ -1,6 +1,6 @@
 # Faucet - Get Test Tokens
 
-Navigate to [https://holesky.faucet.metisdevops.link/](https://holesky.faucet.metisdevops.link/) for Holesky (Metis L2 Native) faucet
+Navigate to [this link](https://sepolia.faucet.metisdevops.link/) for Sepolia (Metis L2 Native) faucet
 
 ### If you need more Test Tokens <a href="#_z98tmu8zem2" id="_z98tmu8zem2"></a>
 
