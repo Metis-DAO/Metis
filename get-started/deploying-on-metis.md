@@ -18,11 +18,9 @@ Solidity is a free programming language you can use for deploying smart contract
 
 Make sure you’re on the Metis Testnet in MetaMask. Otherwise, you can simply switch to the Metis HoleskyTestnet using the MetaMask networks section.
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the [instructions](https://docs.metis.io/dev/get-started/getting-test-tokens) to get Metis test tokens and bridge them from L1 to the Metis Goerli Testnet.
-
-<figure><img src="../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
+You would have some Metis test tokens in your account if you got some using the instructions given in this section. Otherwise, you can follow the [instructions](https://docs.metis.io/dev/get-started/getting-test-tokens) to get Metis test tokens and bridge them from L1 to the Metis Testnet.
 
 ### What is OpenZeppelin? <a href="#_imk2ztgyg14m" id="_imk2ztgyg14m"></a>
 
@@ -68,7 +66,7 @@ Once you have connected to Remix IDE, you can see that your account address has 
 
 #### Step 5 <a href="#_3bpnlw326dw7" id="_3bpnlw326dw7"></a>
 
-After doing all the settings, you can click on the “Deploy” button. Be careful your MetaMask network must be switched to the Metis Goerli Testnet, and you must have enough Metis tokens in your account.
+After doing all the settings, you can click on the “Deploy” button. Be careful your MetaMask network must be switched to the Metis Testnet, and you must have enough Metis tokens in your account.
 
 Click on the “Deploy” button, and you will see a MetaMask pop-up window. Confirm the deployment process to finish everything.
 
@@ -127,7 +125,7 @@ First, you need to open the project folder using VSCode. Then edit the project c
 
 ```
 metis: {
-url: "https://goerli.gateway.metisdevops.link",
+url: "https://sepolia.rpc.metisdevops.link/",
 accounts:
 process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
 },
@@ -182,7 +180,7 @@ You can now deploy your smart contract using the following command.
 
 #### Step 8 <a href="#_662vdat5z0oc" id="_662vdat5z0oc"></a>
 
-Let’s check the results on the Metis platform. Click on the “View account explorer” option to open the Metis Goerli testnet explorer website.
+Let’s check the results on the Metis platform. Click on the “View account explorer” option to open the Metis Testnet explorer website.
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
