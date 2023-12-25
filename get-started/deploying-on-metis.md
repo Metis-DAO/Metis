@@ -30,7 +30,7 @@ OpenZeppelin is an open-source and powerful platform designed to offer simplicit
 
 #### Step 1 <a href="#_7ds63un1508g" id="_7ds63un1508g"></a>
 
-Go to the [OpenZeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard) page to start the first project. You will have an interactive generator that offers simplicity to generating your desired code.
+Go to the [OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/) page to start the first project. You will have an interactive generator that offers simplicity to generating your desired code.
 
 Choose the settings you want to be applied and use a name and symbol for your contract.
 
@@ -75,8 +75,6 @@ Click on the “Deploy” button, and you will see a MetaMask pop-up window. Con
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 If everything goes well, MetaMask shows you a success message. You can then verify your smart contract deployment.
-
-<figure><img src="../.gitbook/assets/image (44) (2).png" alt=""><figcaption></figcaption></figure>
 
 Click on the recent activity to see the details. You can check all the details and verify your transaction. So, click on the “View on block explorer” option to open a window with detailed information about your transaction deployment.\\
 
@@ -131,23 +129,11 @@ process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
 },
 ```
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
-
 #### Step 4 <a href="#_6bnnsb85cieo" id="_6bnnsb85cieo"></a>
 
 You need to add your account private key to the .env file in your project. Follow these steps to get your account private key.
 
 * Open your MetaMask and click on account details. You will be able to export your account private key and copy it to use for deploying your smart contract.
-
-<div>
-
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 ![](<../.gitbook/assets/19 (6) (1)>)
 
@@ -183,8 +169,6 @@ You can now deploy your smart contract using the following command.
 Let’s check the results on the Metis platform. Click on the “View account explorer” option to open the Metis Testnet explorer website.
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
-
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 You can explore your last transactions here and check that your last smart contract deployment was successful.
 
