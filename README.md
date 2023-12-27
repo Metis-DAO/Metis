@@ -4,7 +4,7 @@ Metis is an Ethereum Layer 2 Rollup platform that offers simple and fast smart c
 
 * [Metis Connection Details](readme/connection-details.md): Use the Metis connection details section to set your MetaMask account to be able to get Metis tokens.
 * [Getting Test Tokens](https://holesky.faucet.metisdevops.link/): In order to deploy smart contracts on the testnet, you need to get some test tokens for free.
-* [Deploying On Metis](broken-reference/): You can write your code after getting test tokens and deploy it on the Goerli testnet.
+* [Deploying On Metis](get-started/deploying-on-metis.md): You can write your code after getting test tokens and deploy it on the Goerli testnet.
 * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md): Verifying the code after deployment is a simple process and you can verify contracts in a few seconds using the Hardhat configuration or Metis Goerli explorer.
 
 ### Metis Solutions <a href="#_7dc02qqfr79w" id="_7dc02qqfr79w"></a>
