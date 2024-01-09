@@ -26,8 +26,11 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    metisgoerli: {
+    "metis-goerli": {
       url: "https://goerli.gateway.metisdevops.link",
+    },
+    "metis-sepolia": {
+      url: "https://sepolia.rpc.metisdevops.link",
     },
     andromeda: {
       url: "https://andromeda.metis.io/?owner=1088",
@@ -35,7 +38,8 @@ const config: HardhatUserConfig = {
   },
   etherscan: {
     apiKey: {
-      metisgoerli: "apiKey is not required, just set a placeholder",
+      "metis-sepolia": "apiKey is not required, just set a placeholder",
+      "metis-goerli": "apiKey is not required, just set a placeholder",
       andromeda: "apiKey is not required, just set a placeholder",
     },
     customChains: [
@@ -43,16 +47,25 @@ const config: HardhatUserConfig = {
         network: "andromeda",
         chainId: 1088,
         urls: {
-          apiURL: "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
+          apiURL:
+            "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
           browserURL: "https://explorer.metis.io",
         },
       },
       {
-        network: "metisgoerli",
+        network: "metis-goerli",
         chainId: 599,
         urls: {
           apiURL: "https://goerli.explorer.metisdevops.link/api",
           browserURL: "https://goerli.explorer.metisdevops.link",
+        },
+      },
+      {
+        network: "metis-sepolia",
+        chainId: 59901,
+        urls: {
+          apiURL: "https://sepolia.explorer.metisdevops.link/api",
+          browserURL: "https://sepolia.explorer.metisdevops.link",
         },
       },
     ],
@@ -63,7 +76,7 @@ const config: HardhatUserConfig = {
 ### Deploy your contracts
 
 ```
-$ yarn hardhat run scripts/deploy.ts --network metisgoerli
+$ yarn hardhat run scripts/deploy.ts --network metis-sepolia
 Generating typings for: 2 artifacts in dir: typechain for target: ethers-v5
 Successfully generated 5 typings!
 Compiled 2 Solidity files successfully
@@ -121,7 +134,7 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    metisgoerli: {
+    "metis-goerli": {
       url: "https://goerli.gateway.metisdevops.link",
       accounts: [process.env.PRIVATE_KEY],
       verify: {
@@ -131,13 +144,24 @@ const config: HardhatUserConfig = {
         },
       },
     },
+    "metis-sepolia": {
+      url: "https://sepolia.rpc.metisdevops.link",
+      accounts: [process.env.PRIVATE_KEY],
+      verify: {
+        etherscan: {
+          apiKey: "apiKey is not required, just set a placeholder",
+          apiUrl: "https://sepolia.explorer.metisdevops.link",
+        },
+      },
+    },
     andromeda: {
       url: "https://andromeda.metis.io/?owner=1088",
       accounts: [process.env.PRIVATE_KEY],
       verify: {
         etherscan: {
           apiKey: "apiKey is not required, just set a placeholder",
-          apiUrl: "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
+          apiUrl:
+            "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
         },
       },
     },
