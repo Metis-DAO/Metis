@@ -11,7 +11,7 @@ The off-chain data component is the actual transaction data and is posted by the
 
 ## How does the Metis L2 Retains the same Security Mechanisms as other Layer 2s?
 
-The off-chain data component is the actual transaction data and is posted by the Sequencer in Memolabs storage. Transaction data can also be accessed by the Peer Network. If the Sequencer does not post the Transaction data to Memolabs, then a Verifier can request that the transaction data that the Sequencer has attested can be posted on-chain. The full security mechanism is present in the [Metis Smart L2 Explained Section](metis-l2-explained.md).
+The off-chain data component is the actual transaction data and is posted by the Sequencer in Memolabs storage. Transaction data can also be accessed by the Peer Network. If the Sequencer does not post the Transaction data to Memolabs, then a Verifier can request that the transaction data that the Sequencer has attested can be posted on-chain.
 
 ## What are the Mechanisms in Place to Guarantee that the Network has a Constant Uptime?
 
