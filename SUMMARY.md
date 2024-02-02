@@ -51,6 +51,7 @@
   * [Chainlink](https://docs.chain.link/docs/data-feeds-metis/)
 * [Indexers](tools/indexers/README.md)
   * [Flair](tools/indexers/flair.md)
+  * [Envio](tools/indexers/envio.md)
 * [The Subgraph](tools/the-subgraph.md)
 
 ## Support
