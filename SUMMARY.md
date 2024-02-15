@@ -47,7 +47,7 @@
 * [Oracles](tools/oracles/README.md)
   * [DIA](https://docs.diadata.org/documentation/oracle-documentation/deployed-contracts#metis)
   * [Witnet](https://docs.witnet.io/smart-contracts/supported-chains)
-  * [API3 QRNG](https://docs.api3.org/qrng/)
+  * [API3](https://docs.api3.org/airnode/v0.9/reference/airnode-addresses.html)
   * [Chainlink](https://docs.chain.link/docs/data-feeds-metis/)
 * [Indexers](tools/indexers/README.md)
   * [Flair](tools/indexers/flair.md)
