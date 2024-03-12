@@ -52,6 +52,7 @@
 * [Indexers](tools/indexers/README.md)
   * [Flair](tools/indexers/flair.md)
   * [Envio](tools/indexers/envio.md)
+  * [SubQuery](tools/indexers/subquery.md)
 * [The Subgraph](tools/the-subgraph.md)
 
 ## Support
