@@ -33,6 +33,7 @@
 * [Oracles](tools/oracles.md)
   * [Chainlink](integrations/oracles/chainlink.md)
 * [RPC endpoints](tools/rpc-endpoints.md)
+* [RPC proxy and caching](tools/rpc-proxy-caching.md)
 * [The Subgraph](tools/the-subgraph.md)
 
 ## Bridge
