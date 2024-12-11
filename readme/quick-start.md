@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>Update for Shagnhai EVM features</summary>
+<summary>Update for Shanghai EVM features</summary>
 
 **1. PUSH0 opcode**
 
